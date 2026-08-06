@@ -1,15 +1,15 @@
 {
   "kanal": "nightly",
-  "version": "0.9.6-alpha.20260806",
+  "version": "0.9.8-alpha.20260807",
   "erschienen": "2026-08-06",
   "dateien": [
     {
-      "system": "windows",
-      "arch": "x64",
-      "url": "https://github.com/Koruyo/piicleaner-releases/releases/download/v0.9.6-alpha.20260806/PIICleaner-0.9.6-x64.msi",
-      "groesse": 97805184,
-      "sha256": "a45d5e11be5990afa7f49b2e56794b31a55118a45d4c52fb0c6b57131ad3ac9b"
+      "system": "macos",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/piicleaner-releases/releases/download/v0.9.8-alpha.20260807/PIICleaner-0.9.8-arm64.dmg",
+      "groesse": 111359960,
+      "sha256": "935f7cb3477ad0f21b6c9e07d59c238e4ac5d01a38940be09820fb7bc6b17d6d"
     }
   ],
-  "signatur": "uN3J2BiXd3oLOlc5l3wK/kavHexNuEqle6m9CrDrB+fVmRYWSRhRbR70r4nPEMf/Be5hGaTxVLQ427CJpMZaBA=="
+  "signatur": "kNyPL9hinNBWryVUY51wpJnNrjkTHj9ZJeLZc5Pn5Q17eU6oDUs5F/o16ZbvgS/3CEbuCY5YQ1E+FgZcmhGqBQ=="
 }

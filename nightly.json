@@ -1,15 +1,36 @@
 {
   "kanal": "nightly",
-  "version": "0.9.9-alpha.20260807",
-  "erschienen": "2026-08-06",
+  "version": "0.10.3-alpha.20260807",
+  "erschienen": "2026-08-07",
   "dateien": [
+    {
+      "system": "linux",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.3-alpha.20260807/Maskuro-0.10.3-linux-x64.tar.gz",
+      "groesse": 163941476,
+      "sha256": "eb33e17d0e47718a8832327103cb9799ee621f70dbc9e714ee1af7650e2f71eb"
+    },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/piicleaner-releases/releases/download/v0.9.9-alpha.20260807/PIICleaner-0.9.9-arm64.dmg",
-      "groesse": 110801280,
-      "sha256": "bc4614b85681ef8603d0ea7c68545b8f1b9fa682a31b4219aaae29563b28362d"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.3-alpha.20260807/Maskuro-0.10.3-arm64.dmg",
+      "groesse": 126841603,
+      "sha256": "f90d9a49fe00f1c916b560be46137f73c1b5a4bd77d84f9325408a5ab8150611"
+    },
+    {
+      "system": "windows",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.3-alpha.20260807/Maskuro-0.10.3-Setup.exe",
+      "groesse": 100591521,
+      "sha256": "75ca666d12590a86da11f140882314468e3160353bd505580545d0c428c219b1"
+    },
+    {
+      "system": "windows",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.3-alpha.20260807/Maskuro-0.10.3-x64.msi",
+      "groesse": 113625736,
+      "sha256": "dadcef7ea5ef8034dca0fb2cd4b20cb14bdb210de9eddd867e61f5cc8343292a"
     }
   ],
-  "signatur": "jSSsmQpE6b+qrmkKQKzSZsZNAlzF3PtsoArZ5xx3j++0Bfoo3UrkqUlh1sg3/usATNBNdod43LgFTvcCqFPOCQ=="
+  "signatur": "mshlOJddq4YIF6rqg6mM5bIlp879dEsK/BIYQCgZVGTFu9fZbV6RruOfYzpumltRgze/6b7PlkPA+r0xjLqmDQ=="
 }

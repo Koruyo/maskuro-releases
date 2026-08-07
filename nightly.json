@@ -1,36 +1,36 @@
 {
   "kanal": "nightly",
-  "version": "0.10.5-alpha.20260807",
+  "version": "0.10.7-alpha.20260807",
   "erschienen": "2026-08-07",
   "dateien": [
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.5-alpha.20260807/Maskuro-0.10.5-linux-x64.tar.gz",
-      "groesse": 163943372,
-      "sha256": "b99c325c91be8c770bdf82755ad3bf204d6d85f199a6d6cd9c4314c3885a07b1"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-linux-x64.tar.gz",
+      "groesse": 163944578,
+      "sha256": "cc6a1145622cf2fb813ae835a6837feaf1c3ebfcfa3d634adb1a1c981e62f36a"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.5-alpha.20260807/Maskuro-0.10.5-arm64.dmg",
-      "groesse": 126746192,
-      "sha256": "4e78dd16e145054ffd9db73c5f1a755d972feb972964698308a84c8e2fb1a6fd"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-arm64.dmg",
+      "groesse": 129728514,
+      "sha256": "48433e54e8abf371fbbcb270d4211238e30e9cf519d9bd6d4b2d73ac9a01ea35"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.5-alpha.20260807/Maskuro-0.10.5-Setup.exe",
-      "groesse": 100589619,
-      "sha256": "893d6995eec4deb9f57b7c920cba91d3aa1fa6dfb4865aa0133fb764357498df"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-Setup.exe",
+      "groesse": 100599065,
+      "sha256": "438982f03470fa9065c49b368863b2ce0f2a01938afa033004c414d12b8d85a4"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.5-alpha.20260807/Maskuro-0.10.5-x64.msi",
-      "groesse": 113633928,
-      "sha256": "a361d4bd80ae57cc032fabd6ec03451ad7e7f3f98754e936f479d32775b9d7b3"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-x64.msi",
+      "groesse": 113629832,
+      "sha256": "9bf0b619d22dcff117085916515deb8a33d318f6070c30cfc7632ca1b8922f59"
     }
   ],
-  "signatur": "xG55/quZBwVjp/tzpGHZLhzTvrBuxnhM2ATrhRSTvMBUw2o9mDxn3kIUNZg/eDrLjF2JoXig6IM7vbYVUN4uBw=="
+  "signatur": "KArFZCY5P6RZEbpdQzu9KRYAwTOjRC5dvW1PrUPVS7yoFK6CFCF4aHooe5DwjA/AN3MtDb3CPZjlBxyLTB9xCg=="
 }

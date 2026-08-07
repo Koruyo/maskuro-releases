@@ -1,36 +1,22 @@
 {
   "kanal": "nightly",
-  "version": "0.10.7-alpha.20260807",
+  "version": "0.10.8-alpha.20260807",
   "erschienen": "2026-08-07",
   "dateien": [
     {
-      "system": "linux",
+      "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-linux-x64.tar.gz",
-      "groesse": 163944578,
-      "sha256": "cc6a1145622cf2fb813ae835a6837feaf1c3ebfcfa3d634adb1a1c981e62f36a"
-    },
-    {
-      "system": "macos",
-      "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-arm64.dmg",
-      "groesse": 129728514,
-      "sha256": "48433e54e8abf371fbbcb270d4211238e30e9cf519d9bd6d4b2d73ac9a01ea35"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.8-alpha.20260807/Maskuro-0.10.8-Setup.exe",
+      "groesse": 105666499,
+      "sha256": "9f366685c943ca9ead4c8b4ffc8d8dc1b95ef28f5f74e5f0e1b83dd7426ec2f4"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-Setup.exe",
-      "groesse": 100599065,
-      "sha256": "438982f03470fa9065c49b368863b2ce0f2a01938afa033004c414d12b8d85a4"
-    },
-    {
-      "system": "windows",
-      "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.7-alpha.20260807/Maskuro-0.10.7-x64.msi",
-      "groesse": 113629832,
-      "sha256": "9bf0b619d22dcff117085916515deb8a33d318f6070c30cfc7632ca1b8922f59"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.8-alpha.20260807/Maskuro-0.10.8-x64.msi",
+      "groesse": 120277017,
+      "sha256": "7abcadfc948155b2d8d639195d288044e3a403d3294b27e464e13ab5b4062bab"
     }
   ],
-  "signatur": "KArFZCY5P6RZEbpdQzu9KRYAwTOjRC5dvW1PrUPVS7yoFK6CFCF4aHooe5DwjA/AN3MtDb3CPZjlBxyLTB9xCg=="
+  "signatur": "rJ72no29FMl2Pz6nQYeCM+Qcw7qBqtvVgkT4/KdMXCSRw+Pugfl4CfoTd+7UeVnd+fg1CYbODwPYuRq4S7b0Cg=="
 }

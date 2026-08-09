@@ -1,22 +1,36 @@
 {
   "kanal": "nightly",
-  "version": "0.10.8-alpha.20260807",
-  "erschienen": "2026-08-07",
+  "version": "0.10.10-alpha.20260809",
+  "erschienen": "2026-08-09",
   "dateien": [
     {
-      "system": "windows",
+      "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.8-alpha.20260807/Maskuro-0.10.8-Setup.exe",
-      "groesse": 105666499,
-      "sha256": "9f366685c943ca9ead4c8b4ffc8d8dc1b95ef28f5f74e5f0e1b83dd7426ec2f4"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.10-alpha.20260809/Maskuro-0.10.10-linux-x64.tar.gz",
+      "groesse": 228101492,
+      "sha256": "b5655cc70c6ba1c96783612af3bf6cc1a50ce84b1700fa14a7e55e7872332a53"
+    },
+    {
+      "system": "macos",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.10-alpha.20260809/Maskuro-0.10.10-arm64.dmg",
+      "groesse": 161306387,
+      "sha256": "03fd91963c0a2104510eb144c3214d8c96350bef0a4df830fb2fd7a50dcaa39b"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.8-alpha.20260807/Maskuro-0.10.8-x64.msi",
-      "groesse": 120277017,
-      "sha256": "7abcadfc948155b2d8d639195d288044e3a403d3294b27e464e13ab5b4062bab"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.10-alpha.20260809/Maskuro-0.10.10-Setup.exe",
+      "groesse": 127290483,
+      "sha256": "6362dd3443c702d9fd885657e01b1dd72e66efa8e43b8d32dde3097cbec4675a"
+    },
+    {
+      "system": "windows",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.10-alpha.20260809/Maskuro-0.10.10-x64.msi",
+      "groesse": 145662440,
+      "sha256": "d48466376bd5d94614ecd56777b29cb61f6df5c694676d9b44b8243366135fdb"
     }
   ],
-  "signatur": "rJ72no29FMl2Pz6nQYeCM+Qcw7qBqtvVgkT4/KdMXCSRw+Pugfl4CfoTd+7UeVnd+fg1CYbODwPYuRq4S7b0Cg=="
+  "signatur": "drNWAiXfEw/fPWBxCk6iNjr2pFjOvlQkuoA2nTlNdmMSq3jzyVhukQJI+P6Gk9GoXBrMkuobJim48jtmwfhDBw=="
 }

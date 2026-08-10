@@ -1,15 +1,37 @@
 {
   "kanal": "nightly",
-  "version": "0.10.12-alpha.20260810",
+  "version": "0.10.13-alpha.20260810",
   "erschienen": "2026-08-10",
   "dateien": [
     {
+      "system": "linux",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-linux-x64.tar.gz",
+      "groesse": 228348403,
+      "sha256": "6cea0eec5cfddcbbadbf8cc1c9a1d90b3d8bdeb30869d58ab87f5a125753f758"
+    },
+    {
+      "system": "macos",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-arm64.dmg",
+      "groesse": 137156169,
+      "sha256": "4bc545696342fa05ee6a6607d9fa3494743499c3b6a630db6c59ccb637774315"
+    },
+    {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.12-alpha.20260810/Maskuro-0.10.12-x64.msi",
-      "groesse": 145956876,
-      "sha256": "fe9d174c4c2c0f39e1afb9fb3104ddb3b9bbfee0bea4eda55537f5c2344c89d5"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-Setup.exe",
+      "groesse": 127589359,
+      "sha256": "c7718410b7852b4b1bd011d814f49ea6cf8e45730b5eaf8016122dc08bad342e"
+    },
+    {
+      "system": "windows",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-x64.msi",
+      "groesse": 145879540,
+      "sha256": "9e4503cdfd48c83451922993d8d21a943683ce999527a5fffaba0e5f41476210"
     }
   ],
-  "signatur": "bzSD7hwT/Ox4UxkQR7qOlxF6wgpn/am0aRIvURBzAUdT0MnpqRjhxEw1wcSVrOy2T0iF1ge9SlpSUw8cdaMbAg=="
+  "hinweise": "### Neu\n\n- **Diese Liste ist im Programm lesbar**: Unter „Hilfe & FAQ“ steht sie\n  jetzt als eigene Themen – und ist damit über das Suchfeld auffindbar. Wer\n  wissen will, was sich geändert hat, muss dafür nicht die Website\n  aufsuchen.\n- **Neuerungen vor dem Aktualisieren**: Bietet das Programm eine neue\n  Fassung an, zeigt der Knopf „Neuerungen“ deren Änderungen direkt im\n  Fenster statt den Browser zu öffnen.\n- **„Ohne maximale Erkennung starten“**: Kündigt das Programm vor einem\n  umfangreichen Lauf eine lange Wartezeit an und liegt das an der\n  KI-Stufe, lässt sich derselbe Lauf mit einem Klick ohne sie starten. Die\n  Einstellung bleibt davon unberührt – es gilt nur für diesen Lauf.\n\n### Behoben\n\n- **Das Symbol im Infobereich war matschig**: Alle Größen entstanden durch\n  Herunterrechnen aus einem 256-Bildpunkt-Bild. Jetzt wird jede Größe\n  einzeln aus der Zeichnung gerastert, und für 16 bis 24 Bildpunkte gibt es\n  eine eigene, kräftigere Fassung – dort verschmolzen die beiden\n  Schwärzungsbalken sonst zu einem grauen Klotz. Das Mac-Symbol entsteht\n  auf demselben Weg statt nachträglich verkleinert zu werden.\n- **Abbrechen sagt nicht mehr „der laufende Schritt wird beendet“**: Das\n  stimmte, solange ein KI-Abschnitt nicht unterbrechbar war – jetzt hört\n  der Lauf sofort auf.\n\n---",
+  "signatur": "DfYbS2eL3BNfSPHAwgcbaAHCYVhbj1zfLx8vSg5XykJG4wmeuriKpjYW2EO4Ga8Gc5vxklT7PnoHOpfAPLJuCw=="
 }

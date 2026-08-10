@@ -1,37 +1,36 @@
 {
   "kanal": "nightly",
-  "version": "0.10.14-alpha.20260810",
+  "version": "0.10.15-alpha.20260810",
   "erschienen": "2026-08-10",
   "dateien": [
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-linux-x64.tar.gz",
-      "groesse": 228349940,
-      "sha256": "ff90e1af96f9a3c218832ea900fb92ffa514ad908454419f5fb9e4cc34aa2f2d"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-linux-x64.tar.gz",
+      "groesse": 228375847,
+      "sha256": "aa76fe4265ad251afffaf4403cf53b33fb33845bc6bfb9dbc4bfef66c75b819a"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-arm64.dmg",
-      "groesse": 137166502,
-      "sha256": "94afe8cfa742901d97994593aabb1450060f206ee9c991fee18c5942a739b7b5"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-arm64.dmg",
+      "groesse": 137271254,
+      "sha256": "7a75b56a62dc04b76a3890185df12bf402873bff3aaff7a5580bd31635646ef6"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-Setup.exe",
-      "groesse": 127606903,
-      "sha256": "e63d6b930c19645c3e6e72cda4a59d88a89680de806c7c321b13bccc98354f93"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-Setup.exe",
+      "groesse": 127631160,
+      "sha256": "cc2a3f2980d29768d8b09e39b7adb54396683bd012a3af9ca40fff38662c9cf3"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-x64.msi",
-      "groesse": 145891828,
-      "sha256": "37cd03ebff6b4f356cd9293b681e71e691eb0ea73b6d0ac922a875f800582c31"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-x64.msi",
+      "groesse": 145908212,
+      "sha256": "ccea71da85e339b9a4da26fb5d8b979240de9b41bf878a1a0239ea1c048a7812"
     }
   ],
-  "hinweise": "### Neu\n\n- **Von Hand schwärzen, ohne vorher zu bereinigen**: Über „Datei → Von\n  Hand schwärzen …“ lässt sich jede unterstützte Datei direkt im\n  Nachbessern-Fenster öffnen und von Hand schwärzen – ohne dass eine\n  Erkennung läuft. Das Original bleibt wie immer unangetastet; gearbeitet\n  wird an einer Kopie.\n\n- **Die Seitenansicht bringt LibreOffice selbst mit**: Fehlt es auf dem\n  Rechner, bietet der Knopf es beim ersten Klick zum Laden an (einmalig\n  ca. 276 MB). Es wird nur zum Anzeigen gebraucht – bereinigt wird wie\n  bisher.\n\n- **Word-Dokumente als Word ansehen und nachbessern**: Im\n  Nachbessern-Fenster gibt es für Word-, Excel-, PowerPoint- und\n  LibreOffice-Dateien jetzt eine **Seitenansicht** – das Dokument so, wie\n  es aussieht, statt einer Textliste. Ein Rahmen um eine Stelle ersetzt sie\n  **im Dokument selbst**: Word bleibt Word, das Ergebnis ist keine Bilddatei\n  und kein PDF. Der Wert wird dabei überall im Dokument ersetzt, nicht nur\n  an der markierten Stelle – bei personenbezogenen Daten ist das fast immer\n  gewollt, und die Statuszeile sagt es.\n\n  Excel-Dateien erscheinen dabei als **Tabelle** – mit Zeilen, Spalten und\n  Formaten statt einer Kolonne aus Zellinhalten; PowerPoint als Folien.\n  Unterstützt sind Word, Excel, PowerPoint und die LibreOffice-Formate.\n\n  Dafür wird LibreOffice gebraucht; ist keines da, bleibt es bei der\n  Textansicht und der Knopf erklärt warum.\n\n- **„Öffnen …“ im Nachbessern-Fenster**: Das Ergebnis mit dem Programm\n  öffnen, das der eigene Rechner dafür vorsieht – Word öffnet Word, ein PDF\n  den PDF-Betrachter, ein Bild die Bildanzeige. Kennt das System für die\n  Dateiart nichts, wird das gesagt statt eines Knopfes, der scheinbar\n  nichts tut.\n\n---",
-  "signatur": "MLcjpa5V89HEA0vuxXp327rUwSy9PMrSYdLMYBFW+8tdwGYTTq5/dXvG96nA0owXfUUNqpwQfc6f0IBw8/03Dg=="
+  "signatur": "Tob11+O6Hs9/HHzCpDHxfIWMdgRGeJGBvYVfjB50/Vztn1iGmylhq8mx3JW72WnUmuVwiGdko271cE703v5sCg=="
 }

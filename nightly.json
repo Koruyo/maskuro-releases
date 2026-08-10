@@ -1,37 +1,37 @@
 {
   "kanal": "nightly",
-  "version": "0.10.13-alpha.20260810",
+  "version": "0.10.14-alpha.20260810",
   "erschienen": "2026-08-10",
   "dateien": [
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-linux-x64.tar.gz",
-      "groesse": 228348403,
-      "sha256": "6cea0eec5cfddcbbadbf8cc1c9a1d90b3d8bdeb30869d58ab87f5a125753f758"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-linux-x64.tar.gz",
+      "groesse": 228349940,
+      "sha256": "ff90e1af96f9a3c218832ea900fb92ffa514ad908454419f5fb9e4cc34aa2f2d"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-arm64.dmg",
-      "groesse": 137156169,
-      "sha256": "4bc545696342fa05ee6a6607d9fa3494743499c3b6a630db6c59ccb637774315"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-arm64.dmg",
+      "groesse": 137166502,
+      "sha256": "94afe8cfa742901d97994593aabb1450060f206ee9c991fee18c5942a739b7b5"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-Setup.exe",
-      "groesse": 127589359,
-      "sha256": "c7718410b7852b4b1bd011d814f49ea6cf8e45730b5eaf8016122dc08bad342e"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-Setup.exe",
+      "groesse": 127606903,
+      "sha256": "e63d6b930c19645c3e6e72cda4a59d88a89680de806c7c321b13bccc98354f93"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.13-alpha.20260810/Maskuro-0.10.13-x64.msi",
-      "groesse": 145879540,
-      "sha256": "9e4503cdfd48c83451922993d8d21a943683ce999527a5fffaba0e5f41476210"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.14-alpha.20260810/Maskuro-0.10.14-x64.msi",
+      "groesse": 145891828,
+      "sha256": "37cd03ebff6b4f356cd9293b681e71e691eb0ea73b6d0ac922a875f800582c31"
     }
   ],
-  "hinweise": "### Neu\n\n- **Diese Liste ist im Programm lesbar**: Unter „Hilfe & FAQ“ steht sie\n  jetzt als eigene Themen – und ist damit über das Suchfeld auffindbar. Wer\n  wissen will, was sich geändert hat, muss dafür nicht die Website\n  aufsuchen.\n- **Neuerungen vor dem Aktualisieren**: Bietet das Programm eine neue\n  Fassung an, zeigt der Knopf „Neuerungen“ deren Änderungen direkt im\n  Fenster statt den Browser zu öffnen.\n- **„Ohne maximale Erkennung starten“**: Kündigt das Programm vor einem\n  umfangreichen Lauf eine lange Wartezeit an und liegt das an der\n  KI-Stufe, lässt sich derselbe Lauf mit einem Klick ohne sie starten. Die\n  Einstellung bleibt davon unberührt – es gilt nur für diesen Lauf.\n\n### Behoben\n\n- **Das Symbol im Infobereich war matschig**: Alle Größen entstanden durch\n  Herunterrechnen aus einem 256-Bildpunkt-Bild. Jetzt wird jede Größe\n  einzeln aus der Zeichnung gerastert, und für 16 bis 24 Bildpunkte gibt es\n  eine eigene, kräftigere Fassung – dort verschmolzen die beiden\n  Schwärzungsbalken sonst zu einem grauen Klotz. Das Mac-Symbol entsteht\n  auf demselben Weg statt nachträglich verkleinert zu werden.\n- **Abbrechen sagt nicht mehr „der laufende Schritt wird beendet“**: Das\n  stimmte, solange ein KI-Abschnitt nicht unterbrechbar war – jetzt hört\n  der Lauf sofort auf.\n\n---",
-  "signatur": "DfYbS2eL3BNfSPHAwgcbaAHCYVhbj1zfLx8vSg5XykJG4wmeuriKpjYW2EO4Ga8Gc5vxklT7PnoHOpfAPLJuCw=="
+  "hinweise": "### Neu\n\n- **Von Hand schwärzen, ohne vorher zu bereinigen**: Über „Datei → Von\n  Hand schwärzen …“ lässt sich jede unterstützte Datei direkt im\n  Nachbessern-Fenster öffnen und von Hand schwärzen – ohne dass eine\n  Erkennung läuft. Das Original bleibt wie immer unangetastet; gearbeitet\n  wird an einer Kopie.\n\n- **Die Seitenansicht bringt LibreOffice selbst mit**: Fehlt es auf dem\n  Rechner, bietet der Knopf es beim ersten Klick zum Laden an (einmalig\n  ca. 276 MB). Es wird nur zum Anzeigen gebraucht – bereinigt wird wie\n  bisher.\n\n- **Word-Dokumente als Word ansehen und nachbessern**: Im\n  Nachbessern-Fenster gibt es für Word-, Excel-, PowerPoint- und\n  LibreOffice-Dateien jetzt eine **Seitenansicht** – das Dokument so, wie\n  es aussieht, statt einer Textliste. Ein Rahmen um eine Stelle ersetzt sie\n  **im Dokument selbst**: Word bleibt Word, das Ergebnis ist keine Bilddatei\n  und kein PDF. Der Wert wird dabei überall im Dokument ersetzt, nicht nur\n  an der markierten Stelle – bei personenbezogenen Daten ist das fast immer\n  gewollt, und die Statuszeile sagt es.\n\n  Excel-Dateien erscheinen dabei als **Tabelle** – mit Zeilen, Spalten und\n  Formaten statt einer Kolonne aus Zellinhalten; PowerPoint als Folien.\n  Unterstützt sind Word, Excel, PowerPoint und die LibreOffice-Formate.\n\n  Dafür wird LibreOffice gebraucht; ist keines da, bleibt es bei der\n  Textansicht und der Knopf erklärt warum.\n\n- **„Öffnen …“ im Nachbessern-Fenster**: Das Ergebnis mit dem Programm\n  öffnen, das der eigene Rechner dafür vorsieht – Word öffnet Word, ein PDF\n  den PDF-Betrachter, ein Bild die Bildanzeige. Kennt das System für die\n  Dateiart nichts, wird das gesagt statt eines Knopfes, der scheinbar\n  nichts tut.\n\n---",
+  "signatur": "MLcjpa5V89HEA0vuxXp327rUwSy9PMrSYdLMYBFW+8tdwGYTTq5/dXvG96nA0owXfUUNqpwQfc6f0IBw8/03Dg=="
 }

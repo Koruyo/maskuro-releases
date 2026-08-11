@@ -1,36 +1,36 @@
 {
   "kanal": "nightly",
-  "version": "0.10.15-alpha.20260810",
-  "erschienen": "2026-08-10",
+  "version": "0.10.16-alpha.20260811",
+  "erschienen": "2026-08-11",
   "dateien": [
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-linux-x64.tar.gz",
-      "groesse": 228375847,
-      "sha256": "aa76fe4265ad251afffaf4403cf53b33fb33845bc6bfb9dbc4bfef66c75b819a"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-linux-x64.tar.gz",
+      "groesse": 228428623,
+      "sha256": "489145f44f52da4ac315d0b7119ae22314860280b2806eeb9050ded8a7e45b48"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-arm64.dmg",
-      "groesse": 137271254,
-      "sha256": "7a75b56a62dc04b76a3890185df12bf402873bff3aaff7a5580bd31635646ef6"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-arm64.dmg",
+      "groesse": 137223296,
+      "sha256": "bea41d78e99979678feabda45692f18e1f148c910910d766aabbc7b11ff4774f"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-Setup.exe",
-      "groesse": 127631160,
-      "sha256": "cc2a3f2980d29768d8b09e39b7adb54396683bd012a3af9ca40fff38662c9cf3"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-Setup.exe",
+      "groesse": 127659314,
+      "sha256": "0f3621fe9c49a1b5d57fcdb3814c3aafa922d14382354523e999bcb5671b4965"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.15-alpha.20260810/Maskuro-0.10.15-x64.msi",
-      "groesse": 145908212,
-      "sha256": "ccea71da85e339b9a4da26fb5d8b979240de9b41bf878a1a0239ea1c048a7812"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-x64.msi",
+      "groesse": 145936884,
+      "sha256": "d35d18cc84f31472a58dc62634c9580630ccff0a127796ef0d3cc5e92316462c"
     }
   ],
-  "signatur": "Tob11+O6Hs9/HHzCpDHxfIWMdgRGeJGBvYVfjB50/Vztn1iGmylhq8mx3JW72WnUmuVwiGdko271cE703v5sCg=="
+  "signatur": "LnNJAZpWfTNC4QTWjbYtMZWFQu84zB3r/RclmrIbAe1MFZY9nkFEdq6kQ9hfQFt6B+fO3g0IwK2JX2xcClJDDg=="
 }

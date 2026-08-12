@@ -1,36 +1,37 @@
 {
   "kanal": "nightly",
-  "version": "0.10.16-alpha.20260811",
-  "erschienen": "2026-08-11",
+  "version": "0.10.18-alpha.20260812",
+  "erschienen": "2026-08-12",
   "dateien": [
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-linux-x64.tar.gz",
-      "groesse": 228428623,
-      "sha256": "489145f44f52da4ac315d0b7119ae22314860280b2806eeb9050ded8a7e45b48"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.18-alpha.20260812/Maskuro-0.10.18-linux-x64.tar.gz",
+      "groesse": 226082199,
+      "sha256": "6f36222a003f6ddc551f2f276eaf3acdf45313065d7864801c0198a310f0fcbb"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-arm64.dmg",
-      "groesse": 137223296,
-      "sha256": "bea41d78e99979678feabda45692f18e1f148c910910d766aabbc7b11ff4774f"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.18-alpha.20260812/Maskuro-0.10.18-arm64.dmg",
+      "groesse": 134892650,
+      "sha256": "513046840043fafb8788e555146db30b5452bf6394ec91be0b35d8ac5b62489a"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-Setup.exe",
-      "groesse": 127659314,
-      "sha256": "0f3621fe9c49a1b5d57fcdb3814c3aafa922d14382354523e999bcb5671b4965"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.18-alpha.20260812/Maskuro-0.10.18-Setup.exe",
+      "groesse": 126071485,
+      "sha256": "acc0d3261505232df6829a138ef1999f50b8a7ffc8bb68015cade675196fa02d"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.16-alpha.20260811/Maskuro-0.10.16-x64.msi",
-      "groesse": 145936884,
-      "sha256": "d35d18cc84f31472a58dc62634c9580630ccff0a127796ef0d3cc5e92316462c"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.18-alpha.20260812/Maskuro-0.10.18-x64.msi",
+      "groesse": 143899736,
+      "sha256": "ecd8086709ecc62ebc50e5948150bfd65099b570a8979c765df8eaa6d1d0e36d"
     }
   ],
-  "signatur": "LnNJAZpWfTNC4QTWjbYtMZWFQu84zB3r/RclmrIbAe1MFZY9nkFEdq6kQ9hfQFt6B+fO3g0IwK2JX2xcClJDDg=="
+  "hinweise": "### Behoben\n\n- **Ersetzen im Editor ging auf gedrehten Seiten schief.** Der Platzhalter\n  stand hochkant, ließ sich oft gar nicht setzen („kein Platz\", wo\n  reichlich war) und wurde dann still zu einem schwarzen Balken – die\n  Zuordnung führte trotzdem eine Ersetzung, und das Zurückholen meldete\n  später „Platzhalter nicht gefunden\". Das Schwärzen war seit dem\n  10. August umgerechnet, das Ersetzen nicht.\n- **Auf Scans wird jetzt genau das geschwärzt, was auch entfernt wurde.**\n  Bisher folgten die beiden verschiedenen Grenzen: Aus dem Dokument fiel,\n  was die Schwärzung erwischte – manchmal mehr als der Rahmen, weil Text\n  hinter einer Fundstelle mitfällt –, unkenntlich gemacht wurde im Bild\n  aber nur der gezogene Rahmen. Auf einem Scan blieb damit lesbar stehen,\n  was das Programm längst für entfernt hielt. Jetzt deckt die\n  Bildschwärzung jedes entfernte Zeichen ab.\n- **„Original zeigen\" heißt jetzt „Vorher/Nachher\" und steht abgesetzt.**\n  Neben der Seitenansicht las es sich wie eine zweite Darstellungsart –\n  dabei geht es um etwas ganz anderes: Die Seitenansicht bestimmt, **wie**\n  gezeigt wird, der Vergleich, **was**. Jede Kombination ist möglich; ein\n  Trennstrich in der Leiste sagt das jetzt, bevor jemand fragen muss.\n- **Das erste Speichern im Editor zeigt, wohin es geht.** Bisher legte es\n  die Datei stumm als `<name>_bereinigt.<ext>` neben das Original –\n  regelkonform, aber im Editor unerwartet: Man drückt Speichern und sucht\n  danach, wo die Datei hin ist. Jetzt steht der Ort einmal je Datei da,\n  mit „Speichern\" und „Anderer Ort …\" daneben. Weitere Male schreiben\n  wieder stumm an denselben Platz.\n- **Das Schwärzen sagt jetzt, was es bewirkt hat.** Statt „Bereich\n  geschwärzt.\" steht dort, wie viele Wörter aus dem Dokument entfernt\n  wurden – und wenn unter dem Rahmen gar kein Text lag, ausdrücklich das.\n  Auf einem Scan war das bisher nicht zu erkennen: Der sichtbare Text\n  steht dort als Bildpunkte, und ob die Textschicht darunter gefallen\n  ist, zeigt kein Bild.\n- **Eine erneut hereingezogene Originaldatei zeigte stillschweigend die\n  alte Fassung.** Wer eine schon bearbeitete Datei noch einmal öffnete,\n  landete ohne Hinweis wieder auf dem bisherigen Ergebnis – mitsamt den\n  alten Balken. Jetzt wird gefragt: vom Original neu beginnen oder am\n  Ergebnis weiterarbeiten. Voreingestellt ist „neu beginnen\"; das\n  Ergebnis bleibt in beiden Fällen erhalten.\n- **„Nicht genug Platz, um … zurückzuholen\" kam auf gedrehten Seiten\n  immer.** Die Vorabprüfung verwechselte „diese Seite übernimmt der\n  Zeichenweg\" mit „kein Platz\" und verweigerte das Zurücknehmen einer\n  Ersetzung grundsätzlich, sobald die Seite gedreht war.\n- **Der Editor sieht jetzt selbst nach, ob das Entfernen gewirkt hat.**\n  Nach jedem Schwärzen und Ersetzen wird die geschriebene Datei erneut\n  gelesen und geprüft, ob der Text im Rahmen wirklich verschwunden ist.\n  Steht er noch da, erscheint eine deutliche Warnung samt Rat, die Seite\n  zu rastern – statt einer Erfolgsmeldung über eine Bereinigung, die nicht\n  stattgefunden hat. Damit fallen auch PDF-Erzeuger auf, die wir nie\n  gesehen haben.\n- **Auf einem Scan lag der Platzhalter über dem alten Wort.** Dort steht\n  der sichtbare Text als Bildpunkte, und die wurden nur unter schwarzen\n  Balken geräumt, nicht unter Platzhaltern. Jetzt entsteht unter dem\n  Platzhalter weißer Grund – lesbar, statt doppelt beschriftet.",
+  "signatur": "X7JiX14clZ6neseVHwj4BHtekafAL2NTV0WBEXBEl+EqfAt9mhIeStohHdrgvP/EMIDBpW9IzgJmnMBnCHn+BQ=="
 }

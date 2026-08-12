@@ -1,37 +1,36 @@
 {
   "kanal": "nightly",
-  "version": "0.10.19-alpha.20260812",
+  "version": "0.10.20-alpha.20260812",
   "erschienen": "2026-08-12",
   "dateien": [
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.19-alpha.20260812/Maskuro-0.10.19-linux-x64.tar.gz",
-      "groesse": 226103141,
-      "sha256": "6e87b1e832850b6fe7aeea01d22e47d6077740abf82e40aa034284d50ce127f7"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.20-alpha.20260812/Maskuro-0.10.20-linux-x64.tar.gz",
+      "groesse": 226181373,
+      "sha256": "30fe962a108493d562416f2929d0281e09477c3d62d6fb4d112d9dbdd9b3a1ed"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.19-alpha.20260812/Maskuro-0.10.19-arm64.dmg",
-      "groesse": 134922861,
-      "sha256": "4d67f8fdc1cab0dec95c5386f83a165d18f10fd9d0a477c0d2bb6a059f42e202"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.20-alpha.20260812/Maskuro-0.10.20-arm64.dmg",
+      "groesse": 135002112,
+      "sha256": "c30d9f849a0a2249dcf632107b462b0da52b8e89602987c988cc4756db564721"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.19-alpha.20260812/Maskuro-0.10.19-Setup.exe",
-      "groesse": 126081488,
-      "sha256": "1359a5b74ce9589c6f375819e06105ffe95bef2fb5dd1593ae365b91faac90b9"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.20-alpha.20260812/Maskuro-0.10.20-Setup.exe",
+      "groesse": 126152224,
+      "sha256": "33c626cf1c41455fd37779e402ccb98a40d54c59508ec143a400799025b36e33"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.19-alpha.20260812/Maskuro-0.10.19-x64.msi",
-      "groesse": 143928408,
-      "sha256": "415e2dfc712475c3076aa536871e2e78c4a639d1859138c945f52094bb21f177"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.20-alpha.20260812/Maskuro-0.10.20-x64.msi",
+      "groesse": 143989720,
+      "sha256": "69796485841a7846b5e88739d50e731a53173c89bb266649a387ad5372e9fbd2"
     }
   ],
-  "hinweise": "### Verbessert\n\n- **Der Eintrag im Kontextmenü spricht jetzt Ihre Sprache.** Bisher stand\n  dort auf jedem System der deutsche Wortlaut – auch auf einem englischen\n  Windows. Jetzt folgt er der eingestellten Oberflächensprache, und wer die\n  Sprache umstellt, bekommt den Eintrag sofort umbenannt, ohne neu zu\n  installieren. (Windows; unter macOS und Linux ist der Menüname zugleich\n  ein Dateiname – das kommt später.)\n- **Der Editor merkt sich, in welcher Ansicht Sie zuletzt gearbeitet\n  haben.** Wer die Seitenansicht benutzt, bekommt sie beim nächsten\n  Dokument von selbst – ohne sie jedes Mal einzuschalten. Wer sie nie\n  benutzt hat, merkt nichts davon: Sie wird nur wiederhergestellt, wenn der\n  dafür nötige Baustein bereits geladen ist, nie wird dafür etwas\n  nachgeladen.\n\n### Behoben\n\n- **„MITARBEITER\" über einer Namensliste wurde selbst geschwärzt.** In\n  Mitarbeiterverzeichnissen und Organigrammen verschwand die Überschrift\n  als vermeintlicher Name – sie steht dort über lauter echten Namen, und in\n  Großbuchstaben fehlt dem Sprachmodell das Unterscheidungsmerkmal. Die\n  Namen darunter werden weiterhin gefunden.\n- **Mengenangaben wurden für Anschriften gehalten.** In Rechnungen,\n  Lieferscheinen und Lagerlisten verschwanden Angaben wie „3390 Protokoll\",\n  „1030 Betrag\" oder „3390 Lager\" als vermeintliche Postleitzahl mit Ort –\n  vierstellig sieht jede Menge aus wie eine österreichische Postleitzahl.\n  Steht hinter der Zahl ein Wort, das die Anwendung als Sachwort,\n  Abteilung, Tätigkeit oder Feldbeschriftung kennt, bleibt es jetzt stehen.\n  Echte Ortsangaben sind unberührt, auch solche, die zugleich ein solches\n  Wort sind („4692 Ort\"). Nicht gelöst ist damit der Fall, dass hinter der\n  Zahl ein ganz gewöhnliches Wort steht („3390 Regal\") – dafür braucht es\n  ein Postleitzahlenverzeichnis.\n- **Die Hilfe nannte einen Menüpunkt, den es nicht gibt.** Anleitung, Bild\n  und die Meldung am Ende der Installation sprachen von „Dokument für KI\n  bereinigen\"; der Eintrag im Kontextmenü heißt aber „Personenbezogene\n  Daten entfernen\". Wer der Hilfe folgte, suchte vergeblich. Alle drei\n  Stellen nennen den Menüpunkt jetzt so, wie er wirklich heißt.\n- **„Mit dem System starten\" ließ sich nicht abschalten.** Wer beim\n  Installieren „Mit Windows starten\" angekreuzt hatte, sah in den\n  Einstellungen trotzdem einen leeren Haken – und schwerer: Ein- und\n  Ausschalten in der Anwendung blieb wirkungslos, das Programm startete\n  weiter mit Windows. Grund waren zwei Orte, an denen Windows nach\n  Startprogrammen sieht; die Anwendung kannte nur einen davon. Jetzt zählt\n  beides, der Schalter zeigt den wahren Zustand und wirkt in beide\n  Richtungen. Auch berücksichtigt: Wer den Eintrag im Task-Manager\n  abschaltet, sieht das jetzt in der Anwendung – und wer dort wieder\n  einschaltet, hebt die Abschaltung damit auf.\n- **Überschriften über Namenslisten wurden geschwärzt.** „TEILNEHMERLISTE\n  WERKSTATTGESPRÄCH\" oder „MITARBEITERÜBERSICHT INNENDIENST\" über einer\n  Liste von Personen verschwanden als vermeintlicher Name. In\n  Großbuchstaben fehlt dem Sprachmodell sein bestes Erkennungszeichen, und\n  im Deutschen ist jedes Substantiv großgeschrieben – „Teilnehmerliste\n  Werkstattgespräch\" sieht dann aus wie „Anna Huber\". Zusammensetzungen\n  auf `-liste`, `-dienst`, `-gespräch`, `-sitzung` und `-besprechung`\n  bleiben jetzt stehen. Die Grundwörter allein gelten weiterhin als Name:\n  *Liste* und *Dienst* sind belegte Nachnamen, *Teilnehmerliste* ist keiner.\n- **Hochkant gesetzte Angaben bekamen einen unlesbaren Platzhalter.**\n  Aktenzeichen am Seitenrand, Bearbeiterkürzel neben dem Bundsteg,\n  hochkante Tabellenköpfe: Solche Angaben wurden zwar gefunden und\n  entfernt, der Platzhalter kam aber quer über dem Text heraus, auf ein\n  bis zwei Punkt zusammengedrückt und mitunter über die Papierkante\n  hinaus. Jetzt folgt er dem Text – senkrecht, in Lesegröße und in\n  derselben Richtung, in der die Angabe stand. Dasselbe galt für Seiten,\n  die nachträglich gedreht wurden (waagrecht geschriebener Text mit\n  eingetragener Seitendrehung, wie ihn manche Ausgabeprogramme liefern);\n  auch dort steht der Platzhalter jetzt so, wie man die Seite ansieht. „Sehr\n  geehrte Frau Doktor Anneliese Berger\" ergab nur „Anneliese\" als Namen –\n  „Berger\" blieb im Dokument. Dasselbe traf jeden Namen mit Zweitnamen\n  („Frau Anna Maria Berger\"). Grund war die Regel für den Namen hinter\n  einer Anrede: Sie hatte zwei Wortstellen, und ein Titel oder ein\n  Zweitname verbrauchte die erste. Mit „Dr.\" fiel es nie auf – der Punkt\n  bricht die Regel, und das Sprachmodell erwischte den ganzen Namen.\n  Jetzt werden Titel übersprungen, ohne einen Platz zu kosten, und der\n  Name darf aus drei Teilen bestehen. Eine Rolle **hinter** dem Namen geht\n  weiterhin nicht mit: „Frau Anna Huber Geschäftsführerin\" ersetzt den\n  Namen, nicht die Rolle.",
-  "signatur": "oPaSYjsl/2d1rEtneV29Op9wVSKiVD8s/aEVhFd/yZY0q46VxHIkxP3kiiGQCsON6WiMl/wApLWbaslLabpsCQ=="
+  "signatur": "sPqOzKppRLCJxOlldYsOKJmOWYJBfpCMNzdsUzCBLvRhq/IzGNJuSEdCLct17kVD3dM2Qc57y6XQcN/9eY8eAw=="
 }

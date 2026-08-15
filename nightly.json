@@ -1,29 +1,29 @@
 {
   "kanal": "nightly",
-  "version": "0.10.22-alpha.20260815",
-  "erschienen": "2026-08-15",
+  "version": "0.10.23-alpha.20260816",
+  "erschienen": "2026-08-16",
   "dateien": [
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.22-alpha.20260815/Maskuro-0.10.22-arm64.dmg",
-      "groesse": 140374789,
-      "sha256": "26a076c4281ea33a7449e2d95da2f4cfabf15f558e1ed555219e2b3ec829cc9e"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.23-alpha.20260816/Maskuro-0.10.23-arm64.dmg",
+      "groesse": 140765543,
+      "sha256": "1577ad29ef0b052b41e09e1414c5e25f77c0a878ba81464795e66e5e0705cba3"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.22-alpha.20260815/Maskuro-0.10.22-Setup.exe",
-      "groesse": 129578915,
-      "sha256": "d0fe8772b24b87a0c3ee259cc30d85ad961b12c6b48941387bbc40764da81e3c"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.23-alpha.20260816/Maskuro-0.10.23-Setup.exe",
+      "groesse": 129977753,
+      "sha256": "c7b8bb8a9ced9a30b2e3c2a69ac04d7b8a874e5eb70c5ae2260e9a9d15e5faf9"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.22-alpha.20260815/Maskuro-0.10.22-x64.msi",
-      "groesse": 147486944,
-      "sha256": "78b6d8552540529833f5ab48b363475961b1fa44481768fb6e0c2dd9e44829ab"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.23-alpha.20260816/Maskuro-0.10.23-x64.msi",
+      "groesse": 147753184,
+      "sha256": "9228bad7693d386fdfc969479f8fed81f061b16fa41316d86c2e5de4d38e1213"
     }
   ],
-  "signatur": "O+Nw8PBRNDhhdJWiuyTNlpI+fcKEx7fZiw52IrNQkWj8wDK9YxBim2kdwbuhrowNh9eZ/eSgaSBQGyAvZpEdAA=="
+  "signatur": "OSG+h9dwEkPw6QxOMkiW8rE/kt5y2vgmUtRm7bJT7m5qsQYqZ7U7YqYLMzGjPXKltci5AcHaGzUFkXwaRfoTBQ=="
 }

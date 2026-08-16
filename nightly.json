@@ -1,29 +1,29 @@
 {
   "kanal": "nightly",
-  "version": "0.10.23-alpha.20260816",
+  "version": "0.10.24-alpha.20260816",
   "erschienen": "2026-08-16",
   "dateien": [
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.23-alpha.20260816/Maskuro-0.10.23-arm64.dmg",
-      "groesse": 140765543,
-      "sha256": "1577ad29ef0b052b41e09e1414c5e25f77c0a878ba81464795e66e5e0705cba3"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.24-alpha.20260816/Maskuro-0.10.24-arm64.dmg",
+      "groesse": 141639860,
+      "sha256": "b39428b1019ecd022bfeb5a2f7b3a88a63a443aeefb35a7919eb74b2ee35d23c"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.23-alpha.20260816/Maskuro-0.10.23-Setup.exe",
-      "groesse": 129977753,
-      "sha256": "c7b8bb8a9ced9a30b2e3c2a69ac04d7b8a874e5eb70c5ae2260e9a9d15e5faf9"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.24-alpha.20260816/Maskuro-0.10.24-Setup.exe",
+      "groesse": 130755854,
+      "sha256": "ede8d3e63b4d9e44f6c414c61491377e68a95b2064f12468b8bd8b07c4f57c5b"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.23-alpha.20260816/Maskuro-0.10.23-x64.msi",
-      "groesse": 147753184,
-      "sha256": "9228bad7693d386fdfc969479f8fed81f061b16fa41316d86c2e5de4d38e1213"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.24-alpha.20260816/Maskuro-0.10.24-x64.msi",
+      "groesse": 148609464,
+      "sha256": "0407807b56b1da6b6b9c7fa28a8a89c11df916c5b4c7cf6bcff6c71b64714003"
     }
   ],
-  "signatur": "OSG+h9dwEkPw6QxOMkiW8rE/kt5y2vgmUtRm7bJT7m5qsQYqZ7U7YqYLMzGjPXKltci5AcHaGzUFkXwaRfoTBQ=="
+  "signatur": "GEhtAQ7Jdm1dwqCfKYJW2PwpJ0BKoEqFs6lRBbnq1I6TOyht5L2KFlHAMVTBbE8ddO3mJLNrrPt6o3FcfaZ7Ag=="
 }

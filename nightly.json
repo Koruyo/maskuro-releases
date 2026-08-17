@@ -1,29 +1,29 @@
 {
   "kanal": "nightly",
-  "version": "0.10.25-alpha.20260816",
-  "erschienen": "2026-08-16",
+  "version": "0.10.27-alpha.20260817",
+  "erschienen": "2026-08-17",
   "dateien": [
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.25-alpha.20260816/Maskuro-0.10.25-arm64.dmg",
-      "groesse": 141806798,
-      "sha256": "294ec5e9c0c77284dcd10679ecdca705601430c80de7ec9df2d8c24278446590"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.27-alpha.20260817/Maskuro-0.10.27-arm64.dmg",
+      "groesse": 144388976,
+      "sha256": "0f5550250b0d5faca526cf5d8fb4a87b8cdc2a3eb5aa03df1e396fd747275e0e"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.25-alpha.20260816/Maskuro-0.10.25-Setup.exe",
-      "groesse": 130874018,
-      "sha256": "3f78dc1adc1e760ee4d97ae730607c6b34802ea6b0235c5b4382e29acb0d0e38"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.27-alpha.20260817/Maskuro-0.10.27-Setup.exe",
+      "groesse": 133513767,
+      "sha256": "06f6ae61010f0f8fba3a4004822c10bae6388222e778fc8869b35568687e7fc2"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.25-alpha.20260816/Maskuro-0.10.25-x64.msi",
-      "groesse": 148711864,
-      "sha256": "af66b4a676473c203b1b938a70a2e54eb7781ac8a91c96fe712f20d75abd46ea"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.27-alpha.20260817/Maskuro-0.10.27-x64.msi",
+      "groesse": 151030703,
+      "sha256": "91a1ca11011d73cfca3884389c1a4c772f953b24a8e9d5ee6696ab980a17b08b"
     }
   ],
-  "signatur": "VkDcjmlnFGcOYB1qHPFiMYzS06Tw1rwRuIgFdUoWQm8S1gt2UwJbgt7nEJTuLDKXQKlqyzcUTXcDA5N5XSPtCQ=="
+  "signatur": "yLVxbDCZbfI3EesQf8j7pn2q1SUwNaLkUgIgxbKjnj8IpvjJSHNXxgUrDx3dTG5vOTwnSa3AS33+pqXGq4/gDg=="
 }

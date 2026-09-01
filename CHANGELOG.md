@@ -12,6 +12,22 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## 0.10.44-beta.1 – 1. September 2026
 
+- Der Paketbau erzeugt getrennte Ausgaben für Windows x64 und ARM64, macOS
+  auf Apple Silicon und Intel sowie Linux x64 und ARM64. Paketnamen,
+  Aktualisierungsauswahl und Freigaben unterscheiden die Architektur; eine
+  Veröffentlichung bleibt gesperrt, solange eines der sechs Ziele oder sein
+  Abhängigkeitsnachweis fehlt. Linux ARM64 setzt wegen Qt mindestens glibc
+  2.39 voraus. Vollständig auf echter Hardware abgenommen sind vorerst nur
+  Windows x64 und macOS auf Apple Silicon; die übrigen Architekturpakete sind
+  klar als Vorabfassungen für Erprobung statt produktiven Einsatz auszuweisen.
+
+- Bei mehreren Dateien arbeitet die Erkennung nun weiter, während eine
+  Vorschau auf Durchsicht wartet. Bis zu drei vorbereitete Vorschauen werden
+  nacheinander gezeigt; gleichzeitig rechnet weiterhin nur ein Dokument,
+  und eine Ergebnisdatei entsteht erst nach ihrer Freigabe. Eine in der
+  Vorschau gewählte Dauerausnahme gilt auch für bereits vorbereitete folgende
+  Dokumente.
+
 - Redaktionszertifikate lassen sich nun jederzeit direkt im Datei-Menü gegen
   das geschwärzte Dokument prüfen. Maskuro unterscheidet dabei eine passende
   signierte Datei, einen passenden aber unsignierten Beleg, eine ungültige

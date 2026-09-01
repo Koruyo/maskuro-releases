@@ -1,57 +1,106 @@
 {
   "kanal": "beta",
-  "version": "0.10.44-beta.2",
+  "version": "0.10.48-beta.1",
   "erschienen": "2026-09-01",
   "dateien": [
     {
       "system": "linux",
-      "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.44-beta.2/Maskuro-0.10.44-amd64.deb",
-      "groesse": 201408600,
-      "sha256": "4aeaf275f67e57c11575146dc50b4973d00951fa0975e3d8b0879a15da4414f1"
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-aarch64.AppImage",
+      "groesse": 341420552,
+      "sha256": "94c213482f0ae85d06ba71313fad90ccc306618277edd25cd371c45519575e47"
+    },
+    {
+      "system": "linux",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-aarch64.rpm",
+      "groesse": 310307300,
+      "sha256": "bcf4ec655e92b500a78dd75b7509f598a9044eb1452c3736ae7edb4afc2faa58"
+    },
+    {
+      "system": "linux",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-arm64.deb",
+      "groesse": 308544458,
+      "sha256": "7d9b2a4355286ff7e7519f68c0a969ccaa6d65de8d89cc1f4e6ad451f7c9ef45"
+    },
+    {
+      "system": "linux",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-linux-arm64.tar.gz",
+      "groesse": 360840837,
+      "sha256": "ccb79147eca2521c28c5caeddcd2b603f0763205c0d0cde75fed258aee9c0e8d"
     },
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.44-beta.2/Maskuro-0.10.44-linux-x64.tar.gz",
-      "groesse": 253910910,
-      "sha256": "c237c16573418fd3de8598f0c16570b7ef83da244c0c4b3ec2f6042ac885e2d2"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-amd64.deb",
+      "groesse": 321946692,
+      "sha256": "97769f4f01a069b6ad7a88c4ca12870498ad7f1e08ea18da8b305e111c4937dd"
     },
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.44-beta.2/Maskuro-0.10.44-x86_64.AppImage",
-      "groesse": 234707448,
-      "sha256": "b837073f98e9870ad8aee86bddf32ba041033ce8be14d6ad95128f6da811a6f7"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-linux-x64.tar.gz",
+      "groesse": 374897628,
+      "sha256": "0740434c275bdfdf6b9aca220b88809fcaf22be26e8ff9962a629b08d7676092"
     },
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.44-beta.2/Maskuro-0.10.44-x86_64.rpm",
-      "groesse": 202529331,
-      "sha256": "40f79ed0b3b35ebf422ccf2ee177ca395a8855cb9dd20fdab90d160284151cf7"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-x86_64.AppImage",
+      "groesse": 355404280,
+      "sha256": "82403393bcdc9e124114b4adf10b5b46a2768af13130c12edff600733cd3d283"
+    },
+    {
+      "system": "linux",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-x86_64.rpm",
+      "groesse": 323534601,
+      "sha256": "cf12077078cdc47735cb732a44eda0c8054206ea4a8a676fa3f0960212d4386a"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.44-beta.2/Maskuro-0.10.44-arm64.dmg",
-      "groesse": 157937101,
-      "sha256": "8d2d7215568b42319934a1a73a8a45ebc9f8f1f43d630098c3d81f07871bc402"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-arm64.dmg",
+      "groesse": 279860872,
+      "sha256": "63648a73061007a18239492c9ff01f6f889a189d4cbb6ade56e9227047bfd129"
+    },
+    {
+      "system": "macos",
+      "arch": "x64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-x86_64.dmg",
+      "groesse": 293373881,
+      "sha256": "9bda8d01cbe7a391c9b2ebab020b20270e4729ead2860f34ef2dc352b1103b95"
+    },
+    {
+      "system": "windows",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-arm64-Setup.exe",
+      "groesse": 245739384,
+      "sha256": "53c83b090e42409c656defa716767a20e84dbe33fb14fc11b004d7b5f461216d"
+    },
+    {
+      "system": "windows",
+      "arch": "arm64",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-arm64.msi",
+      "groesse": 261444774,
+      "sha256": "1f6b152d60e074c41bc0377f1ee294d6b006e878b833edadc9acb1bcc514828c"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.44-beta.2/Maskuro-0.10.44-Setup.exe",
-      "groesse": 145344374,
-      "sha256": "687884a9cc632d53319b948c745548a983b29185ebc5e99cd3eceda3e5e3514e"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-Setup.exe",
+      "groesse": 264553813,
+      "sha256": "feaaf5d500a5bc25514711bd8c669b5072ad595ac05e5502884e5f837c801ee1"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.44-beta.2/Maskuro-0.10.44-x64.msi",
-      "groesse": 164266681,
-      "sha256": "112ec66de6192856ccf155fb4384ef49c25285135f50becaa3125d5ed54ef69d"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.48-beta.1/Maskuro-0.10.48-x64.msi",
+      "groesse": 285055615,
+      "sha256": "d9240639886568574bdd773b2db4c850492368e4f77c7c9719c060d7e229facb"
     }
   ],
-  "signatur": "o4rM7oTT8uZF9FGsWZGEiypkF46CIgMhw3ujTp4oJW8yIp0sTpjdPMiol0cQIiQVqJ2JFuvgqTeaPEcNcE6vBg=="
+  "signatur": "WbEWnVT9h4BCsRqp1ec3Cq2Sq8SZJzRJtdF/CgEpxhk0TAc63oHt7ecEw/zjCHrNGmSiIswYQX1Tpm2qFtGuBw=="
 }

@@ -10,6 +10,211 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ---
 
+## Unveröffentlicht
+
+- Das Dokumentlabor führt angeschnittene Feldköpfe, lokale Wertschatten und
+  starke Scanbeschnitte jetzt vollständig durch PDF-, DOCX- und ODT-
+  Container. Die Matrix umfasst 680 Dateien aus 40 Dokumentfamilien und 17
+  Containerachsen. Maskuro entfernt in den neuen sowie den vollständigen
+  Grund- und Merkmalsprofilen alle Sollangaben, ohne gemessenen Fehlalarm,
+  beschädigten Erhaltenswert oder Abbruch.
+
+- Das deutsche OCR-Labor umfasst jetzt 560 Scans aus 40 Dokumentfamilien.
+  Neue Varianten schneiden Feldkopf- und Seitenränder an oder legen einen
+  Schatten direkt über einen Wert. Maskuro schützt dabei auch Namen,
+  Anschriften, Geburtsdaten, medizinische Schlüssel und beschriftete
+  Kennnummern mit teilweise beschädigter Beschriftung. Gleichzeitig werden
+  Formularfeldreste, amtliche Überschriften sowie sachliche Rechts- und
+  Informationsbegriffe nicht mehr als Personen oder Orte ersetzt. Die
+  vollständigen Grund- und Merkmalsprofile erreichen 3.794/3.794
+  beziehungsweise 3.920/3.920 Sollangaben ohne gemessenen Fehlalarm oder
+  Abbruch.
+
+- Die automatische PDF-Bildauswahl entfernt großflächige Produktfotos,
+  Energieetiketten und Porträtreihen nicht mehr allein deshalb, weil sie im
+  oberen Seitenrand beginnen. Echte flache Kopf-/Fußbilder und am Blattrand
+  ansetzende Briefköpfe fallen weiterhin. In Mitarbeiterverzeichnissen
+  werden Namen nun auch dann aus strukturell wiederholten Einträgen erkannt,
+  wenn der sichtbare Dokumenttitel nur als Bild vorliegt. Die Erkennung ist
+  nicht mehr auf zwei konkrete Rollenwörter und das Kürzel „DW“ zugeschnitten:
+  ein bis vier umgebrochene Rollen sowie „Durchwahl“, „Nebenstelle“, „Ext.“
+  und „Extension“ werden aus der gemeinsamen Bauform erschlossen. Rollen und
+  Abschnittsköpfe bleiben stehen, auch wenn das Sprachmodell nach der
+  Überlappungsauflösung nur ein Rollenadjektiv übrig lässt. Waagerechte
+  Rollenraster gelten nicht mehr irrtümlich als Namensspalten. Verklebt die
+  Seiten-OCR mehrere Karten zu einem extrem breiten Binnen-Großschreibungswort,
+  trennt ein enger örtlicher Gegenblick die wirklichen Wortkästen; dadurch
+  bleiben weder ein Einzelname noch ein breiter Fehlbalken zurück. Wiederholte
+  mehrzeilige Firmenlogos werden anhand einer bereits bestätigten identischen
+  Pixelvorlage auch auf Seiten ohne brauchbaren OCR-Text und bei bis zu zwei
+  Pixeln Lageabweichung geschwärzt; kürzere lokale Zweitlesungen der OCR dürfen
+  zugleich keinen größeren Kopfbereich mehr als erfundenen Namen ergänzen.
+  Seitenzahlen vor einem Firmenbriefkopf
+  gehören nicht mehr zum Organisationsnamen, numerisch beginnende echte
+  Markennamen bleiben geschützt. Mehrere gemessene Produkt-, Fach- und
+  Formularwörter werden nicht mehr als Personen vorgeschlagen.
+
+- Die Unterschriftensuche läuft bei PDFs erst nach der OCR-Bildbereinigung,
+  besucht auch Seiten ohne gewöhnlichen Texttreffer und rechnet Fundkästen
+  gedrehter Seiten korrekt in den Dokumentraum zurück. Dichte Produktfotos
+  werden nicht mehr als Unterschrift geschwärzt. Über eindeutig
+  beschrifteten Signaturfeldern schließt ein enger Strich-Rückfall dünne
+  Modelllücken; leere Linien mit vorgedrucktem Datum lösen ihn nicht aus.
+  Reine Scans mit ausschließlich OCR-/Unterschriftenfunden brechen in dieser
+  Phase nicht mehr wegen eines erst im Textzweig geladenen Bildschwärzers ab.
+
+- Viele gleichzeitig geöffnete Dokumente bleiben im Nachbessern-Editor
+  unterscheidbar: Die Reiter schrumpfen nicht mehr bis auf ein bloßes
+  Auslassungszeichen, und ein Listenknopf rechts zeigt alle vollständigen
+  Dateinamen untereinander. Reiter lassen sich per Ziehen umsortieren und mit
+  ihrem Kreuz aus derselben Liste nehmen wie im Hauptfenster; ungespeicherte
+  Arbeit wird dabei weiterhin zuerst geklärt. Ein Rechtsklick bietet außerdem
+  „Schließen“, „Andere Reiter schließen“ und „Reiter rechts schließen“.
+
+- Eine kurzzeitige Windows-Sperre durch Virenscanner oder Suchindex lässt den
+  fertig geladenen Sprachmodell- beziehungsweise Wörterbuchordner nicht mehr
+  beim abschließenden Einsetzen mit „Zugriff verweigert“ scheitern. Maskuro
+  versucht diesen letzten Ordnerwechsel nun für kurze Zeit erneut.
+
+- Das deutsche Dokumentlabor prüft Container jetzt auch mit wechselnder
+  PDF-Seitendrehung, unabhängig gedrehten PDF-Bildern sowie skalierten und
+  zugeschnittenen Tabellenbildern in DOCX und ODT. Feldwerte in sichtbar
+  gedrehten Bildern werden wieder vollständig erkannt, technische
+  Spaltenbezeichner nicht mehr als Orte ersetzt und Namen mit gemeinsamem
+  Familiennamen nicht mehr durch den Konsistenz-Nachpass in doppelte
+  Teiltreffer zerlegt. Die auf 320 Dateien verdoppelte Matrix erreicht mit
+  zugeschalteter Datum-, Geld- und Medizinerkennung 2.240/2.240 Sollangaben
+  ohne gemessenen Fehlalarm oder Abbruch.
+
+- Mehrseitige Bild-PDFs, gemischte Text-/Bild-PDFs und in DOCX oder ODT
+  eingebettete Scans werden jetzt in einem eigenen 160-Dateien-Labor über
+  alle 40 deutschen Dokumentfamilien geprüft. Technische ODT-Rahmennamen und
+  beschriftete Gerätecodes werden nicht mehr als Orte ersetzt; echte Namen,
+  Orte und Adressen in denselben Strukturen bleiben geschützt. Mit
+  eingeschalteter Medizin- oder Gelderkennung werden außerdem eine direkt
+  folgende Dosierung beziehungsweise ein Zahlungsintervall vollständig
+  entfernt. Container-, Textgrund-, Textmerkmal- und OCR-Merkmalläufe
+  erreichen zusammen ihre jeweiligen Vollstände ohne gemessenen Fehlalarm
+  oder Abbruch.
+
+- Die Sicherheitsprüfung vor dem Speichern zeigt auffällige PDF-Stellen nun
+  als einzeln anwählbare Liste. „Im Editor prüfen“ öffnet genau die gewählte
+  Seite und markiert den Bereich; überlappende Teiltreffer an derselben Stelle
+  erscheinen nur noch einmal. Die neuen Bedientexte sind in allen 17
+  übersetzten Oberflächensprachen vollständig vorhanden.
+
+- Markdown-Dateien behalten beim Ersetzen ihre Verweis-, Hervorhebungs- und
+  Fußnotensyntax. Maskuro liest dafür eine zeichengleich lange Fassung ohne
+  Markdown-Markierungen; Unterstriche in E-Mail-Adressen, Rechensterne und
+  gewöhnliche Verweise ohne persönliche Angabe bleiben unverändert.
+
+- Mehrere handschriftliche Einträge auf derselben PDF-Seite werden nun in bis
+  zu drei Durchgängen gesucht. Bereits gefundene Züge werden nur im
+  Arbeitsbild ausgeblendet, damit sie schwächere Unterschriften nicht mehr
+  verdrängen; auf gedrehten Seiten landen die Schwärzungsflächen wieder an
+  der sichtbaren Fundstelle. Bildfüllungen früherer Sicherheitsphasen bleiben
+  beim anschließenden Zurückschreiben erhalten.
+
+- „Alle Einstellungen zurücksetzen“ erfasst jetzt auch „Text in Bildern“.
+  Ist die OCR-Komponente nicht verfügbar, bleibt der Schalter technisch aus,
+  ohne fälschlich als vom Auslieferungsstand abweichend markiert zu werden.
+
+- Große Bildfragmente am oberen Seitenrand gelten nicht mehr allein wegen
+  ihrer Lage als Kopfzeile. Dadurch bleiben insbesondere bildbasierte
+  Artikelbeschreibungen und Tabelleninhalte erhalten. Neu erkannte,
+  typgenaue E-Mail- und Formularfunde werden außerdem auch auf einer bereits
+  geprüften Bildfläche nicht mehr aus der abschließenden Sichtprüfung
+  herausgefiltert.
+
+- Technische Positions- und Artikelzeilen in Klima- und Elektroangeboten
+  werden enger von Personen, Orten und Organisationen unterschieden. Das
+  betrifft unter anderem Kabeltypen, AC-Versorgung, Positionsnummern sowie
+  versale Produktcodes; echte Namen und Anschriften bleiben geschützt.
+
+- Die Prüfung realer bereinigter PDFs verwechselt Preisbestandteile wie
+  `1 699,59` nicht mehr mit Telefonnummern und schneidet aus einem vollständigen
+  Datum wie `08.05.2025` keine vermeintliche Kartenangabe mehr heraus. Namen
+  hinter einer Anrede enden am Zeilenumbruch statt in der folgenden Straße;
+  Ortsnamen in Beilagen-Dateinamen werden auf den tatsächlichen Ort begrenzt.
+  Fahrzeugfarben, technische Statuswerte, Gewerbebezeichnungen und
+  Produkt-Rechtsformen bleiben ebenfalls erhalten. Beschädigte
+  Platzhalterlesarten wie `|PLLZ` werden bei einem zweiten OCR-Durchgang nicht
+  erneut als persönliche Angabe behandelt.
+
+- Seitlich gespeicherte PDF-Bilder erhalten bei der abschließenden
+  Sichtprüfung einen zusätzlichen Blick in ihrer unveränderten Bildlage.
+  Dieser darf ausschließlich Werte nachschwärzen, die Maskuro auf derselben
+  Seite bereits sicher erkannt hat. So wird etwa ein kleiner gedrehter
+  Adressstempel vollständig abgedeckt, ohne neue Wörter aus Bildüberschriften
+  oder technischen Zeichnungen als persönliche Angaben zu erfinden.
+
+- In OpenDocument-Texten werden die Verfasser-Initialen einer Notiz
+  (Kommentar) jetzt zusammen mit dem Verfasser geleert. LibreOffice legt
+  sie neben dem vollen Namen als eigene Kurzform ab und zeigt genau diese
+  am Seitenrand; bislang stand dort „SO“ weiter, während „Sieglinde
+  Ortner“ daneben längst ein Platzhalter war. Geleert wird nur, wenn der
+  Verfasser tatsächlich ersetzt wurde – die Notiz einer Abteilung behält
+  ihre Kennzeichnung.
+
+- In italienischen Geschäftsbriefen gelten die Standardwendungen am
+  Satzanfang nicht mehr als Name oder Ort: „Restiamo a disposizione",
+  „Rimaniamo", „Attendiamo", „Alleghiamo", „Comunichiamo" und „Auguriamo
+  buon lavoro" blieben bisher als vermeintliche Person oder Ortsangabe
+  hängen. Echte Namen an derselben Stelle („Rossi Mario") werden weiterhin
+  erkannt.
+
+- Zweispaltige Scans schützen beschriftete Kennungen und Ortsangaben jetzt
+  auch dann, wenn die Texterkennung erst alle Feldköpfe und danach alle Werte
+  liefert. Die Zuordnung folgt der sichtbaren Pixelzeile und funktioniert
+  auch bei um 90 Grad gedrehten Seiten. Eng getrennte Teile einer Pass- oder
+  Vertragskennung werden gemeinsam geschwärzt; beschriftete Geburtsdaten,
+  ICD- und PZN-Schlüssel sind ebenfalls abgedeckt, nachfolgende Sachwörter
+  bleiben stehen. Kurze Namen und Benutzernamen werden an exakten Feldern
+  geschützt; in mehrere OCR-Wörter zerlegte E-Mail-Adressen nur bei enger
+  Nachbarschaft und vollständiger E-Mail-Grammatik. Eine feldgebundene
+  Berichtigung verwechslungsfähiger Zeichen sowie das örtliche Nachlesen
+  eines noch leeren Personenfelds schließen beschädigte und gedrehte Scans,
+  ohne Sachfelder oder bereits belegte Werte auszuweiten. Sicherheitsränder
+  folgen der Wortgröße, und das Merkmalsprofil nimmt unmittelbar
+  benachbarte Dosiseinheiten und Zahlungsintervalle mit. Leicht schief
+  eingezogene Formulare werden aus mehreren richtungsgleichen OCR-Zeilen
+  geometrisch zurückprojiziert; Rundungsrauschen oder widersprüchliche
+  Zeugen genügen nicht. Kurze Buchstabenpräfixe bleiben vor einer
+  Bindestrichkennung erhalten, und ein vollständiger beschrifteter
+  Anschriftsfund ersetzt nur seinen gleichartigen Straßen-Teilfund. Ein
+  verlesener Rollenfeldkopf fällt ausschließlich in einer durch mindestens
+  drei bekannte Köpfe belegten Formularspalte; Chatnamen bleiben geschützt.
+  Ein knapper Randbeschnitt und eine lokale Überbelichtung mit diagonalem
+  Lichtreflex ergänzen die Bildmatrix. Über mehrere Formularzeilen reichende
+  Personen-, Orts- und Firmenfunde werden in einer mehrfach belegten
+  Feldspalte auf den jeweiligen Wert begrenzt. Ein technischer Positionswert
+  fällt nur mit Positionskopf und passender Kennform; echte Namen bleiben
+  geschützt. Auch am Lichtreflex abgebrochene E-Mail-Werte werden hinter
+  einem ausdrücklichen E-Mail-Feldkopf mit engem, nachbarbegrenztem Bildrand
+  entfernt. Zwei Feld-Wert-Paare derselben sichtbaren Zeile werden jetzt
+  unabhängig ausgewertet; Werte auf einer tieferen Grundlinie nur nach drei
+  übereinstimmenden geometrischen Zeugen gekoppelt. Dadurch bleiben
+  Kennnummern, Geburtsdaten und Anschriften auch in dichten Formularlayouts
+  vollständig geschützt. Straße, PLZ und Ort werden ausschließlich innerhalb
+  desselben Adressfelds und mit passender postalischer Grammatik vereinigt.
+  Eng umrissene Sachfelder für Arbeits-/Hilfsmittel und Zahnstatus erzeugen
+  keine Orts- oder Verzeichnisfehlalarme mehr; echte Namen und ähnlich
+  benannte Felder bleiben geschützt. Das deutsche Dokumentlabor umfasst nun
+  440 Scans und erreicht 2.981/2.981 im Grundprofil sowie 3.080/3.080 im
+  Merkmalsprofil. Alle elf Bildmutationen und alle 40 Dokumentfamilien liegen
+  bei 100 Prozent,
+  weiterhin ohne gemessenen Fehlalarm, Erhaltensverletzung oder Abbruch.
+
+- PDF-Textschichten mit verlorenen Zelltrennern begrenzen Organisations-,
+  Anschrifts- und Ortsfunde jetzt anhand der wiederholten Feld-Wert-Struktur.
+  Feldköpfe vor Firmenwerten und technische Pfeile wie `=>` oder `->`
+  gehören nicht mehr zum Treffer. Die zusätzliche Ansicht für weiche
+  Zeilenumbrüche darf Rechtsform- und Ortsfunde nicht mehr über mehrere
+  Tabellenzeilen ausdehnen; eine bereits vollständige Anschrift endet vor
+  dem nächsten Feldkopf samt Wert. Der abschließende Lauf über alle 1.600
+  TXT-, HTML-, PDF- und DOCX-Dokumente entfernt 10.840/10.840 Sollangaben
+  bei null Fehlalarmen, null Erhaltensverletzungen und null Abbrüchen.
+
 ## 0.10.44-beta.1 – 1. September 2026
 
 - Der Paketbau erzeugt getrennte Ausgaben für Windows x64 und ARM64, macOS
@@ -67,6 +272,18 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
   Geburtsdaten und Kennnummern sowie ausdrücklich beschriftete Rollen wie
   versicherte, bewerbende, abgabepflichtige und vertretungsbefugte Personen
   werden nun auch in diesen Exportformen erkannt.
+
+- Ein getrennter OCR-Modus des deutschen Dokumentlabors erzeugt zusätzlich
+  200 reine Bildscans aus allen 40 Familien. Saubere, kontrastarme,
+  niedrig aufgelöste, JPEG-artefaktbehaftete und um 90 Grad gedrehte Seiten
+  werden mit exakten Pixelkästen nachgemessen, ohne den vergleichbaren
+  1.600-Dateien-Textgrundstand zu verändern. Das Manifest trennt
+  zuschaltbare Datum-, Geld- und Medizinmerkmale vom Grundprofil und kennt
+  belegte OCR-Lesarten, ohne sie als zusätzliche Sollstellen zu zählen. Die
+  Messung wird nach Mutation und Dokumentfamilie aufgeschlüsselt. Enge
+  Feldgrenzen verhindern unter anderem, dass `Az` im Ortsnamen `Graz` ein
+  folgendes Datum als Aktenzeichen schwärzt; die aktuelle Grundmatrix läuft
+  mit null Fehlalarmen und null Abbrüchen.
 
 - Fünf weitere deutsche Dokumentfamilien für Rechnung/Lieferschein,
   Bank/Kredit, Miete/Hausverwaltung, Schule/Hochschule und Logistik/Zoll

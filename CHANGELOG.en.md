@@ -5,6 +5,25 @@ The numbering follows the usual scheme: the **first** number changes
 when something no longer works the way it used to, the **second** for new
 capabilities, the **third** for bug fixes.
 
+## 0.10.52-alpha.20260903 – September 3, 2026
+
+- A batch of more than four files no longer stalls after the user has
+  responded in several preview windows. Additional documents continue to be
+  prepared in the background; after a response, the corresponding file now
+  reliably finishes processing and the next slot in the batch is released.
+- Matching short company marks in PDFs is now limited to recognized text in
+  images. As a result, in ordinary page text, a long multi-line model match no
+  longer causes an identical single word elsewhere to be redacted as well.
+
+## 0.10.51-alpha.20260903 – September 3, 2026
+
+- The changelog now appears in the user's own language – at
+  maskuro.com/neuigkeiten and in the program under “Changes”, as well as in
+  “What's new” after an update. Previously, all eighteen language versions
+  showed German text there beneath a translated heading. Where a translation
+  is still missing, that release remains in German instead of disappearing;
+  the list of releases is the same everywhere.
+
 ## 0.10.50-alpha.20260903 – September 3, 2026
 
 - Recurring company marks in PDFs are now cleaned consistently, even

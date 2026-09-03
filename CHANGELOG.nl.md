@@ -7,6 +7,27 @@ De nummering volgt de gebruikelijke telwijze: het **eerste** getal verandert
 wanneer iets niet meer werkt zoals voorheen, het **tweede** bij nieuwe
 mogelijkheden, het **derde** bij foutcorrecties.
 
+## 0.10.52-alpha.20260903 – 3 september 2026
+
+- Een batch van meer dan vier bestanden loopt na antwoorden in meerdere
+  voorbeeldvensters niet meer vast. De volgende documenten worden nog steeds
+  op de achtergrond voorbereid; na een antwoord wordt het bijbehorende
+  bestand nu steeds correct afgerond en komt de volgende plaats in de batch
+  vrij.
+- De vergelijking van korte bedrijfsaanduidingen in pdf's is nu beperkt tot
+  herkende afbeeldingstekst. In gewone paginatekst zorgt een lange
+  modeltreffer over meerdere regels er daardoor niet meer voor dat een
+  gelijkluidend los woord elders extra wordt zwartgemaakt.
+
+## 0.10.51-alpha.20260903 – 3 september 2026
+
+- De lijst met wijzigingen verschijnt nu in de eigen taal – op
+  maskuro.com/neuigkeiten en in het programma onder ‘Wijzigingen’, evenals in
+  ‘Wat is er nieuw’ na een update. Tot nu toe stond daar in alle achttien
+  taalversies Duitse tekst onder een vertaalde kop. Waar een vertaling nog
+  ontbreekt, blijft de betreffende versie in het Duits staan in plaats van te
+  verdwijnen; de versielijst is overal hetzelfde.
+
 ## 0.10.50-alpha.20260903 – 3 september 2026
 
 - Terugkerende bedrijfslogo's in PDF's worden consistent opgeschoond, ook

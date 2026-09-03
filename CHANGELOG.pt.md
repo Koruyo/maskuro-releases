@@ -6,6 +6,27 @@ A numeração segue a contagem habitual: o **primeiro** número muda quando algo
 deixa de funcionar como antes, o **segundo** com novas funcionalidades, o
 **terceiro** com correções de erros.
 
+## 0.10.52-alpha.20260903 – 3 de setembro de 2026
+
+- Um lote com mais de quatro ficheiros deixa de ficar parado após várias
+  respostas nas janelas de pré-visualização. Outros documentos continuam a
+  ser preparados em segundo plano; após uma resposta, o ficheiro correspondente
+  passa agora a ser concluído de forma fiável e é libertado o lugar seguinte
+  no lote.
+- A correspondência de marcas de empresa curtas em PDFs limita-se agora ao
+  texto reconhecido em imagens. Por isso, no texto normal da página, uma
+  deteção longa do modelo que abrange várias linhas já não faz com que uma
+  palavra isolada igual noutro ponto seja também ocultada.
+
+## 0.10.51-alpha.20260903 – 3 de setembro de 2026
+
+- A lista de alterações aparece agora na respetiva língua – em
+  maskuro.com/neuigkeiten e, no programa, em «Alterações», bem como em
+  «Novidades» após uma atualização. Até agora, nas dezoito versões linguísticas
+  aparecia texto em alemão sob um título traduzido. Quando ainda falta uma
+  tradução, a versão em causa permanece em alemão em vez de desaparecer; a
+  lista de versões é igual em todo o lado.
+
 ## 0.10.50-alpha.20260903 – 3 de setembro de 2026
 
 - Marcas de empresa recorrentes em PDFs são limpas de forma consistente,

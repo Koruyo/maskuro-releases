@@ -8,6 +8,26 @@ Numerointi noudattaa tavanomaista käytäntöä: **ensimmäinen** luku muuttuu,
 kun jokin ei enää toimi kuten ennen, **toinen** uusien ominaisuuksien
 myötä, **kolmas** virheenkorjausten myötä.
 
+## 0.10.52-alpha.20260903 – 3. syyskuuta 2026
+
+- Yli neljän tiedoston erä ei enää jää jumiin sen jälkeen, kun useissa
+  esikatseluikkunoissa on vastattu. Muita asiakirjoja valmistellaan edelleen
+  taustalla; vastauksen jälkeen siihen liittyvä tiedosto käsitellään nyt
+  luotettavasti loppuun ja erän seuraava paikka vapautuu.
+- PDF-tiedostojen lyhyiden yritysmerkkien vertailu rajataan nyt kuvista
+  tunnistettuun tekstiin. Pitkä, usealle riville ulottuva malliosuma tavallisessa
+  sivutekstissä ei siksi enää johda siihen, että muualla oleva sama yksittäinen
+  sana peitetään lisäksi.
+
+## 0.10.51-alpha.20260903 – 3. syyskuuta 2026
+
+- Muutosluettelo näkyy nyt käyttäjän omalla kielellä – osoitteessa
+  maskuro.com/neuigkeiten sekä ohjelman ”Muutokset”-kohdassa ja päivityksen
+  jälkeisessä ”Mitä uutta” -näkymässä. Aiemmin kaikissa kahdeksassatoista
+  kieliversiossa näkyi siellä saksankielinen teksti käännetyn otsikon alla.
+  Jos käännös vielä puuttuu, kyseinen versio pysyy näkyvissä saksaksi
+  katoamisen sijaan; versioiden luettelo on kaikkialla sama.
+
 ## 0.10.50-alpha.20260903 – 3. syyskuuta 2026
 
 - Toistuvat yritysmerkit PDF:issä puhdistetaan nyt yhtenäisesti, myös

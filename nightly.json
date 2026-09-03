@@ -1,29 +1,30 @@
 {
   "kanal": "nightly",
-  "version": "0.10.51-alpha.20260903",
+  "version": "0.10.52-alpha.20260903",
   "erschienen": "2026-09-03",
   "dateien": [
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.51-alpha.20260903/Maskuro-0.10.51-arm64.dmg",
-      "groesse": 283577733,
-      "sha256": "9c2acdecf97e641be31b12ff295c9a2c6ea61b77fe92c50c621c9407527d766d"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-alpha.20260903/Maskuro-0.10.52-arm64.dmg",
+      "groesse": 283598746,
+      "sha256": "1b1b8fba9a458314875398f01aa83dabe3c76f617b2a59b315a3d4cf51c04457"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.51-alpha.20260903/Maskuro-0.10.51-Setup.exe",
-      "groesse": 266889377,
-      "sha256": "8e4fbc18c59e360695eb1eae81fdeb900b8ff1532e490e9917f401b57606b4ff"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-alpha.20260903/Maskuro-0.10.52-Setup.exe",
+      "groesse": 266924921,
+      "sha256": "928fc62d99563880bbd423738135255eed8bca4cbdbf9c0782aaaed598c39f81"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.51-alpha.20260903/Maskuro-0.10.51-x64.msi",
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-alpha.20260903/Maskuro-0.10.52-x64.msi",
       "groesse": 287613134,
-      "sha256": "8aa5f7f24510c6fe7b8ef941ebaf0c9ec7559f8670a4d4424e262b28195985a8"
+      "sha256": "ecaba5b094890c4f87e30c1a3c25a3c2721682be302116f2b200f63260983f64"
     }
   ],
-  "signatur": "v8li42aOzBW+hjvn8fEhXONCI6anBF1i7XaH5KIr+mGiCcS54oC1RQsKnWOb6uue0uJmoBGOzL216a62gB3zBg=="
+  "hinweise": "- Ein Stapel aus mehr als vier Dateien bleibt nach mehreren beantworteten\n  Vorschaufenstern nicht mehr stehen. Weitere Dokumente werden weiterhin im\n  Hintergrund vorbereitet; nach einer Antwort wird die zugehörige Datei nun\n  zuverlässig fertiggestellt und der nächste Platz im Stapel freigegeben.\n- Der Abgleich kurzer Firmenzeichen in PDFs beschränkt sich nun auf erkannte\n  Bildtexte. In gewöhnlichem Seitentext führt ein langer, mehrzeiliger\n  Modelltreffer deshalb nicht mehr dazu, dass ein gleichlautendes Einzelwort\n  an anderer Stelle zusätzlich geschwärzt wird.",
+  "signatur": "oNEpHtSshuWsGZ8rhkGB+HPQ6F+WFsaGaN55wBIO58ScPdPlQY/DPqUKVLjB8uVsGe+R2j3+TY+qL4VHhptoBw=="
 }

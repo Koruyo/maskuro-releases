@@ -1,4 +1,22 @@
+## 0.10.52-alpha.20260903 – 3. rujna 2026.
 
+- Skup s više od četiri datoteke više ne zapinje nakon odgovora u nekoliko
+  prozora pretpregleda. Ostali dokumenti i dalje se pripremaju u pozadini;
+  nakon odgovora pripadajuća se datoteka sada pouzdano dovršava i oslobađa se
+  sljedeće mjesto u skupu.
+- Usklađivanje kratkih znakova tvrtke u PDF-ovima sada je ograničeno na tekst
+  prepoznat na slikama. Stoga u običnom tekstu stranice dugačak, višeredni
+  nalaz modela više ne uzrokuje dodatno zacrnjenje jednake pojedinačne riječi
+  na drugom mjestu.
+
+## 0.10.51-alpha.20260903 – 3. rujna 2026.
+
+- Popis promjena sada se prikazuje na jeziku korisnika – na
+  maskuro.com/neuigkeiten te u programu pod „Promjene”, kao i u prozoru
+  „Što je novo” nakon ažuriranja. Dosad je ondje u svih osamnaest jezičnih
+  inačica ispod prevedenog naslova stajao njemački tekst. Kad prijevod još
+  nedostaje, odgovarajuća inačica ostaje na njemačkom umjesto da nestane;
+  popis inačica svugdje je isti.
 
 ## 0.10.50-alpha.20260903 – 3. rujna 2026.
 

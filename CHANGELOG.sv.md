@@ -10,6 +10,26 @@ något inte längre fungerar som förut, den **andra** vid nya funktioner, den
 
 ---
 
+## 0.10.52-alpha.20260903 – 3 september 2026
+
+- En körning med fler än fyra filer stannar inte längre efter svar i flera
+  förhandsgranskningsfönster. Ytterligare dokument fortsätter att förberedas
+  i bakgrunden; efter ett svar slutförs nu alltid den tillhörande filen och
+  nästa plats i kön frigörs.
+- Matchningen av korta företagsbeteckningar i PDF-filer begränsas nu till text
+  som har identifierats i bilder. I vanlig sidtext leder en lång, flerradig
+  modellträff därför inte längre till att ett identiskt fristående ord på ett
+  annat ställe också maskeras.
+
+## 0.10.51-alpha.20260903 – 3 september 2026
+
+- Ändringslistan visas nu på det egna språket – på maskuro.com/neuigkeiten
+  och i programmet under „Ändringar" samt i „Vad är nytt" efter en
+  uppdatering. Tidigare stod där i alla arton språkversioner tysk text under
+  en översatt rubrik. Där en översättning ännu saknas står den aktuella
+  versionen kvar på tyska i stället för att försvinna; listan över versioner
+  är densamma överallt.
+
 ## 0.10.50-alpha.20260903 – 3 september 2026
 
 - Återkommande företagsmärken i PDF-filer rensas nu konsekvent, även när

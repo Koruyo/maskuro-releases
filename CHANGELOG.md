@@ -12,6 +12,19 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## Unveröffentlicht
 
+## 0.10.52-alpha.20260903 – 3. September 2026
+
+- Ein Stapel aus mehr als vier Dateien bleibt nach mehreren beantworteten
+  Vorschaufenstern nicht mehr stehen. Weitere Dokumente werden weiterhin im
+  Hintergrund vorbereitet; nach einer Antwort wird die zugehörige Datei nun
+  zuverlässig fertiggestellt und der nächste Platz im Stapel freigegeben.
+- Der Abgleich kurzer Firmenzeichen in PDFs beschränkt sich nun auf erkannte
+  Bildtexte. In gewöhnlichem Seitentext führt ein langer, mehrzeiliger
+  Modelltreffer deshalb nicht mehr dazu, dass ein gleichlautendes Einzelwort
+  an anderer Stelle zusätzlich geschwärzt wird.
+
+## 0.10.51-alpha.20260903 – 3. September 2026
+
 - Die Änderungsliste erscheint jetzt in der eigenen Sprache – auf
   maskuro.com/neuigkeiten und im Programm unter „Änderungen" sowie in „Was
   ist neu" nach einer Aktualisierung. Bisher stand dort in allen achtzehn

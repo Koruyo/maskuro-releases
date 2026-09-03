@@ -11,6 +11,29 @@ bugs.
 
 ---
 
+## 0.10.52-alpha.20260903 – 3 septembre 2026
+
+- Un lot de plus de quatre fichiers ne reste plus bloqué après plusieurs
+  réponses dans les fenêtres d'aperçu. D'autres documents continuent d'être
+  préparés en arrière-plan ; après une réponse, le fichier correspondant est
+  désormais finalisé de manière fiable et la place suivante dans le lot est
+  libérée.
+- La mise en correspondance des logos courts d'entreprise dans les PDF est
+  désormais limitée aux textes reconnus dans les images. Dans le texte
+  ordinaire d'une page, une longue détection du modèle s'étendant sur plusieurs
+  lignes n'entraîne donc plus le masquage supplémentaire d'un mot identique à
+  un autre endroit.
+
+## 0.10.51-alpha.20260903 – 3 septembre 2026
+
+- La liste des modifications s'affiche désormais dans la langue de
+  l'utilisateur – sur maskuro.com/neuigkeiten et dans le programme sous
+  « Modifications », ainsi que dans « Nouveautés » après une mise à jour.
+  Jusqu'à présent, les dix-huit versions linguistiques y affichaient un texte
+  allemand sous un titre traduit. Quand une traduction manque encore, la
+  version concernée reste en allemand au lieu de disparaître ; la liste des
+  versions est identique partout.
+
 ## 0.10.50-alpha.20260903 – 3 septembre 2026
 
 - Les logos d'entreprise récurrents dans les PDF sont désormais nettoyés de

@@ -9,6 +9,28 @@ algo deja de funcionar como antes, el **segundo** con nuevas funciones, el
 
 ---
 
+## 0.10.52-alpha.20260903 – 3 de septiembre de 2026
+
+- Un lote de más de cuatro archivos ya no se queda bloqueado después de
+  responder en varias ventanas de vista previa. Los demás documentos se
+  siguen preparando en segundo plano; después de una respuesta, el archivo
+  correspondiente termina ahora de procesarse de forma fiable y se libera el
+  siguiente lugar en el lote.
+- La comparación de logotipos breves de empresa en PDF se limita ahora al texto
+  reconocido en imágenes. Por tanto, en el texto normal de una página, una
+  coincidencia larga del modelo que abarca varias líneas ya no hace que se
+  oculte además una palabra idéntica en otro lugar.
+
+## 0.10.51-alpha.20260903 – 3 de septiembre de 2026
+
+- La lista de cambios aparece ahora en el idioma del usuario – en
+  maskuro.com/neuigkeiten y en el programa, en «Cambios», así como en
+  «Novedades» después de una actualización. Hasta ahora, las dieciocho
+  versiones lingüísticas mostraban allí texto en alemán bajo un encabezado
+  traducido. Cuando todavía falta una traducción, la versión correspondiente
+  permanece en alemán en vez de desaparecer; la lista de versiones es la
+  misma en todas partes.
+
 ## 0.10.50-alpha.20260903 – 3 de septiembre de 2026
 
 - Los logotipos de empresa recurrentes en PDF se limpian ahora de forma

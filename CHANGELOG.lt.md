@@ -9,6 +9,26 @@ Numeracija seka įprastą schemą: **pirmasis** skaičius keičiasi, kai kas nor
 nebeveikia taip, kaip anksčiau, **antrasis** – atsiradus naujoms galimybėms,
 **trečiasis** – ištaisius klaidas.
 
+## 0.10.52-alpha.20260903 – 2026 m. rugsėjo 3 d.
+
+- Paketas, kurį sudaro daugiau nei keturi failai, nebesustoja atsakius
+  keliuose peržiūros languose. Kiti dokumentai ir toliau ruošiami fone; po atsakymo
+  susijęs failas dabar patikimai užbaigiamas ir atlaisvinama kita vieta
+  pakete.
+- Trumpi įmonių ženklai PDF failuose dabar lyginami tik su atpažintu vaizdų
+  tekstu. Todėl įprastame puslapio tekste modelio aptiktas ilgas kelių eilučių
+  fragmentas nebelemia, kad kitoje vietoje būtų papildomai uždengtas toks pat
+  pavienis žodis.
+
+## 0.10.51-alpha.20260903 – 2026 m. rugsėjo 3 d.
+
+- Pakeitimų sąrašas dabar rodomas pasirinkta kalba – svetainėje
+  maskuro.com/neuigkeiten, programos skiltyje „Pakeitimai“ ir po atnaujinimo
+  atveriamame lange „Kas nauja“. Iki šiol visose aštuoniolikoje kalbinių
+  versijų po išversta antrašte buvo rodomas vokiškas tekstas. Jei vertimo dar
+  nėra, atitinkamas versijos įrašas lieka vokiškas, užuot pradingęs; versijų
+  sąrašas visur vienodas.
+
 ## 0.10.50-alpha.20260903 – 2026 m. rugsėjo 3 d.
 
 - Pasikartojantys firmų ženklai PDF failuose dabar valomi nuosekliai, net

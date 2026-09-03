@@ -12,12 +12,134 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## Unveröffentlicht
 
+## 0.10.50-alpha.20260903 – 3. September 2026
+
+- Wiederkehrende Firmenzeichen in PDFs werden konsistent bereinigt, auch
+  wenn die Texterkennung den Schriftzug auf einer Seite anders liest oder
+  das runde Signet ganz auslässt. Eine ausdrückliche Abwahl in der Vorschau
+  bleibt dabei verbindlich und kann von keinem späteren Nachzug aufgehoben
+  werden.
+- Währungslose Preise in gescannten Tabellen werden auch dann vollständig
+  geschwärzt, wenn Tabellenkopf und Werte in verschiedenen überlappenden
+  PDF-Bildern stecken. Mengen, Stunden, Gewichte und Prozente bleiben stehen;
+  weit auseinanderliegende Zahlen werden nicht mehr versehentlich zu einem
+  Betrag verbunden.
+- Die Unterschriftensuche erfasst nun auch belegte schwache blaue Schriftzüge
+  und schmale rote Signaturkürzel. Gepunktete Diagramme, Messkurven, Stempel,
+  Logos und breite rote Bearbeitungsmarkierungen bleiben von diesem engen
+  Nachzug ausgenommen.
+- Schwärzungen in gedrehten, gespiegelten, gescherten oder beschnittenen
+  PDF-Bildern treffen jetzt das wirkliche Bildpolygon. Technische Rollen in
+  Leistungspositionen, Fahrzeug- und Reifensachwerte sowie technische
+  „Kompensation“ werden zugleich enger gegen falsche Treffer abgegrenzt;
+  ausdrücklich beschriftete Kontaktrollen und Rufnummern bleiben geschützt.
+- Die Sichtprüfung vor dem Speichern einer PDF lässt das Fenster nicht mehr
+  einfrieren: Bei großen Dokumenten mit vielen Fundstellen stand es bisher
+  mehrere Sekunden ohne Rückmeldung; jetzt zeigt ein Hinweis, dass geprüft
+  wird, und das Fenster zeichnet weiter.
+- Das Zurückholen eines Werts aus einem Bild im Nachbessern-Editor liest
+  jedes Originalbild nur noch einmal per Texterkennung; bisher lief sie bei
+  jeder weiteren Rücknahme für dieselben Bilder erneut.
+- Das Nachladen der Hoch-Stufe und des Unterschriftenmodells braucht kaum
+  noch Arbeitsspeicher: Das 596-MB-Paket wurde bisher komplett im Speicher
+  gehalten, geprüft und dort entpackt – über ein Gigabyte Spitze im laufenden
+  Programm, auf Rechnern mit 8 GB der Moment, in dem alles zu stocken begann.
+  Jetzt fließt es blockweise auf die Platte und wird dort geprüft und
+  entpackt.
+- Die Suche im Nachbessern-Editor lässt große PDFs nicht mehr einfrieren:
+  Der erste Buchstabe im Suchfeld las bisher alle Seiten auf einmal ein – bei
+  200 Seiten stand das Fenster zwei Sekunden, und nach jeder Schwärzung noch
+  einmal. Die Seiten werden jetzt häppchenweise gelesen; bis dahin steht
+  „Wird gelesen …" im Zähler, das Ergebnis ist dasselbe.
+- Gerasterte PDF-Seiten – nach einer Texterkennung oder wenn ein Text nicht
+  sauber zu entfernen war – werden deutlich kleiner und ohne Bildverlust
+  gespeichert: Statt immer als JPEG wird jede Seite auch verlustfrei kodiert,
+  und die kleinere Fassung kommt in die Datei. Ein bereinigter Scan schrumpft
+  so von 248 auf 48 KB, das Übungsdokument mit Texterkennung von 913 auf
+  702 KB; Text bleibt gestochen scharf.
+- Nachgeladene Modelle (Hoch-Stufe, Unterschriften, Gesichter, zweite
+  Texterkennung) werden nach zehn Minuten ohne Bereinigung wieder aus dem
+  Arbeitsspeicher entlassen. Bisher blieben sie bis zum Programmende geladen
+  – wer einmal eine Unterschriftensuche und die Hoch-Stufe benutzt hatte,
+  hielt dauerhaft über zwei Gigabyte. Der nächste Lauf lädt sie in ein bis
+  zwei Sekunden wieder; die Statuszeile sagt es an.
+- PowerPoint: Die Gattungsnamen von Folienlayouts und Folienmastern („Leer",
+  „Titelfolie") werden nicht mehr als Angabe ersetzt. „Leer" ist auch ein
+  Ort und wurde in jeder deutschen und englischen Präsentation fälschlich
+  geschwärzt; bereinigt werden nur noch die von Hand vergebenen Namen der
+  Folien selbst.
+- In PDFs zieht die Zeilenglättung nicht mehr den Kopf der nächsten Zeile in
+  einen Fund: Die Nummer des nächsten Listenpunkts hinter einem Datum galt
+  als Rufnummer, ein Feldkopf wie „Kenncode" oder „Auftragsnummer" hinter
+  einer Zahl als Postleitzahl mit Ort, und die Ortszeile unter der
+  Anschrift verdoppelte den Ort. Der jeweils richtige, kürzere Fund wurde
+  dadurch verdrängt. Über 132 Korpus-PDFs bleiben von 24 zusätzlichen
+  Glättungsfunden die zwei echten; im Praxiskorpus sinken die Fehlalarme
+  von 29 auf 21 bei gleicher Fundquote.
+- „PDF-Ordner durchsuchen und schwärzen" im Nachbessern-Editor blockiert das
+  Fenster nicht mehr: Der Lauf arbeitet im Hintergrund, Fortschritt und
+  Abbrechen-Knopf reagieren, und Menüs oder Reiter können nicht mehr mitten
+  in einer halb fertigen Datei bedient werden.
+- Gescannte Seiten mit Fundstellen werden beim Schwärzen nur noch einmal
+  neu geschrieben statt zweimal: Bisher füllte das Programm die Kästen der
+  Fundstellen und die der Begründungen in zwei Durchgängen, und der zweite
+  komprimierte das gerade neu gespeicherte Scanbild ein weiteres Mal. Das
+  spart Zeit auf großen Scans und einen Qualitätsverlust im Bild.
+- Blättern, Zoomen und die Miniaturen im Nachbessern-Editor reagieren
+  schneller: Jede gerenderte Seite ging bisher als PNG durch eine Kompression
+  und gleich wieder zurück, nur um angezeigt zu werden – bei Bildschirmen mit
+  hoher Auflösung rund eine Zehntelsekunde je Seite. Das Bild kommt jetzt
+  direkt an, Bildpunkt für Bildpunkt dasselbe.
+- Die Sichtprüfung vor dem Speichern einer PDF („Ausgabeprobe") ist rund
+  dreimal schneller, bei gleichem Ergebnis.
+- Das Hauptfenster steht noch einmal rund eine Viertelsekunde früher: Die
+  Prüfung, ob die Texterkennung auf diesem Rechner bereit ist, lief beim
+  Fensteraufbau – auf dem Mac samt einer Probe-Anfrage an die
+  Systemerkennung – und die Einstellungsseite der Zusatzkomponenten fragte
+  dazu den Stand aller 48 Sprachen ab. Beides geschieht jetzt im
+  Hintergrund beziehungsweise erst, wenn die Sprachliste wirklich geöffnet
+  wird; bis dahin steht „Texterkennung wird geprüft …".
+- Nach einer Unterschriftensuche belegt das Programm rund 300 MB weniger
+  Arbeitsspeicher: Das Erkennungsmodell lag bis dahin doppelt im Speicher –
+  einmal zum Prüfen seiner Echtheit, einmal zum Rechnen. Geprüft wird es
+  weiterhin, nur ohne die zweite Kopie.
+- Die Texterkennung in PDFs ist spürbar schneller geworden: Für jeden
+  Feldkopf einer Seite („Geburtsdatum:", „Steuernummer:") wurde bisher je
+  Angabenart eine eigene Probe durch die Erkennung geschickt – auf jeder
+  Seite neu, auch wenn derselbe Kopf schon zehn Seiten vorher stand. Die
+  Antwort wird jetzt gemerkt; ein zweiseitiges Leistungsverzeichnis stellte
+  so 324 Fragen, jetzt noch die verschiedenen. Die Funde sind dieselben.
+- Große Tabellen werden wieder in Sekunden statt Minuten bereinigt: Im
+  anonymisierenden Betrieb – der Vorgabe – wurde der Abgleich schon bekannter
+  Werte mit jeder weiteren Zelle langsamer, weil ein Zwischenspeicher bei
+  jedem Treffer verworfen und neu aufgebaut wurde. 5 000 Zellen brauchten
+  dafür rund 18 Sekunden, jetzt eine halbe; das Ergebnis ist Zeichen für
+  Zeichen dasselbe.
+- Das Hauptfenster erscheint noch einmal deutlich schneller: Die Länderliste
+  der Einstellungen zog beim Fensterbau die gesamte Erkennungsbibliothek in
+  den Vordergrund – rund 0,7 Sekunden auf dem Mac, auf Windows entsprechend
+  mehr –, obwohl dafür nur die Namen der Länder gebraucht werden. Die Liste
+  kommt jetzt aus einem leichten Katalog; die Bibliothek lädt wie vorgesehen
+  im Hintergrund, während das Fenster schon steht. Das gilt auch nach jedem
+  Sprach- oder Erscheinungsbildwechsel, der das Programm neu startet.
 - Das Dokumentlabor führt angeschnittene Feldköpfe, lokale Wertschatten und
   starke Scanbeschnitte jetzt vollständig durch PDF-, DOCX- und ODT-
   Container. Die Matrix umfasst 680 Dateien aus 40 Dokumentfamilien und 17
   Containerachsen. Maskuro entfernt in den neuen sowie den vollständigen
   Grund- und Merkmalsprofilen alle Sollangaben, ohne gemessenen Fehlalarm,
   beschädigten Erhaltenswert oder Abbruch.
+
+- Mehrfach verwendete Scans werden jetzt über jede sichtbare Platzierung
+  geprüft und bereinigt: Das Dokumentlabor teilt dasselbe Bildobjekt über
+  verschiedene Seiten, Größen und Drehlagen in PDF und referenziert denselben
+  Bildteil mehrfach in DOCX und ODT. Technische ODT-Rahmennamen wie
+  „Formularscan klein quer“ gelten nicht mehr als Person; freie Namen und Orte
+  mit ähnlichem Anfang bleiben geschützt. Ein allgemeiner Formularrat des
+  abschließenden PDF-Seitenlaufs kann auf einer schon unabhängig gelesenen
+  Bildfläche keinen großen Adressfehlfund mehr erzeugen. Die 120 neuen
+  Container erreichen in Grund- und Merkmalsprofil alle 813 beziehungsweise
+  840 Sollangaben ohne Fehlalarm, Erhaltensverletzung oder Abbruch; die
+  vollständige 800-Dateien-Merkmalsabnahme bestätigt 5.600/5.600.
 
 - Das deutsche OCR-Labor umfasst jetzt 560 Scans aus 40 Dokumentfamilien.
   Neue Varianten schneiden Feldkopf- und Seitenränder an oder legen einen

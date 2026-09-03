@@ -12,6 +12,13 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## Unveröffentlicht
 
+- Die Änderungsliste erscheint jetzt in der eigenen Sprache – auf
+  maskuro.com/neuigkeiten und im Programm unter „Änderungen" sowie in „Was
+  ist neu" nach einer Aktualisierung. Bisher stand dort in allen achtzehn
+  Sprachfassungen deutscher Text unter einer übersetzten Überschrift. Wo eine
+  Übersetzung noch fehlt, bleibt die betreffende Fassung auf Deutsch stehen,
+  statt zu verschwinden; die Liste der Fassungen ist überall dieselbe.
+
 ## 0.10.50-alpha.20260903 – 3. September 2026
 
 - Wiederkehrende Firmenzeichen in PDFs werden konsistent bereinigt, auch

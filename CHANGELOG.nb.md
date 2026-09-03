@@ -6,6 +6,26 @@ Nummereringen følger den vanlige tellemåten: Det **første** tallet endrer seg
 når noe ikke lenger fungerer som før, det **andre** ved nye
 funksjoner, det **tredje** ved feilrettinger.
 
+## 0.10.52-alpha.20260903 – 3. september 2026
+
+- En bunke med mer enn fire filer stanser ikke lenger opp etter svar i flere
+  forhåndsvisningsvinduer. De neste dokumentene forberedes fortsatt i
+  bakgrunnen; etter et svar fullføres nå den tilhørende filen som den skal,
+  og neste plass i bunken frigjøres.
+- Sammenligningen av korte firmamerker i PDF-er er nå begrenset til gjenkjent
+  bildetekst. I vanlig sidetekst fører derfor ikke et langt modelltreff over
+  flere linjer til at et enkelt ord med samme ordlyd et annet sted også
+  sladdes.
+
+## 0.10.51-alpha.20260903 – 3. september 2026
+
+- Endringslisten vises nå på brukerens eget språk – på
+  maskuro.com/neuigkeiten og i programmet under «Endringer» samt i «Hva er
+  nytt» etter en oppdatering. Tidligere sto det tysk tekst under en oversatt
+  overskrift i alle de atten språkversjonene. Der en oversettelse fortsatt
+  mangler, blir den aktuelle versjonen stående på tysk i stedet for å
+  forsvinne; listen over versjoner er den samme overalt.
+
 ## 0.10.50-alpha.20260903 – 3. september 2026
 
 - Gjentakende firmamerker i PDF-er renses konsekvent, også når

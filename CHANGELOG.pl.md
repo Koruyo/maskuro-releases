@@ -8,6 +8,26 @@ możliwościach, **trzecia** przy poprawkach błędów.
 
 ---
 
+## 0.10.52-alpha.20260903 – 3 września 2026
+
+- Partia obejmująca więcej niż cztery pliki nie zatrzymuje się już po
+  udzieleniu odpowiedzi w kilku oknach podglądu. Kolejne dokumenty są nadal
+  przygotowywane w tle; po odpowiedzi odpowiedni plik jest teraz zawsze
+  przetwarzany do końca, a następne miejsce w kolejce zostaje zwolnione.
+- Dopasowywanie krótkich oznaczeń firmowych w plikach PDF ogranicza się teraz
+  do tekstu rozpoznanego na obrazach. Dzięki temu w zwykłym tekście strony
+  długie, wielowierszowe trafienie modelu nie powoduje już dodatkowego
+  zamaskowania takiego samego pojedynczego słowa w innym miejscu.
+
+## 0.10.51-alpha.20260903 – 3 września 2026
+
+- Lista zmian jest teraz wyświetlana w języku użytkownika – na
+  maskuro.com/neuigkeiten oraz w programie w sekcji „Zmiany”, a także w oknie
+  „Co nowego” po aktualizacji. Dotychczas we wszystkich osiemnastu wersjach
+  językowych pod przetłumaczonym nagłówkiem znajdował się tekst po niemiecku.
+  Jeśli tłumaczenia jeszcze brakuje, dana wersja pozostaje po niemiecku,
+  zamiast znikać; lista wersji jest wszędzie taka sama.
+
 ## 0.10.50-alpha.20260903 – 3 września 2026
 
 - Powtarzające się znaki firmowe w plikach PDF są oczyszczane spójnie, także

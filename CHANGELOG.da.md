@@ -11,6 +11,26 @@ funktioner, det **tredje** ved fejlrettelser.
 
 ---
 
+## 0.10.52-alpha.20260903 – 3. september 2026
+
+- En stak med mere end fire filer går ikke længere i stå efter svar i flere
+  forhåndsvisningsvinduer. Yderligere dokumenter forberedes fortsat i
+  baggrunden; efter et svar færdiggøres den tilhørende fil nu pålideligt,
+  og den næste plads i stakken frigives.
+- Matchningen af korte firmamærker i PDF'er er nu begrænset til genkendt
+  tekst i billeder. I almindelig sidetekst medfører et langt modeltræf over
+  flere linjer derfor ikke længere, at et identisk enkeltord et andet sted
+  også maskeres.
+
+## 0.10.51-alpha.20260903 – 3. september 2026
+
+- Ændringslisten vises nu på brugerens eget sprog – på
+  maskuro.com/neuigkeiten og i programmet under »Ændringer« samt i »Nyheder«
+  efter en opdatering. Indtil nu stod der tysk tekst under en oversat
+  overskrift i alle atten sprogversioner. Hvis en oversættelse endnu mangler,
+  bliver den pågældende version stående på tysk i stedet for at forsvinde;
+  listen over versioner er den samme overalt.
+
 ## 0.10.50-alpha.20260903 – 3. september 2026
 
 - Tilbagevendende firmamærker i PDF'er bliver nu renset konsekvent, også

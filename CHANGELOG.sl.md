@@ -6,6 +6,26 @@ ne njegove notranjosti. Kdor želi vedeti, *iz česa* je zgrajen, najde to v
 ko nekaj ne deluje več tako, kot je delovalo prej, **druga** ob novih
 zmožnostih, **tretja** ob odpravljenih napakah.
 
+## 0.10.52-alpha.20260903 – 3. september 2026
+
+- Obdelava več kot štirih datotek se po več odgovorih v oknih predogleda ne
+  ustavi več. Naslednji dokumenti se še naprej pripravljajo v ozadju; po
+  odgovoru se pripadajoča datoteka zdaj zanesljivo dokonča, s čimer se sprosti
+  naslednje mesto v čakalni vrsti.
+- Ujemanje kratkih oznak podjetij v PDF-jih je zdaj omejeno na prepoznano
+  besedilo v slikah. Zato v običajnem besedilu strani dolg večvrstični zadetek
+  modela ne povzroči več dodatnega zakritja enake posamezne besede na drugem
+  mestu.
+
+## 0.10.51-alpha.20260903 – 3. september 2026
+
+- Seznam sprememb se zdaj prikaže v izbranem jeziku – na
+  maskuro.com/neuigkeiten in v programu pod »Spremembe« ter v »Kaj je novega«
+  po posodobitvi. Doslej je bilo v vseh osemnajstih jezikovnih različicah pod
+  prevedenim naslovom besedilo v nemščini. Kjer prevod še manjka, ustrezna
+  različica ostane v nemščini, namesto da izgine; seznam različic je povsod
+  enak.
+
 ## 0.10.50-alpha.20260903 – 3. september 2026
 
 - Ponavljajoči se znaki podjetij v PDF-jih se zdaj čistijo skladno, tudi

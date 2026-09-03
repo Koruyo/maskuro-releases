@@ -11,6 +11,26 @@ funzionalità, il **terzo** per correzioni di errori.
 
 ---
 
+## 0.10.52-alpha.20260903 – 3 settembre 2026
+
+- Un lotto di più di quattro file non rimane più bloccato dopo più risposte
+  nelle finestre di anteprima. Gli altri documenti continuano a essere
+  preparati in background; dopo una risposta, il file corrispondente viene
+  ora completato in modo affidabile e si libera il posto successivo nel lotto.
+- Il confronto dei loghi aziendali brevi nei PDF è ora limitato al testo
+  riconosciuto nelle immagini. Nel normale testo della pagina, una lunga
+  corrispondenza del modello estesa su più righe non fa quindi più oscurare
+  anche una singola parola identica in un altro punto.
+
+## 0.10.51-alpha.20260903 – 3 settembre 2026
+
+- L'elenco delle modifiche viene ora visualizzato nella lingua dell'utente –
+  su maskuro.com/neuigkeiten e nel programma alla voce «Modifiche», nonché in
+  «Novità» dopo un aggiornamento. Finora, in tutte e diciotto le versioni
+  linguistiche appariva testo in tedesco sotto un'intestazione tradotta. Se
+  una traduzione manca ancora, la versione interessata rimane in tedesco
+  invece di scomparire; l'elenco delle versioni è uguale ovunque.
+
 ## 0.10.50-alpha.20260903 – 3 settembre 2026
 
 - I loghi aziendali ricorrenti nei PDF vengono bonificati in modo coerente,

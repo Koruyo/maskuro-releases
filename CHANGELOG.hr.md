@@ -1,5 +1,23 @@
 
 
+## 0.10.52-beta.2 – 25. listopada 2026
+
+- Sigurnost: priložene korijenske potvrde za sve odlazne veze (ažuriranja, licenca, preuzimanja) obnovljene su; prethodna inačica sadržavala je korijene certifikacijskog tijela čiji su posrednički ključevi kompromitirani.
+- Engleski zapisnici: tko je na popisu prisutnih predstavljen inicijalima („Lin Collis (LC)”), njegovi se inicijali zamjenjuju u cijelom zapisniku.
+- Engleski nacrti i izvješća: inicijali u tablicama revizija i odobrenja („Issued by”, „Checked”, „Approved”) i nakon „Checked by:” zamjenjuju se.
+- Engleski dokumenti: kratica udruge ili tvrtke čiji se puni naziv pojavljuje u dokumentu („British Ports Association” … „BPA”) zamjenjuje se posvuda; kratice tijela vlasti („ICO”, „HSE”) ostaju.
+- Engleski dokumenti: provjera nesigurnih nalaza, naučena samo na njemačkim dokumentima, ondje više ne odlučuje – ostavljala je engleske nazive udruga i tvrtki. Kratki naziv tijela ili sveučilišta uveden u ugovoru („… (Imperial)”) ostaje kao i njegov puni naziv.
+- Engleski dokumenti iz Ujedinjenog Kraljevstva i Irske: tijela vlasti, councils, ministarstva, sudovi, policija, NHS i državna sveučilišta ostaju kao javna tijela u njemačkim dokumentima; njihovi djelatnici i kontaktni podaci i dalje se zamjenjuju. Državna poduzeća i community councils ostaju zaštićeni. Irski nazivi tvrtki s „CLG”, „DAC” ili „Teoranta” zamjenjuju se u cijelosti.
+- Irska se može odabrati kao zemlja i dio je automatskog odabira za engleske dokumente: prepoznaju se Eircode, PPS broj, irski brojevi PDV-a, tvrtki (CRO) i dobrotvornih organizacija (RCN, CHY) te irski telefonski brojevi.
+- Njemački zavod za zapošljavanje „Agentur für Arbeit” ostaje kao tijelo vlasti, kao i druga javna tijela.
+- Dokumenti na jezicima osim njemačkog i engleskog: nazivi mjesta i tvrtki („Zagrebu”, poljski podaci o zemlji) ponovno se pouzdano zamjenjuju – provjera nesigurnih nalaza, koja poznaje samo njemačke dokumente, ondje više ne odlučuje. U prozoru Doradi mjesto koje sami označite ponovno dobiva rezervirano mjesto za mjesto umjesto za pojam.
+- Manje nepotrebno zacrnjenog činjeničnog teksta: provjera je li nesiguran nalaz doista osobni podatak ponovno je naučena na svim dosadašnjim krugovima ispitivanja. Na izdvojenim dokumentima ostalo je oko petine više naziva mjesta, proizvoda i ustanova, a da nije ostalo više imena, adresa ili telefonskih brojeva.
+- Općinska izvješća o energiji, zgradama i proračunu ostaju čitljivija: nekretnine općine („Feuerwehr Stein”, „Rathaus Cleversulzbach”, „Kita Waldweg”, „Museum im Schafstall”, „ARA Mülenen”) ostaju i u tablicama potrošnje, kao i godina izvješća u zaglavlju stranice („Energiebericht 2025 Neuenstadt a. K.”) i brojevi funkcija švicarskog proračuna na svim stranicama. Adrese s kućnim brojem i dalje se zamjenjuju. Popis zaposlenika čija stranica pogrešno kodira preglase više se ne odbija zbog funkcije „Bürgermeister”.
+- Spremljene web-stranice: kućni brojevi koji se u izvornom kodu stranice izravno dodiruju s riječju sada se prepoznaju i zamjenjuju; poveznice na osobne stranice i posjetnice („…/personen/herr-max-muster-915000314.html”, „.vcf”) zamjenjuju se zajedno s oslovljavanjem i brojem zapisa.
+- PDF: logotip tvrtke u zaglavlju stranice uklanja se na svim stranicama, čak i kad je na svakoj stranici spremljen kao zasebna slika. Skraćena rezervirana mjesta („[OR4]”) sada se mogu vratiti na svakom mjestu, ne samo na prvom.
+- Manje lažnih uzbuna: glavni gradovi saveznih zemalja, Statistik Austria, okružne građevinske uprave, kazališta, garaže, umjetničke i glazbene škole, dobrovoljna vatrogasna društva i centri za njegu ostaju, kao i navodi izvora karata poput „©Suradnici OpenStreetMapa” ili „Esri”.
+- Imena se pouzdanije zamjenjuju: sa skraćenim imenom nakon oslovljavanja („Frau N. Muster”), prezimena koja su ujedno funkcija na stranom jeziku („Dr.-Ing. Wolf Maire”) te ime i prezime velikim slovima sami u retku popisa skena. Male ugrađene slike potpisa zacrnjuju se i kad je preko stranice pečat provjere.
+
 ## 0.10.52-beta.1 – 19. listopada 2026.
 
 - Preuzimanje visoke razine ponovno radi: model prepoznavanja sada se

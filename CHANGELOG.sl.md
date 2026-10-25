@@ -6,6 +6,24 @@ ne njegove notranjosti. Kdor želi vedeti, *iz česa* je zgrajen, najde to v
 ko nekaj ne deluje več tako, kot je delovalo prej, **druga** ob novih
 zmožnostih, **tretja** ob odpravljenih napakah.
 
+## 0.10.52-beta.2 – 25. oktober 2026
+
+- Varnost: priložena korenska potrdila za vse odhodne povezave (posodobitve, licenca, prenosi) so obnovljena; prejšnja različica je vsebovala korene overitelja, katerega vmesni ključi so ogroženi.
+- Angleški zapisniki: kdor je na seznamu prisotnih predstavljen z začetnicami („Lin Collis (LC)“), dobi začetnice zamenjane v celotnem zapisniku.
+- Angleški načrti in poročila: začetnice v tabelah revizij in odobritev („Issued by“, „Checked“, „Approved“) ter za „Checked by:“ se zamenjajo.
+- Angleški dokumenti: kratica društva ali podjetja, ki je v dokumentu zapisano s polnim imenom („British Ports Association“ … „BPA“), se zamenja povsod; kratice organov („ICO“, „HSE“) ostanejo.
+- Angleški dokumenti: preverjanje negotovih najdb, naučeno samo na nemških dokumentih, tam ne odloča več – pustilo je angleška imena društev in podjetij. Kratko ime organa ali univerze, uvedeno v pogodbi („… (Imperial)“), ostane kot njegovo polno ime.
+- Angleški dokumenti iz Združenega kraljestva in Irske: organi, councils, ministrstva, sodišča, policija, NHS in državne univerze ostanejo kot javni organi v nemških dokumentih; njihovi uslužbenci in kontaktni podatki se še naprej zamenjajo. Državna podjetja in community councils ostanejo zaščiteni. Irska imena podjetij s „CLG“, „DAC“ ali „Teoranta“ se zamenjajo v celoti.
+- Irsko je mogoče izbrati kot državo in je del samodejne izbire za angleške dokumente: prepoznajo se Eircode, številka PPS, irske številke za DDV, podjetja (CRO) in dobrodelne organizacije (RCN, CHY) ter irske telefonske številke.
+- Nemški zavod za zaposlovanje „Agentur für Arbeit“ ostane kot organ, tako kot drugi javni organi.
+- Dokumenti v drugih jezikih kot nemščini in angleščini: imena krajev in podjetij („Zagrebu“, poljski podatki o državi) se znova zanesljivo zamenjajo – preverjanje negotovih najdb, ki pozna samo nemške dokumente, tam ne odloča več. V oknu Popravi kraj, ki ga označite sami, znova dobi ogrado za kraj namesto za pojem.
+- Manj po nepotrebnem počrnjenega stvarnega besedila: preverjanje, ali je negotova najdba res osebni podatek, je bilo na novo naučeno na vseh dosedanjih preizkusnih krogih. Na zadržanih dokumentih je ostalo približno petino več imen krajev, izdelkov in ustanov, ne da bi ostalo več imen, naslovov ali telefonskih številk.
+- Občinska poročila o energiji, stavbah in proračunu ostanejo bolj berljiva: nepremičnine občine („Feuerwehr Stein“, „Rathaus Cleversulzbach“, „Kita Waldweg“, „Museum im Schafstall“, „ARA Mülenen“) ostanejo tudi v tabelah porabe, prav tako leto poročila v glavi strani („Energiebericht 2025 Neuenstadt a. K.“) in številke funkcij švicarskega proračuna na vseh straneh. Naslovi s hišno številko se še naprej zamenjajo. Seznam zaposlenih, katerega stran napačno kodira preglase, se ne zavrne več zaradi funkcije „Bürgermeister“.
+- Shranjene spletne strani: interne številke, ki se v izvorni kodi strani neposredno dotikajo besede, se zdaj prepoznajo in zamenjajo; povezave na osebne strani in vizitke („…/personen/herr-max-muster-915000314.html“, „.vcf“) se zamenjajo skupaj z nagovorom in številko zapisa.
+- PDF: logotip podjetja v glavi strani se odstrani na vseh straneh, tudi če je na vsaki strani shranjen kot posebna slika. Skrajšane ograde („[OR4]“) je zdaj mogoče vrniti na vsakem mestu, ne le na prvem.
+- Manj lažnih alarmov: glavna mesta zveznih dežel, Statistik Austria, okrajne gradbene uprave, gledališča, parkirne hiše, umetniške in glasbene šole, prostovoljna gasilska društva in negovalni centri ostanejo, prav tako navedbe virov zemljevidov, kot sta „©Sodelavci OpenStreetMap“ ali „Esri“.
+- Imena se zamenjajo zanesljiveje: s skrajšanim imenom za nagovorom („Frau N. Muster“), priimki, ki so hkrati funkcija v tujem jeziku („Dr.-Ing. Wolf Maire“), ter ime s priimkom z velikimi črkami sama v vrstici seznama skena. Majhne vdelane slike podpisov se počrnijo tudi, ko je čez stran žig pregleda.
+
 ## 0.10.52-beta.1 – 19. oktober 2026
 
 - Prenos visoke stopnje spet deluje: model za prepoznavanje se zdaj prenaša

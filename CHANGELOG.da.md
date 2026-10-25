@@ -11,6 +11,24 @@ funktioner, det **tredje** ved fejlrettelser.
 
 ---
 
+## 0.10.52-beta.2 – 25. oktober 2026
+
+- Sikkerhed: de medfølgende rodcertifikater til alle udgående forbindelser (opdateringer, licens, downloads) er fornyet; den tidligere version indeholdt rødder fra en certifikatudsteder, hvis mellemliggende nøgler er kompromitteret.
+- Engelske referater: den, der præsenteres med initialer på deltagerlisten („Lin Collis (LC)“), får sine initialer erstattet i hele referatet.
+- Engelske tegninger og rapporter: initialer i revisions- og godkendelsestabeller („Issued by“, „Checked“, „Approved“) og efter „Checked by:“ erstattes.
+- Engelske dokumenter: forkortelsen for en forening eller virksomhed, der står skrevet fuldt ud i dokumentet („British Ports Association“ … „BPA“), erstattes overalt; forkortelser for myndigheder („ICO“, „HSE“) bliver stående.
+- Engelske dokumenter: kontrollen af usikre fund, der kun er trænet på tyske dokumenter, afgør ikke længere noget der – den havde ladet engelske forenings- og firmanavne stå. Et kortnavn for en myndighed eller et universitet, der indføres i en kontrakt („… (Imperial)“), bliver stående ligesom det fulde navn.
+- Engelske dokumenter fra Storbritannien og Irland: myndigheder, councils, ministerier, domstole, politi, NHS og statslige universiteter bliver stående som offentlige instanser i tyske dokumenter; deres ansatte og kontaktoplysninger erstattes stadig. Statsejede virksomheder og community councils forbliver beskyttede. Irske firmanavne med „CLG“, „DAC“ eller „Teoranta“ erstattes helt.
+- Irland kan vælges som land og indgår i det automatiske valg for engelske dokumenter: Eircode, PPS-nummer, irske moms-, virksomheds- (CRO) og velgørenhedsnumre (RCN, CHY) samt irske telefonnumre genkendes.
+- Det tyske arbejdsformidlingskontor „Agentur für Arbeit“ bliver stående som myndighed ligesom andre offentlige instanser.
+- Dokumenter på andre sprog end tysk og engelsk: steds- og firmanavne („Zagrebu“, polske landeoplysninger) erstattes igen pålideligt – kontrollen af usikre fund, der kun kender tyske dokumenter, afgør ikke længere noget der. I Efterbehandling får et sted, du selv markerer, igen pladsholderen for sted i stedet for begreb.
+- Mindre faktuel tekst sløret unødigt: kontrollen af, om et usikkert fund virkelig er en personoplysning, er trænet på ny med alle tidligere testrunder. På tilbageholdte dokumenter blev omkring en femtedel flere steds-, produkt- og institutionsnavne stående, uden at flere navne, adresser eller telefonnumre blev stående.
+- Kommunale energi-, bygnings- og budgetrapporter forbliver mere læsbare: kommunens ejendomme („Feuerwehr Stein“, „Rathaus Cleversulzbach“, „Kita Waldweg“, „Museum im Schafstall“, „ARA Mülenen“) bliver også stående i forbrugstabeller, ligesom rapportåret i sidehovedet („Energiebericht 2025 Neuenstadt a. K.“) og funktionsnumrene i et schweizisk budget på alle sider. Adresser med husnummer erstattes stadig. En personaleliste, hvis side koder omlyd forkert, afvises ikke længere på grund af embedet „Bürgermeister“.
+- Gemte websider: lokalnumre, der i sidens kildekode støder direkte op til et ord, genkendes nu og erstattes; links til personsider og visitkort („…/personen/herr-max-muster-915000314.html“, „.vcf“) erstattes sammen med tiltale og postnummer.
+- PDF: et firmalogo i sidehovedet fjernes på alle sider, også når det er gemt som et eget billede på hver side. Forkortede pladsholdere („[OR4]“) kan nu hentes tilbage alle steder, ikke kun det første.
+- Færre falske alarmer: delstatshovedstæder, Statistik Austria, distrikternes byggeforvaltninger, teatre, parkeringshuse, kunst- og musikskoler, frivillige brandværn og plejecentre bliver stående, ligesom kortkreditering som „©OpenStreetMap-bidragydere“ eller „Esri“.
+- Navne erstattes mere pålideligt: med forkortet fornavn efter tiltalen („Frau N. Muster“), efternavne, der også er et embede på et fremmed sprog („Dr.-Ing. Wolf Maire“), og fornavn plus efternavn med versaler alene på en listelinje i en scanning. Små indlejrede underskriftsbilleder sløres også, når et kontrolstempel ligger over siden.
+
 ## 0.10.52-beta.1 – 19. oktober 2026
 
 - Indlæsning af det høje niveau virker igen: Genkendelsesmodellen hentes nu

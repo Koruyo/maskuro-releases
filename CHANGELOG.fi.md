@@ -8,6 +8,24 @@ Numerointi noudattaa tavanomaista käytäntöä: **ensimmäinen** luku muuttuu,
 kun jokin ei enää toimi kuten ennen, **toinen** uusien ominaisuuksien
 myötä, **kolmas** virheenkorjausten myötä.
 
+## 0.10.52-beta.2 – 25. lokakuuta 2026
+
+- Tietoturva: kaikkien ulospäin suuntautuvien yhteyksien (päivitykset, lisenssi, lataukset) mukana toimitetut juurivarmenteet on uusittu; aiempi versio sisälsi juuria varmentajalta, jonka välivarmenteiden avaimet on vaarannettu.
+- Englanninkieliset pöytäkirjat: kun joku esitellään läsnäololistassa nimikirjaimin (”Lin Collis (LC)”), nimikirjaimet korvataan koko pöytäkirjassa.
+- Englanninkieliset piirustukset ja raportit: revisio- ja hyväksyntätaulukoiden nimikirjaimet (”Issued by”, ”Checked”, ”Approved”) ja ”Checked by:” -merkinnän jälkeiset nimikirjaimet korvataan.
+- Englanninkieliset asiakirjat: yhdistyksen tai yrityksen lyhenne, jonka koko nimi esiintyy asiakirjassa (”British Ports Association” … ”BPA”), korvataan kaikkialla; viranomaisten lyhenteet (”ICO”, ”HSE”) säilyvät.
+- Englanninkieliset asiakirjat: epävarmojen löydösten tarkistus, joka on opetettu vain saksankielisillä asiakirjoilla, ei enää ratkaise niissä – se oli jättänyt englantilaisia yhdistysten ja yritysten nimiä paikoilleen. Sopimuksessa käyttöön otettu viranomaisen tai yliopiston lyhyt nimi (”… (Imperial)”) säilyy kuten koko nimikin.
+- Iso-Britannian ja Irlannin englanninkieliset asiakirjat: viranomaiset, councils, ministeriöt, tuomioistuimet, poliisi, NHS ja valtion yliopistot säilyvät kuten julkiset tahot saksankielisissä asiakirjoissa; niiden henkilöstö ja yhteystiedot korvataan edelleen. Valtion omistamat yritykset ja community councils pysyvät suojattuina. Irlantilaiset yritysnimet, joissa on ”CLG”, ”DAC” tai ”Teoranta”, korvataan kokonaan.
+- Irlannin voi valita maaksi, ja se kuuluu englanninkielisten asiakirjojen automaattiseen valintaan: Eircode, PPS-numero, irlantilaiset ALV-, yritys- (CRO) ja hyväntekeväisyysnumerot (RCN, CHY) sekä irlantilaiset puhelinnumerot tunnistetaan.
+- Saksan työvoimaviranomainen ”Agentur für Arbeit” säilyy viranomaisena kuten muutkin julkiset tahot.
+- Muut kuin saksan- ja englanninkieliset asiakirjat: paikkojen ja yritysten nimet (”Zagrebu”, puolalaiset maatiedot) korvataan taas luotettavasti – epävarmojen löydösten tarkistus, joka tuntee vain saksankielisiä asiakirjoja, ei enää ratkaise niissä. Viimeistely-ikkunassa itse merkitsemäsi paikka saa taas paikan paikkamerkin käsitteen paikkamerkin sijaan.
+- Vähemmän turhaan peitettyä asiatekstiä: tarkistus siitä, onko epävarma löydös todella henkilötieto, on opetettu uudelleen kaikilla aiemmilla testikierroksilla. Sivuun jätetyissä asiakirjoissa säilyi noin viidennes enemmän paikkojen, tuotteiden ja laitosten nimiä ilman, että nimiä, osoitteita tai puhelinnumeroita jäi enempää näkyviin.
+- Kuntien energia-, rakennus- ja talousarvioraportit pysyvät luettavampina: kunnan kiinteistöt (”Feuerwehr Stein”, ”Rathaus Cleversulzbach”, ”Kita Waldweg”, ”Museum im Schafstall”, ”ARA Mülenen”) säilyvät myös kulutustaulukoissa, samoin raportin vuosi sivun ylätunnisteessa (”Energiebericht 2025 Neuenstadt a. K.”) ja sveitsiläisen talousarvion tehtävänumerot kaikilla sivuilla. Osoitteet talonumeroineen korvataan edelleen. Henkilöstöluetteloa, jonka sivu koodaa ääkköset väärin, ei enää hylätä viran ”Bürgermeister” takia.
+- Tallennetut verkkosivut: alanumerot, jotka sivun lähdekoodissa ovat suoraan kiinni sanassa, tunnistetaan nyt ja korvataan; linkit henkilösivuille ja käyntikortteihin (”…/personen/herr-max-muster-915000314.html”, ”.vcf”) korvataan yhdessä puhuttelun ja tietuenumeron kanssa.
+- PDF: yrityksen logo sivun ylätunnisteessa poistetaan kaikilta sivuilta, vaikka se olisi tallennettu omana kuvanaan joka sivulle. Lyhennetyt paikkamerkit (”[OR4]”) voi nyt palauttaa jokaisessa kohdassa, ei vain ensimmäisessä.
+- Vähemmän vääriä hälytyksiä: osavaltioiden pääkaupungit, Statistik Austria, piirien rakennusvirastot, teatterit, pysäköintitalot, taide- ja musiikkikoulut, vapaapalokunnat ja hoivakeskukset säilyvät, samoin karttojen lähdemerkinnät kuten ”©OpenStreetMap-tekijät” tai ”Esri”.
+- Nimet korvataan luotettavammin: lyhennetty etunimi puhuttelun jälkeen (”Frau N. Muster”), sukunimet, jotka ovat myös vieraskielinen virka (”Dr.-Ing. Wolf Maire”), sekä etunimi ja suuraakkosin kirjoitettu sukunimi yksinään skannauksen luettelorivillä. Pienet upotetut allekirjoituskuvat peitetään, vaikka tarkastusleima olisi sivun päällä.
+
 ## 0.10.52-beta.1 – 19. lokakuuta 2026
 
 - Korkean tason lataaminen toimii taas: Tunnistusmalli ladataan nyt samasta

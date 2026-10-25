@@ -11,6 +11,24 @@ funzionalità, il **terzo** per correzioni di errori.
 
 ---
 
+## 0.10.52-beta.2 – 25 ottobre 2026
+
+- Sicurezza: i certificati radice inclusi per tutte le connessioni in uscita (aggiornamenti, licenza, download) sono stati rinnovati; la versione precedente conteneva radici di un'autorità di certificazione le cui chiavi intermedie sono compromesse.
+- Verbali in inglese: quando qualcuno viene presentato con le iniziali nell'elenco dei presenti («Lin Collis (LC)»), quelle iniziali vengono sostituite in tutto il verbale.
+- Disegni e relazioni in inglese: le iniziali nelle tabelle di revisione e approvazione («Issued by», «Checked», «Approved») e dopo «Checked by:» vengono sostituite.
+- Documenti in inglese: la sigla di un'associazione o di un'azienda che compare per esteso nel documento («British Ports Association» … «BPA») viene sostituita ovunque; le sigle delle autorità («ICO», «HSE») restano.
+- Documenti in inglese: la verifica dei rilevamenti incerti, addestrata solo su documenti tedeschi, non si pronuncia più su di essi – aveva lasciato nomi di associazioni e aziende inglesi. Il nome breve di un'autorità o università introdotto in un contratto («… (Imperial)») resta come il suo nome completo.
+- Documenti in inglese dal Regno Unito e dall'Irlanda: autorità, councils, ministeri, tribunali, polizia, NHS e università statali restano come gli enti pubblici nei documenti tedeschi; il loro personale e i recapiti continuano a essere sostituiti. Le aziende statali e i community councils restano protetti. I nomi di aziende irlandesi con «CLG», «DAC» o «Teoranta» vengono sostituiti per intero.
+- L'Irlanda si può scegliere come paese e fa parte della selezione automatica per i documenti in inglese: vengono riconosciuti Eircode, numero PPS, numeri irlandesi di partita IVA, d'impresa (CRO) e di enti di beneficenza (RCN, CHY) e i numeri di telefono irlandesi.
+- L'agenzia tedesca per il lavoro «Agentur für Arbeit» resta come autorità, al pari degli altri enti pubblici.
+- Documenti in lingue diverse dal tedesco e dall'inglese: i nomi di luoghi e aziende («Zagrebu», indicazioni di paese polacche) vengono di nuovo sostituiti in modo affidabile – la verifica dei rilevamenti incerti, che conosce solo documenti tedeschi, lì non si pronuncia più. In Ritocca, un luogo marcato da voi riceve di nuovo il segnaposto «luogo» invece di «termine».
+- Meno testo descrittivo oscurato inutilmente: la verifica che stabilisce se un rilevamento incerto è davvero un dato personale è stata riaddestrata su tutte le precedenti tornate di prova. Su documenti tenuti da parte sono rimasti circa un quinto in più di nomi di luoghi, prodotti e strutture, senza che restassero più nomi, indirizzi o numeri di telefono.
+- I rapporti comunali su energia, edifici e bilancio restano più leggibili: gli immobili del comune («Feuerwehr Stein», «Rathaus Cleversulzbach», «Kita Waldweg», «Museum im Schafstall», «ARA Mülenen») restano anche nelle tabelle dei consumi, così come l'anno del rapporto nell'intestazione («Energiebericht 2025 Neuenstadt a. K.») e i numeri di funzione di un bilancio svizzero su tutte le pagine. Gli indirizzi con numero civico continuano a essere sostituiti. Un elenco del personale la cui pagina codifica male le dieresi non viene più rifiutato a causa della carica «Bürgermeister».
+- Pagine web salvate: i numeri interni che nel sorgente toccano direttamente una parola ora vengono riconosciuti e sostituiti; i link a pagine personali e biglietti da visita («…/personen/herr-max-muster-915000314.html», «.vcf») vengono sostituiti insieme all'appellativo e al numero di registrazione.
+- PDF: il logo aziendale nell'intestazione viene rimosso su tutte le pagine, anche se è salvato come immagine distinta su ogni pagina. I segnaposto abbreviati («[OR4]») ora si possono ripristinare in ogni punto, non solo nel primo.
+- Meno falsi allarmi: capoluoghi regionali, Statistik Austria, direzioni edilizie distrettuali, teatri, parcheggi, scuole d'arte e di musica, vigili del fuoco volontari e centri di assistenza restano, così come le attribuzioni delle mappe come «©Collaboratori di OpenStreetMap» o «Esri».
+- I nomi vengono sostituiti in modo più affidabile: con il nome abbreviato dopo l'appellativo («Frau N. Muster»), cognomi che sono anche una carica in un'altra lingua («Dr.-Ing. Wolf Maire») e un nome seguito da un cognome in maiuscolo da soli su una riga di elenco di una scansione. Le piccole immagini di firma incorporate vengono oscurate anche quando un timbro di controllo copre la pagina.
+
 ## 0.10.52-beta.1 – 19 ottobre 2026
 
 - Il download del livello alto funziona di nuovo: il modello di rilevamento

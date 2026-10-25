@@ -10,6 +10,24 @@ något inte längre fungerar som förut, den **andra** vid nya funktioner, den
 
 ---
 
+## 0.10.52-beta.2 – 25 oktober 2026
+
+- Säkerhet: de medföljande rotcertifikaten för alla utgående anslutningar (uppdateringar, licens, nedladdningar) har förnyats; den tidigare versionen innehöll rötter från en certifikatutfärdare vars mellanliggande nycklar är komprometterade.
+- Engelska protokoll: den som presenteras med initialer i närvarolistan (”Lin Collis (LC)”) får sina initialer ersatta i hela protokollet.
+- Engelska ritningar och rapporter: initialer i revisions- och godkännandetabeller (”Issued by”, ”Checked”, ”Approved”) och efter ”Checked by:” ersätts.
+- Engelska dokument: förkortningen för en förening eller ett företag som skrivs ut i dokumentet (”British Ports Association” … ”BPA”) ersätts överallt; förkortningar för myndigheter (”ICO”, ”HSE”) står kvar.
+- Engelska dokument: kontrollen av osäkra fynd, som bara tränats på tyska dokument, avgör inte längre där – den hade låtit engelska förenings- och företagsnamn stå kvar. Ett kortnamn för en myndighet eller ett universitet som införs i ett avtal (”… (Imperial)”) står kvar precis som det fullständiga namnet.
+- Engelska dokument från Storbritannien och Irland: myndigheter, councils, ministerier, domstolar, polis, NHS och statliga universitet står kvar, som offentliga organ i tyska dokument; deras personal och kontaktuppgifter ersätts fortfarande. Statligt ägda företag och community councils förblir skyddade. Irländska företagsnamn med ”CLG”, ”DAC” eller ”Teoranta” ersätts i sin helhet.
+- Irland kan väljas som land och ingår i det automatiska valet för engelska dokument: Eircode, PPS-nummer, irländska moms-, företags- (CRO) och välgörenhetsnummer (RCN, CHY) samt irländska telefonnummer känns igen.
+- Den tyska arbetsförmedlingen ”Agentur für Arbeit” står kvar som myndighet, liksom andra offentliga organ.
+- Dokument på andra språk än tyska och engelska: ort- och företagsnamn (”Zagrebu”, polska landsuppgifter) ersätts åter tillförlitligt – kontrollen av osäkra fynd, som bara känner tyska dokument, avgör inte längre där. I Efterbearbeta får en ort som du själv markerar åter platshållaren för ort i stället för begrepp.
+- Mindre sakinnehåll i onödan svärtat: kontrollen av om ett osäkert fynd verkligen är en personuppgift har tränats om på alla tidigare testomgångar. På undanhållna dokument stod ungefär en femtedel fler ort-, produkt- och anläggningsnamn kvar, utan att fler namn, adresser eller telefonnummer stod kvar.
+- Kommunala energi-, byggnads- och budgetrapporter förblir mer läsbara: kommunens fastigheter (”Feuerwehr Stein”, ”Rathaus Cleversulzbach”, ”Kita Waldweg”, ”Museum im Schafstall”, ”ARA Mülenen”) står kvar även i förbrukningstabeller, liksom rapportåret i sidhuvudet (”Energiebericht 2025 Neuenstadt a. K.”) och funktionsnumren i en schweizisk budget på alla sidor. Adresser med husnummer ersätts fortfarande. En personallista vars sida kodar omljud fel avvisas inte längre på grund av ämbetet ”Bürgermeister”.
+- Sparade webbsidor: anknytningsnummer som i sidkoden ligger direkt mot ett ord känns nu igen och ersätts; länkar till personsidor och visitkort (”…/personen/herr-max-muster-915000314.html”, ”.vcf”) ersätts tillsammans med tilltal och postnummer i registret.
+- PDF: en företagslogotyp i sidhuvudet tas bort på alla sidor, även när den ligger som egen bild på varje sida. Förkortade platshållare (”[OR4]”) kan nu återställas på varje ställe, inte bara på det första.
+- Färre falsklarm: delstatshuvudstäder, Statistik Austria, distriktens byggförvaltningar, teatrar, parkeringshus, konst- och musikskolor, frivilliga brandkårer och vårdcentra står kvar, liksom kartkrediteringar som ”©OpenStreetMap-bidragsgivare” eller ”Esri”.
+- Namn ersätts mer tillförlitligt: med förkortat förnamn efter tilltalet (”Frau N. Muster”), efternamn som också är ett ämbete på ett annat språk (”Dr.-Ing. Wolf Maire”) samt förnamn plus efternamn med versaler ensamma på en listrad i en skanning. Små inbäddade signaturbilder svärtas även när en granskningsstämpel ligger över sidan.
+
 ## 0.10.52-beta.1 – 19 oktober 2026
 
 - Nedladdningen av hög nivå fungerar igen: Identifieringsmodellen hämtas nu

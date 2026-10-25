@@ -6,6 +6,24 @@ Nummereringen følger den vanlige tellemåten: Det **første** tallet endrer seg
 når noe ikke lenger fungerer som før, det **andre** ved nye
 funksjoner, det **tredje** ved feilrettinger.
 
+## 0.10.52-beta.2 – 25. oktober 2026
+
+- Sikkerhet: de medfølgende rotsertifikatene for alle utgående tilkoblinger (oppdateringer, lisens, nedlastinger) er fornyet; den tidligere versjonen inneholdt røtter fra en sertifikatutsteder med kompromitterte mellomnøkler.
+- Engelske referater: den som presenteres med initialer i deltakerlisten («Lin Collis (LC)»), får initialene sine erstattet i hele referatet.
+- Engelske tegninger og rapporter: initialer i revisjons- og godkjenningstabeller («Issued by», «Checked», «Approved») og etter «Checked by:» erstattes.
+- Engelske dokumenter: forkortelsen for en forening eller et selskap som står skrevet fullt ut i dokumentet («British Ports Association» … «BPA»), erstattes overalt; forkortelser for myndigheter («ICO», «HSE») blir stående.
+- Engelske dokumenter: kontrollen av usikre funn, som bare er trent på tyske dokumenter, avgjør ikke lenger noe der – den hadde latt engelske forenings- og firmanavn stå. Et kortnavn for en myndighet eller et universitet som innføres i en kontrakt («… (Imperial)»), blir stående akkurat som det fulle navnet.
+- Engelske dokumenter fra Storbritannia og Irland: myndigheter, councils, departementer, domstoler, politi, NHS og statlige universiteter blir stående som offentlige organer i tyske dokumenter; ansatte og kontaktopplysninger erstattes fortsatt. Statseide selskaper og community councils forblir beskyttet. Irske firmanavn med «CLG», «DAC» eller «Teoranta» erstattes i sin helhet.
+- Irland kan velges som land og inngår i det automatiske valget for engelske dokumenter: Eircode, PPS-nummer, irske mva-, foretaks- (CRO) og veldedighetsnumre (RCN, CHY) og irske telefonnumre gjenkjennes.
+- Det tyske arbeidsformidlingskontoret «Agentur für Arbeit» blir stående som myndighet, som andre offentlige organer.
+- Dokumenter på andre språk enn tysk og engelsk: steds- og firmanavn («Zagrebu», polske landopplysninger) erstattes igjen pålitelig – kontrollen av usikre funn, som bare kjenner tyske dokumenter, avgjør ikke lenger noe der. I Finpuss får et sted du selv markerer, igjen plassholderen for sted i stedet for begrep.
+- Mindre faktatekst sladdet unødvendig: kontrollen av om et usikkert funn virkelig er en personopplysning, er trent på nytt med alle tidligere testrunder. På tilbakeholdte dokumenter ble omtrent en femtedel flere steds-, produkt- og innretningsnavn stående, uten at flere navn, adresser eller telefonnumre ble stående.
+- Kommunale energi-, bygnings- og budsjettrapporter forblir mer lesbare: kommunens eiendommer («Feuerwehr Stein», «Rathaus Cleversulzbach», «Kita Waldweg», «Museum im Schafstall», «ARA Mülenen») blir også stående i forbrukstabeller, det samme gjør rapportåret i topptekst («Energiebericht 2025 Neuenstadt a. K.») og funksjonsnumrene i et sveitsisk budsjett på alle sider. Adresser med husnummer erstattes fortsatt. En personalliste der siden koder omlyd feil, avvises ikke lenger på grunn av embetet «Bürgermeister».
+- Lagrede nettsider: internnumre som i sidekoden ligger direkte inntil et ord, gjenkjennes nå og erstattes; lenker til personsider og visittkort («…/personen/herr-max-muster-915000314.html», «.vcf») erstattes sammen med tiltale og registreringsnummer.
+- PDF: en firmalogo i toppteksten fjernes på alle sider, også når den er lagret som eget bilde på hver side. Forkortede plassholdere («[OR4]») kan nå hentes tilbake på alle steder, ikke bare det første.
+- Færre falske alarmer: delstatshovedsteder, Statistik Austria, distriktenes byggeforvaltninger, teatre, parkeringshus, kunst- og musikkskoler, frivillige brannkorps og omsorgssentre blir stående, det samme gjør kartkreditering som «©OpenStreetMap-bidragsytere» eller «Esri».
+- Navn erstattes mer pålitelig: med forkortet fornavn etter tiltalen («Frau N. Muster»), etternavn som også er et embete på et annet språk («Dr.-Ing. Wolf Maire»), og fornavn pluss etternavn med store bokstaver alene på en listelinje i en skanning. Små innebygde signaturbilder sladdes også når et kontrollstempel ligger over siden.
+
 ## 0.10.52-beta.1 – 19. oktober 2026
 
 - Nedlasting av høyt nivå fungerer igjen: Gjenkjenningsmodellen hentes nå

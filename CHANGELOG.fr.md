@@ -11,6 +11,24 @@ bugs.
 
 ---
 
+## 0.10.52-beta.2 – 25 octobre 2026
+
+- Sécurité : les certificats racines fournis pour toutes les connexions sortantes (mises à jour, licence, téléchargements) ont été renouvelés ; l'ancienne version contenait des racines d'une autorité de certification dont les clés intermédiaires sont compromises.
+- Procès-verbaux en anglais : lorsqu'une personne est présentée avec ses initiales dans la liste de présence (« Lin Collis (LC) »), ces initiales sont remplacées dans tout le procès-verbal.
+- Plans et rapports en anglais : les initiales dans les tableaux de révision et de validation (« Issued by », « Checked », « Approved ») et après « Checked by: » sont remplacées.
+- Documents en anglais : le sigle d'une association ou d'une entreprise écrite en toutes lettres dans le document (« British Ports Association » … « BPA ») est remplacé partout ; les sigles des autorités (« ICO », « HSE ») sont conservés.
+- Documents en anglais : la vérification des trouvailles incertaines, apprise uniquement sur des documents allemands, ne s'y prononce plus – elle avait laissé en place des noms d'associations et d'entreprises anglaises. Le nom court d'une autorité ou d'une université introduit dans un contrat (« … (Imperial) ») est conservé comme son nom complet.
+- Documents en anglais du Royaume-Uni et d'Irlande : autorités, councils, ministères, tribunaux, police, NHS et universités publiques sont conservés comme les organismes publics dans les documents allemands ; leurs agents et coordonnées restent remplacés. Les entreprises publiques et les community councils restent protégés. Les noms d'entreprises irlandaises avec « CLG », « DAC » ou « Teoranta » sont remplacés en entier.
+- L'Irlande peut être sélectionnée comme pays et fait partie de la sélection automatique pour les documents en anglais : Eircode, numéro PPS, numéros irlandais de TVA, d'entreprise (CRO) et d'organisme caritatif (RCN, CHY) ainsi que les numéros de téléphone irlandais sont reconnus.
+- L'agence allemande pour l'emploi « Agentur für Arbeit » est conservée comme autorité, comme les autres organismes publics.
+- Documents dans d'autres langues que l'allemand et l'anglais : les noms de lieux et d'entreprises (« Zagrebu », indications de pays polonaises) sont de nouveau remplacés de façon fiable – la vérification des trouvailles incertaines, qui ne connaît que des documents allemands, ne s'y prononce plus. Dans Retoucher, un lieu que vous marquez vous-même reçoit de nouveau l'espace réservé « lieu » au lieu de « terme ».
+- Moins de texte factuel noirci inutilement : la vérification qui détermine si une trouvaille incertaine est vraiment une donnée personnelle a été réentraînée sur toutes les séries de tests précédentes. Sur des documents mis de côté, environ un cinquième de noms de lieux, de produits et d'établissements en plus sont restés, sans que davantage de noms, d'adresses ou de numéros de téléphone ne restent visibles.
+- Les rapports communaux sur l'énergie, les bâtiments et le budget restent plus lisibles : les biens de la commune (« Feuerwehr Stein », « Rathaus Cleversulzbach », « Kita Waldweg », « Museum im Schafstall », « ARA Mülenen ») sont aussi conservés dans les tableaux de consommation, de même que l'année du rapport dans l'en-tête (« Energiebericht 2025 Neuenstadt a. K. ») et les numéros de fonction d'un budget suisse sur toutes les pages. Les adresses avec numéro restent remplacées. Une liste du personnel dont la page code mal les trémas n'est plus refusée à cause de la fonction « Bürgermeister ».
+- Pages web enregistrées : les numéros de poste qui touchent directement un mot dans le code source sont désormais reconnus et remplacés ; les liens vers des pages de personnes et des cartes de visite (« …/personen/herr-max-muster-915000314.html », « .vcf ») sont remplacés avec la civilité et le numéro d'enregistrement.
+- PDF : un logo d'entreprise dans l'en-tête est supprimé sur toutes les pages, même s'il est enregistré comme image distincte sur chaque page. Les espaces réservés abrégés (« [OR4] ») peuvent désormais être restaurés à chaque endroit, pas seulement au premier.
+- Moins de fausses alertes : capitales régionales, Statistik Austria, directions des bâtiments de district, théâtres, parkings, écoles d'art et de musique, sapeurs-pompiers volontaires et centres de soins sont conservés, de même que les mentions de cartes comme « ©Contributeurs OpenStreetMap » ou « Esri ».
+- Les noms sont remplacés de façon plus fiable : avec un prénom abrégé après la civilité (« Frau N. Muster »), les noms de famille qui sont aussi une fonction dans une langue étrangère (« Dr.-Ing. Wolf Maire »), et un prénom suivi d'un nom en majuscules seul sur une ligne de liste d'un scan. Les petites images de signature intégrées sont noircies même lorsqu'un tampon de contrôle recouvre la page.
+
 ## 0.10.52-beta.1 – 19 octobre 2026
 
 - Le téléchargement du niveau élevé fonctionne à nouveau : le modèle de

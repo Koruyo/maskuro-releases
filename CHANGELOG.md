@@ -350,6 +350,73 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## Unveröffentlicht
 
+## 0.10.52-beta.2 – 25. Oktober 2026
+
+- Sicherheit: Die mitgelieferten Wurzelzertifikate für alle Verbindungen nach
+  außen (Aktualisierung, Lizenz, Nachladen) sind erneuert; die bisherige
+  Fassung enthielt Wurzeln einer Zertifizierungsstelle, deren
+  Zwischenschlüssel kompromittiert sind.
+- Englische Protokolle: Wer in der Anwesenheitsliste mit Kürzel eingeführt
+  wird („Lin Collis (LC)“), dessen Kürzel wird im ganzen Protokoll ersetzt.
+- Englische Pläne und Berichte: Namenskürzel in Revisions- und
+  Freigabetabellen („Issued by“, „Checked“, „Approved“) und hinter
+  „Checked by:“ werden ersetzt.
+- Englische Dokumente: Das Kürzel eines Vereins oder einer Firma, die im
+  Dokument ausgeschrieben vorkommt („British Ports Association“ … „BPA“),
+  wird überall ersetzt; Kürzel von Behörden („ICO“, „HSE“) bleiben stehen.
+- Englische Dokumente: Die nur an deutschen Unterlagen gelernte Prüfung
+  unsicherer Funde urteilt dort nicht mehr – sie hatte englische Vereins-
+  und Firmennamen stehen lassen. Der im Vertrag eingeführte Kurzname einer
+  Behörde oder Hochschule („… (Imperial)“) bleibt stehen wie ihr voller
+  Name.
+- Englische Dokumente aus UK und Irland: Behörden, Councils, Ministerien,
+  Gerichte, Polizei, NHS und staatliche Hochschulen bleiben stehen wie
+  öffentliche Stellen im Deutschen; ihre Bediensteten und Kontaktangaben
+  werden weiter ersetzt. Staatseigene Unternehmen und Community Councils
+  bleiben geschützt. Irische Firmennamen mit „CLG“, „DAC“ oder „Teoranta“
+  werden vollständig ersetzt.
+- Irland ist als Land wählbar und gehört zur selbsttätigen Wahl für
+  englische Dokumente: Eircode, PPS-Nummer, irische Umsatzsteuer-, Firmen-
+  (CRO) und Wohltätigkeitsnummern (RCN, CHY) sowie irische Rufnummern
+  werden erkannt.
+- Die „Agentur für Arbeit“ bleibt als Behörde stehen wie andere öffentliche
+  Stellen auch.
+- Dokumente in anderen Sprachen als Deutsch und Englisch: Orts- und
+  Firmennamen („Zagrebu“, polnische Länderangaben) werden wieder
+  zuverlässig ersetzt – die Prüfung unsicherer Funde, die nur deutsche
+  Dokumente kennt, urteilt dort nicht mehr. Beim Nachbessern bekommt ein
+  selbst markierter Ort wieder den Platzhalter „Ort“ statt „Begriff“.
+- Weniger unnötig geschwärzter Sachtext: Die Prüfung, ob ein unsicherer
+  Fund wirklich eine persönliche Angabe ist, hat aus allen bisherigen
+  Prüfrunden neu gelernt. An zurückgehaltenen Dokumenten blieben rund ein
+  Fünftel mehr Orts-, Produkt- und Einrichtungsnamen stehen, ohne dass
+  mehr Namen, Anschriften oder Rufnummern stehen blieben.
+- Energie-, Gebäude- und Budgetberichte von Gemeinden bleiben lesbarer: Die
+  Liegenschaften der Gemeinde („Feuerwehr Stein“, „Rathaus Cleversulzbach“,
+  „Kita Waldweg“, „Museum im Schafstall“, „ARA Mülenen“) bleiben auch in
+  Verbrauchstabellen stehen, ebenso der Berichtsjahrgang im Seitenkopf
+  („Energiebericht 2025 Neuenstadt a. K.“) und die Funktionsnummern eines
+  Schweizer Budgets auf allen Seiten. Anschriften mit Hausnummer werden
+  weiter ersetzt. Eine Mitarbeiterliste, deren Seite Umlaute falsch
+  kodiert, wird nicht mehr wegen des Amts „Bürgermeister“ verweigert.
+- Gespeicherte Webseiten: Durchwahlen, die im Seitenquelltext direkt an ein
+  Wort grenzen, werden jetzt erkannt und ersetzt; Links auf Personenseiten
+  und Visitenkarten („…/personen/herr-max-muster-915000314.html“, „.vcf“)
+  werden samt Anrede und Datensatznummer ersetzt.
+- PDF: Ein Firmenlogo im Seitenkopf wird auf allen Seiten entfernt, auch
+  wenn es je Seite als eigenes Bild abgelegt ist. Gekürzte Platzhalter
+  („[OR4]“) lassen sich jetzt an jeder Stelle zurückholen, nicht nur an
+  der ersten.
+- Weniger Fehlalarme: Landeshauptstädte, Statistik Austria,
+  Baubezirksleitungen, Theater, Parkhäuser, Kunst- und Musikschulen,
+  Freiwillige Feuerwehren und Pflegezentren bleiben stehen, ebenso
+  Kartennachweise wie „©OpenStreetMap-Mitwirkende“ oder „Esri“.
+- Namen werden zuverlässiger ersetzt: mit abgekürztem Vornamen nach der
+  Anrede („Frau N. Muster“), Nachnamen, die zugleich ein fremdsprachiges Amt
+  sind („Dr.-Ing. Wolf Maire“), und Vor- plus Versalnachname allein auf
+  einer Listenzeile eines Scans. Kleine eingebettete Unterschriftsbilder
+  werden auch dann geschwärzt, wenn ein Prüfvermerk über der Seite liegt.
+
 ## 0.10.52-beta.1 – 19. Oktober 2026
 
 - Das Nachladen der Hoch-Stufe funktioniert wieder: Das Erkennungsmodell

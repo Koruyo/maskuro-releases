@@ -9,6 +9,24 @@ Numeracija seka įprastą schemą: **pirmasis** skaičius keičiasi, kai kas nor
 nebeveikia taip, kaip anksčiau, **antrasis** – atsiradus naujoms galimybėms,
 **trečiasis** – ištaisius klaidas.
 
+## 0.10.52-beta.2 – 2026 m. spalio 25 d.
+
+- Saugumas: pridedami šakniniai sertifikatai visiems išeinantiems ryšiams (atnaujinimai, licencija, atsisiuntimai) atnaujinti; ankstesnėje versijoje buvo sertifikavimo įstaigos, kurios tarpiniai raktai pažeisti, šaknys.
+- Angliški protokolai: kas dalyvių sąraše pristatomas su inicialais („Lin Collis (LC)“), to inicialai pakeičiami visame protokole.
+- Angliški brėžiniai ir ataskaitos: inicialai peržiūrų ir patvirtinimų lentelėse („Issued by“, „Checked“, „Approved“) ir po „Checked by:“ pakeičiami.
+- Angliški dokumentai: draugijos ar įmonės, kurios pilnas pavadinimas yra dokumente („British Ports Association“ … „BPA“), santrumpa pakeičiama visur; institucijų santrumpos („ICO“, „HSE“) lieka.
+- Angliški dokumentai: neaiškių radinių patikra, išmokyta tik vokiškais dokumentais, ten nebesprendžia – ji buvo palikusi angliškus draugijų ir įmonių pavadinimus. Sutartyje įvestas institucijos ar universiteto trumpasis pavadinimas („… (Imperial)“) lieka kaip ir pilnas pavadinimas.
+- Angliški dokumentai iš Jungtinės Karalystės ir Airijos: institucijos, councils, ministerijos, teismai, policija, NHS ir valstybiniai universitetai lieka kaip viešosios įstaigos vokiškuose dokumentuose; jų darbuotojai ir kontaktiniai duomenys ir toliau pakeičiami. Valstybinės įmonės ir community councils lieka apsaugoti. Airiškų įmonių pavadinimai su „CLG“, „DAC“ ar „Teoranta“ pakeičiami visi.
+- Airiją galima pasirinkti kaip šalį, ir ji įtraukta į automatinį angliškų dokumentų pasirinkimą: atpažįstami Eircode, PPS numeris, airiški PVM, įmonių (CRO) ir labdaros organizacijų (RCN, CHY) numeriai bei airiški telefono numeriai.
+- Vokietijos užimtumo tarnyba „Agentur für Arbeit“ lieka kaip institucija, kaip ir kitos viešosios įstaigos.
+- Dokumentai kitomis kalbomis nei vokiečių ir anglų: vietovių ir įmonių pavadinimai („Zagrebu“, lenkiški šalies duomenys) vėl patikimai pakeičiami – neaiškių radinių patikra, pažįstanti tik vokiškus dokumentus, ten nebesprendžia. Lange Pataisyti jūsų pačių pažymėta vieta vėl gauna vietos, o ne sąvokos vietaženklį.
+- Mažiau be reikalo užtamsinto dalykinio teksto: patikra, ar neaiškus radinys tikrai yra asmens duomuo, iš naujo išmokyta visais ankstesniais bandymų ratais. Atidėtuose dokumentuose liko maždaug penktadaliu daugiau vietovių, produktų ir įstaigų pavadinimų, nepaliekant daugiau vardų, adresų ar telefono numerių.
+- Savivaldybių energijos, pastatų ir biudžeto ataskaitos lieka lengviau skaitomos: savivaldybės nekilnojamasis turtas („Feuerwehr Stein“, „Rathaus Cleversulzbach“, „Kita Waldweg“, „Museum im Schafstall“, „ARA Mülenen“) lieka ir suvartojimo lentelėse, kaip ir ataskaitos metai puslapio antraštėje („Energiebericht 2025 Neuenstadt a. K.“) bei Šveicarijos biudžeto funkcijų numeriai visuose puslapiuose. Adresai su namo numeriu ir toliau pakeičiami. Darbuotojų sąrašas, kurio puslapis neteisingai koduoja umliautus, nebeatmetamas dėl pareigų „Bürgermeister“.
+- Išsaugoti tinklalapiai: vidiniai numeriai, kurie puslapio kode tiesiogiai liečiasi su žodžiu, dabar atpažįstami ir pakeičiami; nuorodos į asmenų puslapius ir vizitines korteles („…/personen/herr-max-muster-915000314.html“, „.vcf“) pakeičiamos kartu su kreipiniu ir įrašo numeriu.
+- PDF: įmonės logotipas puslapio antraštėje pašalinamas visuose puslapiuose, net jei kiekviename puslapyje jis išsaugotas kaip atskiras paveikslėlis. Sutrumpintus vietaženklius („[OR4]“) dabar galima atkurti kiekvienoje vietoje, ne tik pirmojoje.
+- Mažiau klaidingų pavojaus signalų: federalinių žemių sostinės, Statistik Austria, apygardų statybos valdybos, teatrai, automobilių stovėjimo aikštelės, meno ir muzikos mokyklos, savanoriškos ugniagesių komandos ir slaugos centrai lieka, kaip ir žemėlapių šaltinių nuorodos, pvz., „©OpenStreetMap bendradarbiai“ ar „Esri“.
+- Vardai pakeičiami patikimiau: su sutrumpintu vardu po kreipinio („Frau N. Muster“), pavardės, kurios kartu yra pareigos kita kalba („Dr.-Ing. Wolf Maire“), ir vardas su pavarde didžiosiomis raidėmis vieni skenuoto dokumento sąrašo eilutėje. Maži įterpti parašų paveikslėliai užtamsinami ir tada, kai ant puslapio yra patikros spaudas.
+
 ## 0.10.52-beta.1 – 2026 m. spalio 19 d.
 
 - Aukštosios pakopos atsisiuntimas vėl veikia: atpažinimo modelis dabar

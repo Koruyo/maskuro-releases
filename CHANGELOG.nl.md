@@ -7,6 +7,24 @@ De nummering volgt de gebruikelijke telwijze: het **eerste** getal verandert
 wanneer iets niet meer werkt zoals voorheen, het **tweede** bij nieuwe
 mogelijkheden, het **derde** bij foutcorrecties.
 
+## 0.10.52-beta.2 – 25 oktober 2026
+
+- Beveiliging: de meegeleverde basiscertificaten voor alle uitgaande verbindingen (updates, licentie, downloads) zijn vernieuwd; de vorige versie bevatte basiscertificaten van een certificeringsinstantie waarvan de tussenliggende sleutels gecompromitteerd zijn.
+- Engelse notulen: wie in de presentielijst met initialen wordt voorgesteld („Lin Collis (LC)”), diens initialen worden in de hele notulen vervangen.
+- Engelse tekeningen en rapporten: initialen in revisie- en goedkeuringstabellen („Issued by”, „Checked”, „Approved”) en na „Checked by:” worden vervangen.
+- Engelse documenten: de afkorting van een vereniging of bedrijf die in het document voluit voorkomt („British Ports Association” … „BPA”) wordt overal vervangen; afkortingen van overheidsinstanties („ICO”, „HSE”) blijven staan.
+- Engelse documenten: de controle van onzekere vondsten, die alleen op Duitse documenten is getraind, oordeelt daar niet meer – ze had Engelse verenigings- en bedrijfsnamen laten staan. De in een contract ingevoerde korte naam van een overheidsinstantie of universiteit („… (Imperial)”) blijft staan zoals de volledige naam.
+- Engelse documenten uit het VK en Ierland: overheidsinstanties, councils, ministeries, rechtbanken, politie, NHS en openbare universiteiten blijven staan, zoals openbare instanties in Duitse documenten; hun medewerkers en contactgegevens worden nog steeds vervangen. Staatsbedrijven en community councils blijven beschermd. Ierse bedrijfsnamen met „CLG”, „DAC” of „Teoranta” worden volledig vervangen.
+- Ierland is als land te kiezen en hoort bij de automatische keuze voor Engelse documenten: Eircode, PPS-nummer, Ierse btw-, bedrijfs- (CRO) en liefdadigheidsnummers (RCN, CHY) en Ierse telefoonnummers worden herkend.
+- Het Duitse arbeidsbureau „Agentur für Arbeit” blijft staan als overheidsinstantie, zoals andere openbare instanties.
+- Documenten in andere talen dan Duits en Engels: plaats- en bedrijfsnamen („Zagrebu”, Poolse landaanduidingen) worden weer betrouwbaar vervangen – de controle van onzekere vondsten, die alleen Duitse documenten kent, oordeelt daar niet meer. Bij Nabewerken krijgt een plaats die u zelf markeert weer de tijdelijke aanduiding „plaats” in plaats van „begrip”.
+- Minder onnodig zwartgemaakte inhoud: de controle of een onzekere vondst echt een persoonsgegeven is, is opnieuw getraind op alle eerdere testrondes. Op achtergehouden documenten bleven ongeveer een vijfde meer plaats-, product- en voorzieningsnamen staan, zonder dat er meer namen, adressen of telefoonnummers bleven staan.
+- Gemeentelijke energie-, gebouw- en begrotingsrapporten blijven beter leesbaar: de panden van de gemeente („Feuerwehr Stein”, „Rathaus Cleversulzbach”, „Kita Waldweg”, „Museum im Schafstall”, „ARA Mülenen”) blijven ook in verbruikstabellen staan, net als het rapportjaar in de paginakop („Energiebericht 2025 Neuenstadt a. K.”) en de functienummers van een Zwitserse begroting op alle pagina's. Adressen met huisnummer worden nog steeds vervangen. Een personeelslijst waarvan de pagina umlauten verkeerd codeert, wordt niet meer geweigerd vanwege het ambt „Bürgermeister”.
+- Opgeslagen webpagina's: toestelnummers die in de paginabron direct aan een woord grenzen, worden nu herkend en vervangen; links naar persoonspagina's en visitekaartjes („…/personen/herr-max-muster-915000314.html”, „.vcf”) worden samen met aanhef en recordnummer vervangen.
+- PDF: een bedrijfslogo in de paginakop wordt op alle pagina's verwijderd, ook als het per pagina als afzonderlijke afbeelding is opgeslagen. Ingekorte tijdelijke aanduidingen („[OR4]”) kunnen nu op elke plek worden teruggehaald, niet alleen op de eerste.
+- Minder valse meldingen: hoofdsteden van deelstaten, Statistik Austria, districtsbouwdiensten, theaters, parkeergarages, kunst- en muziekscholen, vrijwillige brandweerkorpsen en zorgcentra blijven staan, net als kaartvermeldingen zoals „©OpenStreetMap-bijdragers” of „Esri”.
+- Namen worden betrouwbaarder vervangen: met een afgekorte voornaam na de aanhef („Frau N. Muster”), achternamen die tevens een anderstalig ambt zijn („Dr.-Ing. Wolf Maire”), en een voornaam plus achternaam in hoofdletters alleen op een lijstregel van een scan. Kleine ingesloten handtekeningafbeeldingen worden ook zwartgemaakt als er een controlestempel over de pagina ligt.
+
 ## 0.10.52-beta.1 – 19 oktober 2026
 
 - Het downloaden van het hoge niveau werkt weer: het herkenningsmodel wordt

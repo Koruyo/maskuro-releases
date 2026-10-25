@@ -5,6 +5,24 @@ The numbering follows the usual scheme: the **first** number changes
 when something no longer works the way it used to, the **second** for new
 capabilities, the **third** for bug fixes.
 
+## 0.10.52-beta.2 – 25 October 2026
+
+- Security: the bundled root certificates for all outgoing connections (updates, licence, downloads) have been renewed; the previous version contained roots of a certificate authority whose intermediate keys are compromised.
+- English minutes: when someone is introduced with initials in the attendance list („Lin Collis (LC)“), those initials are replaced throughout the minutes.
+- English drawings and reports: initials in revision and approval tables („Issued by“, „Checked“, „Approved“) and after „Checked by:“ are replaced.
+- English documents: the abbreviation of an association or company that appears written out in the document („British Ports Association“ … „BPA“) is replaced everywhere; abbreviations of public authorities („ICO“, „HSE“) are kept.
+- English documents: the check of uncertain findings, which was trained only on German documents, no longer rules on them – it had left English club and company names in place. The short name of an authority or university introduced in a contract („… (Imperial)“) is kept just like its full name.
+- English documents from the UK and Ireland: authorities, councils, ministries, courts, police, the NHS and state universities are kept, like public bodies in German documents; their staff and contact details are still replaced. State-owned companies and community councils remain protected. Irish company names with „CLG“, „DAC“ or „Teoranta“ are replaced in full.
+- Ireland can be selected as a country and is part of the automatic selection for English documents: Eircode, PPS number, Irish VAT, company (CRO) and charity numbers (RCN, CHY) and Irish phone numbers are recognised.
+- The German employment agency „Agentur für Arbeit“ is kept as a public authority, like other public bodies.
+- Documents in languages other than German and English: place and company names („Zagrebu“, Polish country details) are reliably replaced again – the check of uncertain findings, which only knows German documents, no longer rules there. In Touch up, a place you mark yourself gets the place placeholder again instead of the general term placeholder.
+- Less factual text blacked out unnecessarily: the check of whether an uncertain finding really is personal data has been retrained on all previous test rounds. On held-back documents, around a fifth more place, product and facility names were kept, without more names, addresses or phone numbers being left in place.
+- Municipal energy, building and budget reports stay more readable: the municipality's properties („Feuerwehr Stein“, „Rathaus Cleversulzbach“, „Kita Waldweg“, „Museum im Schafstall“, „ARA Mülenen“) are kept in consumption tables too, as are the report year in the page header („Energiebericht 2025 Neuenstadt a. K.“) and the function numbers of a Swiss budget on every page. Addresses with a house number are still replaced. A staff list whose page has wrongly encoded umlauts is no longer refused because of the office „Bürgermeister“.
+- Saved web pages: extension numbers that directly touch a word in the page source are now recognised and replaced; links to personal pages and business cards („…/personen/herr-max-muster-915000314.html“, „.vcf“) are replaced together with the salutation and record number.
+- PDF: a company logo in the page header is removed on every page, even when it is stored as a separate image on each page. Shortened placeholders („[OR4]“) can now be restored at every position, not just the first.
+- Fewer false alarms: state capitals, Statistik Austria, district building authorities, theatres, car parks, art and music schools, volunteer fire brigades and care centres are kept, as are map credits such as „©OpenStreetMap contributors“ or „Esri“.
+- Names are replaced more reliably: with an abbreviated first name after the salutation („Frau N. Muster“), surnames that are also a foreign-language office („Dr.-Ing. Wolf Maire“), and a first name plus capitalised surname alone on a list line of a scan. Small embedded signature images are blacked out even when an inspection stamp lies over the page.
+
 ## 0.10.52-beta.1 – October 19, 2026
 
 - Downloading the high stage works again: the recognition model is now

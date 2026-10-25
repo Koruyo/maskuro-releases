@@ -9,6 +9,24 @@ algo deja de funcionar como antes, el **segundo** con nuevas funciones, el
 
 ---
 
+## 0.10.52-beta.2 – 25 de octubre de 2026
+
+- Seguridad: se han renovado los certificados raíz incluidos para todas las conexiones salientes (actualizaciones, licencia, descargas); la versión anterior contenía raíces de una autoridad de certificación cuyas claves intermedias están comprometidas.
+- Actas en inglés: cuando alguien se presenta con sus iniciales en la lista de asistentes («Lin Collis (LC)»), esas iniciales se sustituyen en toda el acta.
+- Planos e informes en inglés: las iniciales de las tablas de revisión y aprobación («Issued by», «Checked», «Approved») y tras «Checked by:» se sustituyen.
+- Documentos en inglés: la sigla de una asociación o empresa que aparece escrita completa en el documento («British Ports Association» … «BPA») se sustituye en todas partes; las siglas de autoridades («ICO», «HSE») se mantienen.
+- Documentos en inglés: la comprobación de hallazgos inciertos, entrenada solo con documentos alemanes, ya no decide sobre ellos; había dejado nombres de asociaciones y empresas inglesas. El nombre corto de una autoridad o universidad introducido en un contrato («… (Imperial)») se mantiene igual que su nombre completo.
+- Documentos en inglés del Reino Unido e Irlanda: autoridades, councils, ministerios, tribunales, policía, NHS y universidades públicas se mantienen como los organismos públicos en los documentos alemanes; su personal y sus datos de contacto se siguen sustituyendo. Las empresas públicas y los community councils siguen protegidos. Los nombres de empresas irlandesas con «CLG», «DAC» o «Teoranta» se sustituyen por completo.
+- Irlanda se puede elegir como país y forma parte de la selección automática para documentos en inglés: se reconocen el Eircode, el número PPS, los números irlandeses de IVA, de empresa (CRO) y de entidades benéficas (RCN, CHY), así como los números de teléfono irlandeses.
+- La agencia alemana de empleo «Agentur für Arbeit» se mantiene como autoridad, igual que otros organismos públicos.
+- Documentos en idiomas distintos del alemán y el inglés: los nombres de lugares y empresas («Zagrebu», datos de país polacos) vuelven a sustituirse de forma fiable; la comprobación de hallazgos inciertos, que solo conoce documentos alemanes, ya no decide allí. En Retocar, un lugar que usted mismo marque recibe de nuevo el marcador de lugar en lugar del de término.
+- Menos texto informativo tachado sin necesidad: la comprobación de si un hallazgo incierto es realmente un dato personal se ha vuelto a entrenar con todas las rondas de prueba anteriores. En documentos reservados se mantuvieron alrededor de una quinta parte más de nombres de lugares, productos e instalaciones, sin que quedaran más nombres, direcciones o números de teléfono.
+- Los informes municipales de energía, edificios y presupuesto resultan más legibles: los inmuebles del municipio («Feuerwehr Stein», «Rathaus Cleversulzbach», «Kita Waldweg», «Museum im Schafstall», «ARA Mülenen») se mantienen también en las tablas de consumo, igual que el año del informe en el encabezado («Energiebericht 2025 Neuenstadt a. K.») y los números de función de un presupuesto suizo en todas las páginas. Las direcciones con número se siguen sustituyendo. Una lista de personal cuya página codifica mal las diéresis ya no se rechaza por el cargo «Bürgermeister».
+- Páginas web guardadas: las extensiones telefónicas que en el código fuente tocan directamente una palabra ahora se reconocen y sustituyen; los enlaces a páginas personales y tarjetas de visita («…/personen/herr-max-muster-915000314.html», «.vcf») se sustituyen junto con el tratamiento y el número de registro.
+- PDF: el logotipo de una empresa en el encabezado se elimina en todas las páginas, aunque esté guardado como imagen propia en cada página. Los marcadores abreviados («[OR4]») ahora se pueden recuperar en cualquier posición, no solo en la primera.
+- Menos falsas alarmas: capitales regionales, Statistik Austria, direcciones de obras de distrito, teatros, aparcamientos, escuelas de arte y de música, bomberos voluntarios y centros de cuidados se mantienen, igual que las atribuciones de mapas como «©Colaboradores de OpenStreetMap» o «Esri».
+- Los nombres se sustituyen de forma más fiable: con el nombre de pila abreviado tras el tratamiento («Frau N. Muster»), apellidos que también son un cargo en otro idioma («Dr.-Ing. Wolf Maire») y un nombre de pila más un apellido en mayúsculas solos en una línea de lista de un escaneo. Las pequeñas imágenes de firma incrustadas se tachan aunque haya un sello de revisión sobre la página.
+
 ## 0.10.52-beta.1 – 19 de octubre de 2026
 
 - La descarga del nivel alto vuelve a funcionar: el modelo de reconocimiento

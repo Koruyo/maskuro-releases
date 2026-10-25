@@ -8,6 +8,24 @@ możliwościach, **trzecia** przy poprawkach błędów.
 
 ---
 
+## 0.10.52-beta.2 – 25 października 2026
+
+- Bezpieczeństwo: dołączone certyfikaty główne dla wszystkich połączeń wychodzących (aktualizacje, licencja, pobieranie) zostały odnowione; poprzednia wersja zawierała certyfikaty główne urzędu certyfikacji, którego klucze pośrednie zostały przejęte.
+- Angielskie protokoły: jeśli ktoś zostaje przedstawiony na liście obecności z inicjałami („Lin Collis (LC)”), jego inicjały są zastępowane w całym protokole.
+- Angielskie rysunki i raporty: inicjały w tabelach rewizji i zatwierdzeń („Issued by”, „Checked”, „Approved”) oraz po „Checked by:” są zastępowane.
+- Angielskie dokumenty: skrót stowarzyszenia lub firmy, której pełna nazwa występuje w dokumencie („British Ports Association” … „BPA”), jest zastępowany wszędzie; skróty urzędów („ICO”, „HSE”) pozostają.
+- Angielskie dokumenty: kontrola niepewnych wyników, wytrenowana wyłącznie na dokumentach niemieckich, już tam nie rozstrzyga – pozostawiała angielskie nazwy stowarzyszeń i firm. Krótka nazwa urzędu lub uczelni wprowadzona w umowie („… (Imperial)”) pozostaje tak jak jej pełna nazwa.
+- Angielskie dokumenty z Wielkiej Brytanii i Irlandii: urzędy, councils, ministerstwa, sądy, policja, NHS i uczelnie państwowe pozostają, tak jak instytucje publiczne w dokumentach niemieckich; ich pracownicy i dane kontaktowe są nadal zastępowane. Przedsiębiorstwa państwowe i community councils pozostają chronione. Irlandzkie nazwy firm z „CLG”, „DAC” lub „Teoranta” są zastępowane w całości.
+- Irlandię można wybrać jako kraj i należy ona do automatycznego wyboru dla dokumentów angielskich: rozpoznawane są Eircode, numer PPS, irlandzkie numery VAT, firm (CRO) i organizacji charytatywnych (RCN, CHY) oraz irlandzkie numery telefonów.
+- Niemiecki urząd pracy „Agentur für Arbeit” pozostaje jako urząd, tak jak inne instytucje publiczne.
+- Dokumenty w językach innych niż niemiecki i angielski: nazwy miejscowości i firm („Zagrebu”, polskie dane kraju) znów są niezawodnie zastępowane – kontrola niepewnych wyników, znająca tylko dokumenty niemieckie, już tam nie rozstrzyga. W oknie Popraw samodzielnie zaznaczona miejscowość znów otrzymuje symbol zastępczy miejsca zamiast pojęcia.
+- Mniej niepotrzebnie zaczernionego tekstu merytorycznego: kontrola, czy niepewny wynik jest naprawdę daną osobową, została ponownie wytrenowana na wszystkich dotychczasowych rundach testowych. Na odłożonych dokumentach pozostało o około jedną piątą więcej nazw miejsc, produktów i placówek, bez pozostawienia większej liczby nazwisk, adresów czy numerów telefonów.
+- Gminne raporty energetyczne, budowlane i budżetowe pozostają czytelniejsze: nieruchomości gminy („Feuerwehr Stein”, „Rathaus Cleversulzbach”, „Kita Waldweg”, „Museum im Schafstall”, „ARA Mülenen”) pozostają także w tabelach zużycia, podobnie jak rok raportu w nagłówku strony („Energiebericht 2025 Neuenstadt a. K.”) i numery funkcji szwajcarskiego budżetu na wszystkich stronach. Adresy z numerem domu są nadal zastępowane. Lista pracowników, której strona błędnie koduje umlauty, nie jest już odrzucana z powodu urzędu „Bürgermeister”.
+- Zapisane strony internetowe: numery wewnętrzne, które w kodzie strony stykają się bezpośrednio ze słowem, są teraz rozpoznawane i zastępowane; linki do stron osobowych i wizytówek („…/personen/herr-max-muster-915000314.html”, „.vcf”) są zastępowane wraz z formą grzecznościową i numerem rekordu.
+- PDF: logo firmy w nagłówku jest usuwane na wszystkich stronach, nawet jeśli na każdej stronie zapisano je jako osobny obraz. Skrócone symbole zastępcze („[OR4]”) można teraz przywrócić w każdym miejscu, nie tylko w pierwszym.
+- Mniej fałszywych alarmów: stolice krajów związkowych, Statistik Austria, okręgowe zarządy budowlane, teatry, parkingi, szkoły artystyczne i muzyczne, ochotnicze straże pożarne i ośrodki opieki pozostają, podobnie jak oznaczenia źródeł map, np. „©Współtwórcy OpenStreetMap” lub „Esri”.
+- Nazwiska są zastępowane niezawodniej: ze skróconym imieniem po formie grzecznościowej („Frau N. Muster”), nazwiska, które są zarazem urzędem w obcym języku („Dr.-Ing. Wolf Maire”), oraz imię z nazwiskiem pisanym wersalikami same w wierszu listy skanu. Małe osadzone obrazy podpisów są zaczerniane także wtedy, gdy na stronie leży pieczęć kontrolna.
+
 ## 0.10.52-beta.1 – 19 października 2026
 
 - Pobieranie poziomu wysokiego znów działa: model rozpoznawania jest teraz

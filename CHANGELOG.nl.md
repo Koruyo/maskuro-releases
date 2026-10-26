@@ -7,6 +7,10 @@ De nummering volgt de gebruikelijke telwijze: het **eerste** getal verandert
 wanneer iets niet meer werkt zoals voorheen, het **tweede** bij nieuwe
 mogelijkheden, het **derde** bij foutcorrecties.
 
+## 0.10.52-beta.3 – 25 oktober 2026
+
+- De bèta 0.10.52-beta.2 kon de taalmodellen niet laden („Python int too large to convert to C ssize_t”) en herkende daardoor alleen patronen, geen namen. Opgelost.
+
 ## 0.10.52-beta.2 – 25 oktober 2026
 
 - Beveiliging: de meegeleverde basiscertificaten voor alle uitgaande verbindingen (updates, licentie, downloads) zijn vernieuwd; de vorige versie bevatte basiscertificaten van een certificeringsinstantie waarvan de tussenliggende sleutels gecompromitteerd zijn.

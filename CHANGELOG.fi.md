@@ -8,6 +8,12 @@ Numerointi noudattaa tavanomaista käytäntöä: **ensimmäinen** luku muuttuu,
 kun jokin ei enää toimi kuten ennen, **toinen** uusien ominaisuuksien
 myötä, **kolmas** virheenkorjausten myötä.
 
+## 0.10.52-beta.4 – 26. lokakuuta 2026
+
+- Uudet asennukset peittävät nyt mustalla paikkamerkkien sijaan. Jo tehty valinta säilyy.
+- Windows-asennus: automaattinen käynnistys ja työpöydän pikakuvake ovat nyt valmiiksi valittuina, kuten pikavalikko jo oli.
+- Windows: asennus pysähtyi lopussa virheeseen ”Cannot call "UninstallSilent" function during Setup”. Korjattu; kysymys asennuksen poistossa näkyy edelleen, paitsi hiljaisessa poistossa.
+
 ## 0.10.52-beta.3 – 25. lokakuuta 2026
 
 - Beta 0.10.52-beta.2 ei pystynyt lataamaan kielimalleja (”Python int too large to convert to C ssize_t”) ja tunnisti siksi vain kaavoja, ei nimiä. Korjattu.

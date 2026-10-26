@@ -9,6 +9,12 @@ algo deja de funcionar como antes, el **segundo** con nuevas funciones, el
 
 ---
 
+## 0.10.52-beta.4 – 26 de octubre de 2026
+
+- Las instalaciones nuevas ahora ennegrecen en lugar de sustituir con marcadores. Quien ya haya elegido conserva su elección.
+- Instalación de Windows: el inicio automático y el acceso directo en el escritorio vienen ahora preseleccionados, como ya lo estaba el menú contextual.
+- Windows: la instalación se detenía al final con «Cannot call "UninstallSilent" function during Setup». Corregido; la pregunta al desinstalar sigue apareciendo, salvo en una desinstalación silenciosa.
+
 ## 0.10.52-beta.3 – 25 de octubre de 2026
 
 - La beta 0.10.52-beta.2 no podía cargar los modelos de idioma («Python int too large to convert to C ssize_t») y por eso solo reconocía patrones, no nombres. Corregido.

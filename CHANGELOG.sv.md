@@ -10,6 +10,10 @@ något inte längre fungerar som förut, den **andra** vid nya funktioner, den
 
 ---
 
+## 0.10.52-beta.3 – 25 oktober 2026
+
+- Betan 0.10.52-beta.2 kunde inte läsa in språkmodellerna (”Python int too large to convert to C ssize_t”) och kände därför bara igen mönster, inte namn. Åtgärdat.
+
 ## 0.10.52-beta.2 – 25 oktober 2026
 
 - Säkerhet: de medföljande rotcertifikaten för alla utgående anslutningar (uppdateringar, licens, nedladdningar) har förnyats; den tidigare versionen innehöll rötter från en certifikatutfärdare vars mellanliggande nycklar är komprometterade.

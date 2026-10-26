@@ -6,6 +6,12 @@ Nummereringen følger den vanlige tellemåten: Det **første** tallet endrer seg
 når noe ikke lenger fungerer som før, det **andre** ved nye
 funksjoner, det **tredje** ved feilrettinger.
 
+## 0.10.52-beta.4 – 26. oktober 2026
+
+- Nye installasjoner sverter nå i stedet for å erstatte med plassholdere. Den som allerede har valgt, beholder valget.
+- Windows-installasjon: automatisk oppstart og snarveien på skrivebordet er nå forhåndsvalgt, slik hurtigmenyen allerede var.
+- Windows: installasjonen stoppet på slutten med «Cannot call "UninstallSilent" function during Setup». Rettet; spørsmålet ved avinstallering vises fortsatt, unntatt ved stille avinstallering.
+
 ## 0.10.52-beta.3 – 25. oktober 2026
 
 - Betaen 0.10.52-beta.2 kunne ikke laste inn språkmodellene («Python int too large to convert to C ssize_t») og gjenkjente derfor bare mønstre, ikke navn. Rettet.

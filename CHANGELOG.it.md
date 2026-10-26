@@ -11,6 +11,10 @@ funzionalità, il **terzo** per correzioni di errori.
 
 ---
 
+## 0.10.52-beta.3 – 25 ottobre 2026
+
+- La beta 0.10.52-beta.2 non riusciva a caricare i modelli linguistici («Python int too large to convert to C ssize_t») e quindi riconosceva solo schemi, non nomi. Corretto.
+
 ## 0.10.52-beta.2 – 25 ottobre 2026
 
 - Sicurezza: i certificati radice inclusi per tutte le connessioni in uscita (aggiornamenti, licenza, download) sono stati rinnovati; la versione precedente conteneva radici di un'autorità di certificazione le cui chiavi intermedie sono compromesse.

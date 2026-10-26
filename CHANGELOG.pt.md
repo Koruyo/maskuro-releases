@@ -6,6 +6,12 @@ A numeração segue a contagem habitual: o **primeiro** número muda quando algo
 deixa de funcionar como antes, o **segundo** com novas funcionalidades, o
 **terceiro** com correções de erros.
 
+## 0.10.52-beta.4 – 26 de outubro de 2026
+
+- As novas instalações passam a tarjar em vez de substituir por marcadores. Quem já escolheu mantém a sua escolha.
+- Instalação no Windows: o arranque automático e o atalho no ambiente de trabalho vêm agora pré-selecionados, tal como o menu de contexto.
+- Windows: a instalação parava no fim com «Cannot call "UninstallSilent" function during Setup». Corrigido; a pergunta ao desinstalar continua a aparecer, exceto numa desinstalação silenciosa.
+
 ## 0.10.52-beta.3 – 25 de outubro de 2026
 
 - A beta 0.10.52-beta.2 não conseguia carregar os modelos de linguagem («Python int too large to convert to C ssize_t») e por isso só reconhecia padrões, não nomes. Corrigido.

@@ -11,6 +11,12 @@ funktioner, det **tredje** ved fejlrettelser.
 
 ---
 
+## 0.10.52-beta.4 – 26. oktober 2026
+
+- Nye installationer sværter nu i stedet for at erstatte med pladsholdere. Har man allerede valgt, beholder man sit valg.
+- Windows-installation: automatisk start og genvejen på skrivebordet er nu forvalgt, ligesom genvejsmenuen allerede var.
+- Windows: installationen stoppede til sidst med „Cannot call "UninstallSilent" function during Setup“. Rettet; spørgsmålet ved afinstallation vises stadig, undtagen ved lydløs afinstallation.
+
 ## 0.10.52-beta.3 – 25. oktober 2026
 
 - Betaen 0.10.52-beta.2 kunne ikke indlæse sprogmodellerne („Python int too large to convert to C ssize_t“) og genkendte derfor kun mønstre, ikke navne. Rettet.

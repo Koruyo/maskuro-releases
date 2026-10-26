@@ -5,6 +5,12 @@ The numbering follows the usual scheme: the **first** number changes
 when something no longer works the way it used to, the **second** for new
 capabilities, the **third** for bug fixes.
 
+## 0.10.52-beta.4 – 26 October 2026
+
+- New installations now black out findings instead of replacing them with placeholders. Anyone who has already made a choice keeps it.
+- Windows setup: start with the system and the desktop shortcut are now preselected, like the context menu already was.
+- Windows: setup stopped at the end of installation with "Cannot call \"UninstallSilent\" function during Setup". Fixed; the question when uninstalling still appears, except during a silent uninstall.
+
 ## 0.10.52-beta.3 – 25 October 2026
 
 - Beta 0.10.52-beta.2 could not load the language models („Python int too large to convert to C ssize_t“) and therefore recognised only patterns, not names. Fixed.

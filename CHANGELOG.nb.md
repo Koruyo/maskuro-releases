@@ -6,6 +6,10 @@ Nummereringen følger den vanlige tellemåten: Det **første** tallet endrer seg
 når noe ikke lenger fungerer som før, det **andre** ved nye
 funksjoner, det **tredje** ved feilrettinger.
 
+## 0.10.52-beta.3 – 25. oktober 2026
+
+- Betaen 0.10.52-beta.2 kunne ikke laste inn språkmodellene («Python int too large to convert to C ssize_t») og gjenkjente derfor bare mønstre, ikke navn. Rettet.
+
 ## 0.10.52-beta.2 – 25. oktober 2026
 
 - Sikkerhet: de medfølgende rotsertifikatene for alle utgående tilkoblinger (oppdateringer, lisens, nedlastinger) er fornyet; den tidligere versjonen inneholdt røtter fra en sertifikatutsteder med kompromitterte mellomnøkler.

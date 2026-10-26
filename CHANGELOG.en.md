@@ -5,6 +5,10 @@ The numbering follows the usual scheme: the **first** number changes
 when something no longer works the way it used to, the **second** for new
 capabilities, the **third** for bug fixes.
 
+## 0.10.52-beta.3 – 25 October 2026
+
+- Beta 0.10.52-beta.2 could not load the language models („Python int too large to convert to C ssize_t“) and therefore recognised only patterns, not names. Fixed.
+
 ## 0.10.52-beta.2 – 25 October 2026
 
 - Security: the bundled root certificates for all outgoing connections (updates, licence, downloads) have been renewed; the previous version contained roots of a certificate authority whose intermediate keys are compromised.

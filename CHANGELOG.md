@@ -350,6 +350,12 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## Unveröffentlicht
 
+## 0.10.52-beta.3 – 25. Oktober 2026
+
+- Die Beta 0.10.52-beta.2 konnte die Sprachmodelle nicht laden („Python int
+  too large to convert to C ssize_t“) und erkannte dadurch nur Muster, keine
+  Namen. Behoben.
+
 ## 0.10.52-beta.2 – 25. Oktober 2026
 
 - Sicherheit: Die mitgelieferten Wurzelzertifikate für alle Verbindungen nach

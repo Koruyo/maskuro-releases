@@ -9,6 +9,10 @@ Numeracija seka įprastą schemą: **pirmasis** skaičius keičiasi, kai kas nor
 nebeveikia taip, kaip anksčiau, **antrasis** – atsiradus naujoms galimybėms,
 **trečiasis** – ištaisius klaidas.
 
+## 0.10.52-beta.3 – 2026 m. spalio 25 d.
+
+- Beta 0.10.52-beta.2 negalėjo įkelti kalbos modelių („Python int too large to convert to C ssize_t“), todėl atpažino tik šablonus, ne vardus. Ištaisyta.
+
 ## 0.10.52-beta.2 – 2026 m. spalio 25 d.
 
 - Saugumas: pridedami šakniniai sertifikatai visiems išeinantiems ryšiams (atnaujinimai, licencija, atsisiuntimai) atnaujinti; ankstesnėje versijoje buvo sertifikavimo įstaigos, kurios tarpiniai raktai pažeisti, šaknys.

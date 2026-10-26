@@ -9,6 +9,10 @@ algo deja de funcionar como antes, el **segundo** con nuevas funciones, el
 
 ---
 
+## 0.10.52-beta.3 – 25 de octubre de 2026
+
+- La beta 0.10.52-beta.2 no podía cargar los modelos de idioma («Python int too large to convert to C ssize_t») y por eso solo reconocía patrones, no nombres. Corregido.
+
 ## 0.10.52-beta.2 – 25 de octubre de 2026
 
 - Seguridad: se han renovado los certificados raíz incluidos para todas las conexiones salientes (actualizaciones, licencia, descargas); la versión anterior contenía raíces de una autoridad de certificación cuyas claves intermedias están comprometidas.

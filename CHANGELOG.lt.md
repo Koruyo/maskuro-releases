@@ -9,6 +9,12 @@ Numeracija seka įprastą schemą: **pirmasis** skaičius keičiasi, kai kas nor
 nebeveikia taip, kaip anksčiau, **antrasis** – atsiradus naujoms galimybėms,
 **trečiasis** – ištaisius klaidas.
 
+## 0.10.52-beta.4 – 2026 m. spalio 26 d.
+
+- Naujai įdiegus dabar užtamsinama, o ne keičiama vietos rezervavimo ženklais. Kas jau pasirinko, išlaiko savo pasirinkimą.
+- „Windows“ diegimas: automatinis paleidimas ir nuoroda darbalaukyje dabar pažymėti iš anksto, kaip jau buvo kontekstinis meniu.
+- Windows: diegimas pabaigoje nutrūkdavo su „Cannot call "UninstallSilent" function during Setup“. Ištaisyta; klausimas šalinant vis dar rodomas, išskyrus tylųjį šalinimą.
+
 ## 0.10.52-beta.3 – 2026 m. spalio 25 d.
 
 - Beta 0.10.52-beta.2 negalėjo įkelti kalbos modelių („Python int too large to convert to C ssize_t“), todėl atpažino tik šablonus, ne vardus. Ištaisyta.

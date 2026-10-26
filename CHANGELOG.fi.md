@@ -8,6 +8,10 @@ Numerointi noudattaa tavanomaista käytäntöä: **ensimmäinen** luku muuttuu,
 kun jokin ei enää toimi kuten ennen, **toinen** uusien ominaisuuksien
 myötä, **kolmas** virheenkorjausten myötä.
 
+## 0.10.52-beta.3 – 25. lokakuuta 2026
+
+- Beta 0.10.52-beta.2 ei pystynyt lataamaan kielimalleja (”Python int too large to convert to C ssize_t”) ja tunnisti siksi vain kaavoja, ei nimiä. Korjattu.
+
 ## 0.10.52-beta.2 – 25. lokakuuta 2026
 
 - Tietoturva: kaikkien ulospäin suuntautuvien yhteyksien (päivitykset, lisenssi, lataukset) mukana toimitetut juurivarmenteet on uusittu; aiempi versio sisälsi juuria varmentajalta, jonka välivarmenteiden avaimet on vaarannettu.

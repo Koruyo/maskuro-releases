@@ -1,5 +1,11 @@
 
 
+## 0.10.52-beta.4 – 26. listopada 2026
+
+- Nove instalacije sada zacrnjuju umjesto zamjene rezerviranim mjestima. Tko je već odabrao, zadržava svoj odabir.
+- Instalacija za Windows: automatsko pokretanje i prečac na radnoj površini sada su unaprijed odabrani, kao i kontekstni izbornik.
+- Windows: instalacija se na kraju prekidala porukom „Cannot call "UninstallSilent" function during Setup”. Ispravljeno; pitanje pri deinstalaciji i dalje se prikazuje, osim kod tihe deinstalacije.
+
 ## 0.10.52-beta.3 – 25. listopada 2026
 
 - Beta 0.10.52-beta.2 nije mogla učitati jezične modele („Python int too large to convert to C ssize_t”) pa je zato prepoznavala samo uzorke, ne imena. Ispravljeno.

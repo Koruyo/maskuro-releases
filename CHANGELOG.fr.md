@@ -11,6 +11,12 @@ bugs.
 
 ---
 
+## 0.10.52-beta.4 – 26 octobre 2026
+
+- Les nouvelles installations noircissent désormais au lieu de remplacer par des espaces réservés. Un choix déjà fait est conservé.
+- Installation Windows : le démarrage automatique et le raccourci sur le bureau sont désormais présélectionnés, comme le menu contextuel.
+- Windows : l'installation s'arrêtait à la fin avec « Cannot call "UninstallSilent" function during Setup ». Corrigé ; la question lors de la désinstallation s'affiche toujours, sauf en désinstallation silencieuse.
+
 ## 0.10.52-beta.3 – 25 octobre 2026
 
 - La bêta 0.10.52-beta.2 ne pouvait pas charger les modèles linguistiques (« Python int too large to convert to C ssize_t ») et ne reconnaissait donc que des motifs, pas des noms. Corrigé.

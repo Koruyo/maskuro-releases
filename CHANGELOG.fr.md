@@ -11,6 +11,10 @@ bugs.
 
 ---
 
+## 0.10.52-beta.3 – 25 octobre 2026
+
+- La bêta 0.10.52-beta.2 ne pouvait pas charger les modèles linguistiques (« Python int too large to convert to C ssize_t ») et ne reconnaissait donc que des motifs, pas des noms. Corrigé.
+
 ## 0.10.52-beta.2 – 25 octobre 2026
 
 - Sécurité : les certificats racines fournis pour toutes les connexions sortantes (mises à jour, licence, téléchargements) ont été renouvelés ; l'ancienne version contenait des racines d'une autorité de certification dont les clés intermédiaires sont compromises.

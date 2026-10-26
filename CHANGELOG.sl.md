@@ -6,6 +6,12 @@ ne njegove notranjosti. Kdor želi vedeti, *iz česa* je zgrajen, najde to v
 ko nekaj ne deluje več tako, kot je delovalo prej, **druga** ob novih
 zmožnostih, **tretja** ob odpravljenih napakah.
 
+## 0.10.52-beta.4 – 26. oktober 2026
+
+- Nove namestitve zdaj počrnijo namesto zamenjave z ograditelji. Kdor je že izbral, obdrži svojo izbiro.
+- Namestitev za Windows: samodejni zagon in bližnjica na namizju sta zdaj vnaprej izbrana, tako kot že priročni meni.
+- Windows: namestitev se je na koncu ustavila z „Cannot call "UninstallSilent" function during Setup“. Odpravljeno; vprašanje ob odstranitvi se še vedno prikaže, razen pri tihi odstranitvi.
+
 ## 0.10.52-beta.3 – 25. oktober 2026
 
 - Beta 0.10.52-beta.2 ni mogla naložiti jezikovnih modelov („Python int too large to convert to C ssize_t“) in je zato prepoznavala samo vzorce, ne imen. Odpravljeno.

@@ -10,6 +10,12 @@ något inte längre fungerar som förut, den **andra** vid nya funktioner, den
 
 ---
 
+## 0.10.52-beta.4 – 26 oktober 2026
+
+- Nya installationer svärtar nu i stället för att ersätta med platshållare. Den som redan har gjort ett val behåller det.
+- Windows-installation: automatisk start och skrivbordsgenvägen är nu förvalda, liksom snabbmenyn redan var.
+- Windows: installationen avbröts i slutet med ”Cannot call "UninstallSilent" function during Setup”. Åtgärdat; frågan vid avinstallation visas fortfarande, utom vid tyst avinstallation.
+
 ## 0.10.52-beta.3 – 25 oktober 2026
 
 - Betan 0.10.52-beta.2 kunde inte läsa in språkmodellerna (”Python int too large to convert to C ssize_t”) och kände därför bara igen mönster, inte namn. Åtgärdat.

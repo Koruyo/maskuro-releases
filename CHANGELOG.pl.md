@@ -8,6 +8,12 @@ możliwościach, **trzecia** przy poprawkach błędów.
 
 ---
 
+## 0.10.52-beta.4 – 26 października 2026
+
+- Nowe instalacje zaczerniają teraz zamiast zastępować symbolami zastępczymi. Kto już dokonał wyboru, zachowuje go.
+- Instalator Windows: autostart i skrót na pulpicie są teraz wstępnie zaznaczone, tak jak już menu kontekstowe.
+- Windows: instalacja przerywała się na końcu komunikatem „Cannot call "UninstallSilent" function during Setup”. Naprawione; pytanie przy odinstalowaniu nadal się pojawia, z wyjątkiem cichej deinstalacji.
+
 ## 0.10.52-beta.3 – 25 października 2026
 
 - Beta 0.10.52-beta.2 nie mogła wczytać modeli językowych („Python int too large to convert to C ssize_t”) i dlatego rozpoznawała tylko wzorce, a nie nazwiska. Naprawione.

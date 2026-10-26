@@ -8,6 +8,10 @@ możliwościach, **trzecia** przy poprawkach błędów.
 
 ---
 
+## 0.10.52-beta.3 – 25 października 2026
+
+- Beta 0.10.52-beta.2 nie mogła wczytać modeli językowych („Python int too large to convert to C ssize_t”) i dlatego rozpoznawała tylko wzorce, a nie nazwiska. Naprawione.
+
 ## 0.10.52-beta.2 – 25 października 2026
 
 - Bezpieczeństwo: dołączone certyfikaty główne dla wszystkich połączeń wychodzących (aktualizacje, licencja, pobieranie) zostały odnowione; poprzednia wersja zawierała certyfikaty główne urzędu certyfikacji, którego klucze pośrednie zostały przejęte.

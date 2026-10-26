@@ -6,6 +6,10 @@ A numeração segue a contagem habitual: o **primeiro** número muda quando algo
 deixa de funcionar como antes, o **segundo** com novas funcionalidades, o
 **terceiro** com correções de erros.
 
+## 0.10.52-beta.3 – 25 de outubro de 2026
+
+- A beta 0.10.52-beta.2 não conseguia carregar os modelos de linguagem («Python int too large to convert to C ssize_t») e por isso só reconhecia padrões, não nomes. Corrigido.
+
 ## 0.10.52-beta.2 – 25 de outubro de 2026
 
 - Segurança: os certificados raiz incluídos para todas as ligações de saída (atualizações, licença, transferências) foram renovados; a versão anterior continha raízes de uma autoridade de certificação cujas chaves intermédias estão comprometidas.

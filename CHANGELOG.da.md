@@ -11,6 +11,10 @@ funktioner, det **tredje** ved fejlrettelser.
 
 ---
 
+## 0.10.52-beta.3 – 25. oktober 2026
+
+- Betaen 0.10.52-beta.2 kunne ikke indlæse sprogmodellerne („Python int too large to convert to C ssize_t“) og genkendte derfor kun mønstre, ikke navne. Rettet.
+
 ## 0.10.52-beta.2 – 25. oktober 2026
 
 - Sikkerhed: de medfølgende rodcertifikater til alle udgående forbindelser (opdateringer, licens, downloads) er fornyet; den tidligere version indeholdt rødder fra en certifikatudsteder, hvis mellemliggende nøgler er kompromitteret.

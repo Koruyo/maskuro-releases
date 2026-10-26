@@ -6,6 +6,10 @@ ne njegove notranjosti. Kdor želi vedeti, *iz česa* je zgrajen, najde to v
 ko nekaj ne deluje več tako, kot je delovalo prej, **druga** ob novih
 zmožnostih, **tretja** ob odpravljenih napakah.
 
+## 0.10.52-beta.3 – 25. oktober 2026
+
+- Beta 0.10.52-beta.2 ni mogla naložiti jezikovnih modelov („Python int too large to convert to C ssize_t“) in je zato prepoznavala samo vzorce, ne imen. Odpravljeno.
+
 ## 0.10.52-beta.2 – 25. oktober 2026
 
 - Varnost: priložena korenska potrdila za vse odhodne povezave (posodobitve, licenca, prenosi) so obnovljena; prejšnja različica je vsebovala korene overitelja, katerega vmesni ključi so ogroženi.

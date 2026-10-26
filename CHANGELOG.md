@@ -350,6 +350,13 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## Unveröffentlicht
 
+## 0.10.52-beta.4 – 26. Oktober 2026
+
+- Neu installiert wird jetzt geschwärzt statt mit Platzhaltern ersetzt. Wer schon eine Wahl getroffen hat, behält sie.
+- Windows-Setup: Autostart und Desktopverknüpfung sind jetzt vorausgewählt, wie schon das Kontextmenü.
+- Windows: Das Setup brach am Ende der Installation mit „Cannot call
+  "UninstallSilent" function during Setup“ ab. Behoben; die Rückfrage beim
+  Deinstallieren erscheint weiter, außer bei stiller Deinstallation.
 ## 0.10.52-beta.3 – 25. Oktober 2026
 
 - Die Beta 0.10.52-beta.2 konnte die Sprachmodelle nicht laden („Python int

@@ -1,5 +1,9 @@
 
 
+## 0.10.52-beta.3 – 25. listopada 2026
+
+- Beta 0.10.52-beta.2 nije mogla učitati jezične modele („Python int too large to convert to C ssize_t”) pa je zato prepoznavala samo uzorke, ne imena. Ispravljeno.
+
 ## 0.10.52-beta.2 – 25. listopada 2026
 
 - Sigurnost: priložene korijenske potvrde za sve odlazne veze (ažuriranja, licenca, preuzimanja) obnovljene su; prethodna inačica sadržavala je korijene certifikacijskog tijela čiji su posrednički ključevi kompromitirani.

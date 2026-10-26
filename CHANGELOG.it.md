@@ -11,6 +11,12 @@ funzionalità, il **terzo** per correzioni di errori.
 
 ---
 
+## 0.10.52-beta.4 – 26 ottobre 2026
+
+- Le nuove installazioni ora anneriscono invece di sostituire con segnaposto. Chi ha già scelto mantiene la propria scelta.
+- Installazione Windows: avvio automatico e collegamento sul desktop sono ora preselezionati, come già il menu contestuale.
+- Windows: l'installazione si interrompeva alla fine con «Cannot call "UninstallSilent" function during Setup». Corretto; la domanda durante la disinstallazione compare ancora, tranne che nella disinstallazione silenziosa.
+
 ## 0.10.52-beta.3 – 25 ottobre 2026
 
 - La beta 0.10.52-beta.2 non riusciva a caricare i modelli linguistici («Python int too large to convert to C ssize_t») e quindi riconosceva solo schemi, non nomi. Corretto.

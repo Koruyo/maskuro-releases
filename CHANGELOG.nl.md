@@ -7,6 +7,12 @@ De nummering volgt de gebruikelijke telwijze: het **eerste** getal verandert
 wanneer iets niet meer werkt zoals voorheen, het **tweede** bij nieuwe
 mogelijkheden, het **derde** bij foutcorrecties.
 
+## 0.10.52-beta.4 – 26 oktober 2026
+
+- Nieuwe installaties zwarten nu weg in plaats van te vervangen door plaatshouders. Wie al een keuze heeft gemaakt, behoudt die.
+- Windows-installatie: automatisch starten en de snelkoppeling op het bureaublad zijn nu vooraf geselecteerd, zoals het contextmenu al was.
+- Windows: de installatie brak aan het einde af met „Cannot call "UninstallSilent" function during Setup”. Opgelost; de vraag bij het verwijderen verschijnt nog steeds, behalve bij stil verwijderen.
+
 ## 0.10.52-beta.3 – 25 oktober 2026
 
 - De bèta 0.10.52-beta.2 kon de taalmodellen niet laden („Python int too large to convert to C ssize_t”) en herkende daardoor alleen patronen, geen namen. Opgelost.

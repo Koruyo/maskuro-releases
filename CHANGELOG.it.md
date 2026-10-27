@@ -11,6 +11,12 @@ funzionalità, il **terzo** per correzioni di errori.
 
 ---
 
+## 0.10.52-beta.5 – 27 ottobre 2026
+
+- PDF: le scansioni ruotate mantengono riquadri di testo orientati correttamente. La selezione delle parole e le evidenziazioni seguono più da vicino l’oscuramento effettivo; i riquadri liberi mostrano anche la scrittura a mano non riconosciuta. Gli oscuramenti di Maskuro non attivano più rilevamenti aggiuntivi di volti.
+- Elenco dei risultati: le icone delle azioni restano allineate. L’anteprima delle modifiche si apre senza una finestra aggiuntiva che lampeggia brevemente.
+- Lingua: nuova identificazione locale della lingua; i testi incerti non attivano il download di pacchetti linguistici. La lingua scelta esplicitamente vale anche per il download.
+
 ## 0.10.52-beta.4 – 26 ottobre 2026
 
 - Le nuove installazioni ora anneriscono invece di sostituire con segnaposto. Chi ha già scelto mantiene la propria scelta.

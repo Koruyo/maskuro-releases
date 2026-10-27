@@ -6,6 +6,12 @@ Nummereringen følger den vanlige tellemåten: Det **første** tallet endrer seg
 når noe ikke lenger fungerer som før, det **andre** ved nye
 funksjoner, det **tredje** ved feilrettinger.
 
+## 0.10.52-beta.5 – 27. oktober 2026
+
+- PDF: roterte skanninger beholder rettvendte tekstbokser. Ordvalg og markeringer følger den faktiske sladdingen tettere; frie rammer viser også håndskrift som ikke er gjenkjent. Maskuros egne sladdinger utløser ikke lenger ekstra ansiktsdeteksjoner.
+- Resultatliste: handlingsikoner forblir justert. Forhåndsvisningen av endringer åpnes uten et ekstra vindu som blinker kort.
+- Språk: ny lokal språkidentifikasjon; usikker tekst utløser ikke nedlasting av språkpakker. Et uttrykkelig valgt språk gjelder også ved nedlasting.
+
 ## 0.10.52-beta.4 – 26. oktober 2026
 
 - Nye installasjoner sverter nå i stedet for å erstatte med plassholdere. Den som allerede har valgt, beholder valget.

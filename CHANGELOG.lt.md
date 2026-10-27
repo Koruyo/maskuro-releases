@@ -9,6 +9,12 @@ Numeracija seka įprastą schemą: **pirmasis** skaičius keičiasi, kai kas nor
 nebeveikia taip, kaip anksčiau, **antrasis** – atsiradus naujoms galimybėms,
 **trečiasis** – ištaisius klaidas.
 
+## 0.10.52-beta.5 – 2026 m. spalio 27 d.
+
+- PDF: pasukti nuskaityti dokumentai išlaiko taisyklingai orientuotus teksto rėmelius. Žodžių pasirinkimas ir žymėjimai tiksliau atitinka tikrąjį užtušavimą; laisvieji rėmeliai rodo ir neatpažintą rašyseną. „Maskuro“ atlikti užtušavimai nebesukelia papildomų veidų aptikimų.
+- Rezultatų sąrašas: veiksmų piktogramos lieka sulygiuotos. Pakeitimų peržiūra atsidaro be trumpam sužybsinčio papildomo lango.
+- Kalba: naujas vietinis kalbos nustatymas; neaiškūs tekstai nepaleidžia kalbos paketų atsisiuntimo. Aiškiai pasirinkta kalba taikoma ir atsisiunčiant.
+
 ## 0.10.52-beta.4 – 2026 m. spalio 26 d.
 
 - Naujai įdiegus dabar užtamsinama, o ne keičiama vietos rezervavimo ženklais. Kas jau pasirinko, išlaiko savo pasirinkimą.

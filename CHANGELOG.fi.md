@@ -8,6 +8,12 @@ Numerointi noudattaa tavanomaista käytäntöä: **ensimmäinen** luku muuttuu,
 kun jokin ei enää toimi kuten ennen, **toinen** uusien ominaisuuksien
 myötä, **kolmas** virheenkorjausten myötä.
 
+## 0.10.52-beta.5 – 27. lokakuuta 2026
+
+- PDF: käännettyjen skannausten tekstikehykset pysyvät oikein päin. Sanojen valinta ja korostukset vastaavat tarkemmin todellista peittoa; vapaat kehykset näyttävät myös tunnistamattoman käsialan. Maskuron omat peitot eivät enää aiheuta ylimääräisiä kasvotunnistuksia.
+- Tulosluettelo: toimintokuvakkeet pysyvät tasattuina. Muutosten esikatselu avautuu ilman hetkeksi välähtävää lisäikkunaa.
+- Kieli: uusi paikallinen kielen tunnistus; epävarma teksti ei käynnistä kielipakettien latausta. Erikseen valittua kieltä noudatetaan myös latauksessa.
+
 ## 0.10.52-beta.4 – 26. lokakuuta 2026
 
 - Uudet asennukset peittävät nyt mustalla paikkamerkkien sijaan. Jo tehty valinta säilyy.

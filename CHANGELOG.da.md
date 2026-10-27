@@ -11,6 +11,12 @@ funktioner, det **tredje** ved fejlrettelser.
 
 ---
 
+## 0.10.52-beta.5 – 27. oktober 2026
+
+- PDF: roterede scanninger bevarer opretstående tekstfelter. Ordvalg og markeringer følger den faktiske overstregning tættere; frie rammer viser også håndskrift, som ikke er genkendt. Maskuros egne overstregninger udløser ikke længere yderligere ansigtsregistreringer.
+- Resultatliste: handlingsikoner forbliver justeret. Ændringsvisningen åbnes uden et ekstra vindue, der blinker kortvarigt.
+- Sprog: ny lokal sproggenkendelse; usikker tekst udløser ikke download af sprogpakker. Et udtrykkeligt valgt sprog gælder også ved download.
+
 ## 0.10.52-beta.4 – 26. oktober 2026
 
 - Nye installationer sværter nu i stedet for at erstatte med pladsholdere. Har man allerede valgt, beholder man sit valg.

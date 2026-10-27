@@ -7,6 +7,12 @@ De nummering volgt de gebruikelijke telwijze: het **eerste** getal verandert
 wanneer iets niet meer werkt zoals voorheen, het **tweede** bij nieuwe
 mogelijkheden, het **derde** bij foutcorrecties.
 
+## 0.10.52-beta.5 – 27 oktober 2026
+
+- PDF: gedraaide scans behouden rechtopstaande tekstkaders. Woordselectie en markeringen sluiten beter aan bij de werkelijke zwartmaking; vrije kaders tonen ook niet-herkend handschrift. Door Maskuro aangebrachte zwartmakingen leiden niet meer tot extra gezichtsdetecties.
+- Resultatenlijst: actiepictogrammen blijven uitgelijnd. Het wijzigingsvoorbeeld opent zonder kort knipperend extra venster.
+- Taal: nieuwe lokale taalherkenning; onzekere tekst leidt niet tot het downloaden van taalpakketten. Een expliciet gekozen taal geldt ook bij het downloaden.
+
 ## 0.10.52-beta.4 – 26 oktober 2026
 
 - Nieuwe installaties zwarten nu weg in plaats van te vervangen door plaatshouders. Wie al een keuze heeft gemaakt, behoudt die.

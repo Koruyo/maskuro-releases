@@ -350,6 +350,12 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 
 ## Unveröffentlicht
 
+## 0.10.52-beta.5 – 27. Oktober 2026
+
+- PDF: Gedrehte Scans behalten aufrechte Textkästen. Wortauswahl und Markierungen bleiben enger an der tatsächlichen Schwärzung; freie Rahmen zeigen auch nicht erkannte Handschrift. Eigene Schwärzungen lösen keine zusätzlichen Gesichtstreffer aus.
+- Ergebnisliste: Aktionssymbole bleiben ausgerichtet. Die Änderungsvorschau öffnet ohne kurz aufblinkendes Zusatzfenster.
+- Sprache: Neue lokale Sprachbestimmung; unsichere Texte lösen kein Sprachpaket-Nachladen aus. Eine feste Sprachwahl gilt auch beim Nachladen.
+
 ## 0.10.52-beta.4 – 26. Oktober 2026
 
 - Neu installiert wird jetzt geschwärzt statt mit Platzhaltern ersetzt. Wer schon eine Wahl getroffen hat, behält sie.

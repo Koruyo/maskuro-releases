@@ -6,6 +6,12 @@ ne njegove notranjosti. Kdor želi vedeti, *iz česa* je zgrajen, najde to v
 ko nekaj ne deluje več tako, kot je delovalo prej, **druga** ob novih
 zmožnostih, **tretja** ob odpravljenih napakah.
 
+## 0.10.52-beta.5 – 27. oktober 2026
+
+- PDF: zasukani skeni ohranijo pravilno obrnjene besedilne okvirje. Izbira besed in oznake natančneje sledijo dejanskemu počrnitvi; prosti okvirji pokažejo tudi neprepoznano rokopisno besedilo. Počrnitve, ki jih ustvari Maskuro, ne sprožajo več dodatnih zaznav obrazov.
+- Seznam rezultatov: ikone dejanj ostanejo poravnane. Predogled sprememb se odpre brez dodatnega okna, ki za hip utripne.
+- Jezik: novo lokalno prepoznavanje jezika; negotova besedila ne sprožijo prenosa jezikovnih paketov. Izrecno izbrani jezik velja tudi pri prenosu.
+
 ## 0.10.52-beta.4 – 26. oktober 2026
 
 - Nove namestitve zdaj počrnijo namesto zamenjave z ograditelji. Kdor je že izbral, obdrži svojo izbiro.

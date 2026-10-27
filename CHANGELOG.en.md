@@ -5,6 +5,12 @@ The numbering follows the usual scheme: the **first** number changes
 when something no longer works the way it used to, the **second** for new
 capabilities, the **third** for bug fixes.
 
+## 0.10.52-beta.5 – 27 October 2026
+
+- PDF: Rotated scans retain upright text boxes. Word selection and highlights stay closer to the actual redaction; freehand rectangles also show unrecognized handwriting. Redactions made by Maskuro no longer trigger additional face detections.
+- Results list: Action icons stay aligned. The change preview opens without a briefly flashing extra window.
+- Language: New local language identification; uncertain text does not trigger language pack downloads. An explicitly selected language also applies when downloading packs.
+
 ## 0.10.52-beta.4 – 26 October 2026
 
 - New installations now black out findings instead of replacing them with placeholders. Anyone who has already made a choice keeps it.

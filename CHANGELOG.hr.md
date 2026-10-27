@@ -1,5 +1,11 @@
 
 
+## 0.10.52-beta.5 – 27. listopada 2026.
+
+- PDF: zakrenuti skenovi zadržavaju uspravne tekstne okvire. Odabir riječi i oznake preciznije prate stvarno zacrnjivanje; slobodni okviri prikazuju i neprepoznati rukopis. Zacrnjivanja koja napravi Maskuro više ne pokreću dodatna otkrivanja lica.
+- Popis rezultata: ikone radnji ostaju poravnate. Pregled izmjena otvara se bez dodatnog prozora koji nakratko zatreperi.
+- Jezik: novo lokalno prepoznavanje jezika; nesigurni tekstovi ne pokreću preuzimanje jezičnih paketa. Izričito odabrani jezik vrijedi i pri preuzimanju.
+
 ## 0.10.52-beta.4 – 26. listopada 2026
 
 - Nove instalacije sada zacrnjuju umjesto zamjene rezerviranim mjestima. Tko je već odabrao, zadržava svoj odabir.

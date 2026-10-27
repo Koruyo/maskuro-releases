@@ -1,107 +1,107 @@
 {
   "kanal": "beta",
-  "version": "0.10.52-beta.4",
-  "erschienen": "2026-10-26",
+  "version": "0.10.52-beta.5",
+  "erschienen": "2026-10-27",
   "dateien": [
     {
       "system": "linux",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-aarch64.AppImage",
-      "groesse": 768924168,
-      "sha256": "b07b8a94a0921f1c9341910cd87b51eaca4b92d582b1cecdd0fd7a1817f2169a"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-aarch64.AppImage",
+      "groesse": 773560840,
+      "sha256": "d69f917e1c279ae0917b1e46cea9156bbe391a81bd35c11ea7de75946e07a384"
     },
     {
       "system": "linux",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-aarch64.rpm",
-      "groesse": 738117840,
-      "sha256": "486ceac908b60dce6aa883a06ce48c8dc78ef59b59124843c171638d147935c4"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-aarch64.rpm",
+      "groesse": 742766467,
+      "sha256": "ec7c3c2999da9744145742cc59d0a1d91dd81f3e16ca5e61c77580ef98b560a1"
     },
     {
       "system": "linux",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-arm64.deb",
-      "groesse": 733280390,
-      "sha256": "544db25f6f3ee1bf58cf7b65716384a459a0dfc8aaa2947bc452a558cc349a28"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-arm64.deb",
+      "groesse": 737961166,
+      "sha256": "69eb792cdecaffd8878b2fb70c862bd2f7e8b18f2fcfa522e248e5fe609bec99"
     },
     {
       "system": "linux",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-linux-arm64.tar.gz",
-      "groesse": 789421909,
-      "sha256": "3c3e2b78b1276534f49186c28961e3dbe32b4359004e91ef658c7b0be00735a7"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-linux-arm64.tar.gz",
+      "groesse": 794081348,
+      "sha256": "95f5062e2b7fa646104d5cd4a72c4a7d2d831ceddfe2f7062e9344f432d00b7d"
     },
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-amd64.deb",
-      "groesse": 747546900,
-      "sha256": "76909aebd34f66e1a7b6695d2c8eb8ba431afdb8717c82a5e8c69c98fe84c7ec"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-amd64.deb",
+      "groesse": 752181818,
+      "sha256": "0a1bd79413632ab44e97a2d08defef823f58bb905f54bbc9b6728642e34bfaed"
     },
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-linux-x64.tar.gz",
-      "groesse": 806032115,
-      "sha256": "5618b059459aaf10b270be15a8b804823b9c3866ec007ab42523059db0720a3c"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-linux-x64.tar.gz",
+      "groesse": 810667695,
+      "sha256": "afc4dceccea35f835559ca931fbb77b87f1c77b4f53c798673ccc139d7e175fd"
     },
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-x86_64.AppImage",
-      "groesse": 785279480,
-      "sha256": "407357b95a74bcd4693eca8978b94d03431d44be61ee9683ebbfde86e342aa38"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-x86_64.AppImage",
+      "groesse": 789916152,
+      "sha256": "da960c504345a4f965081dc3897ff15648eb0f9ad5a4e7dbd992876569ca11c0"
     },
     {
       "system": "linux",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-x86_64.rpm",
-      "groesse": 753821467,
-      "sha256": "07735f73e7ee083d6570cce75054d32369babcbcca9c97a31e357c658f6374f5"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-x86_64.rpm",
+      "groesse": 758476068,
+      "sha256": "b9d17bdf7a6c7b6ab71179ff2488d1964d45d0fbbd5f2bbe98af701161b8a23f"
     },
     {
       "system": "macos",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-arm64.dmg",
-      "groesse": 709056651,
-      "sha256": "693db44087b055f377a876d1d36f602f2c286e7dd5deb1344800bf582219d1c8"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-arm64.dmg",
+      "groesse": 713736416,
+      "sha256": "42423a1d7c7a0ad338d9814af27a480ca1112cdc10171f09937a89440ca38ded"
     },
     {
       "system": "macos",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-x86_64.dmg",
-      "groesse": 722490116,
-      "sha256": "4b1ead52bfde1dae40d7e9b3a563d1bd96a3338d42df179314f409d59354b9b9"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-x86_64.dmg",
+      "groesse": 727228139,
+      "sha256": "2dabb18061ab7eb2b9dd38afa9c54d04810b58d0c080f737a4329702d5ea424b"
     },
     {
       "system": "windows",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-arm64-Setup.exe",
-      "groesse": 668975295,
-      "sha256": "cbc9d31c36b451ffedae62d369b49a33601df750eaf590d6fe9cbe1be5ed1e08"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-arm64-Setup.exe",
+      "groesse": 673573932,
+      "sha256": "27f39ff7eb31d981330272124e6aa852ef12ca946d9c072082333f81cbda210e"
     },
     {
       "system": "windows",
       "arch": "arm64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-arm64.msi",
-      "groesse": 689508643,
-      "sha256": "0bfc8bca9d23bab26d17ba3ff212a280413ae82ce81666b4ad29d3349210e43d"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-arm64.msi",
+      "groesse": 694130670,
+      "sha256": "118eaa8e71dedffdd4065010a8d876b7eb0c331aed36a0735b79ceb0c1ee9ea2"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-Setup.exe",
-      "groesse": 685531483,
-      "sha256": "f460db315887b558f89d27d9d01187b03bac9f89b124998e6ec2c5e3a184ce86"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-Setup.exe",
+      "groesse": 690297201,
+      "sha256": "6022ce4c29721a3ab921f003ac504cac5ffee793a09781fc6b9ab37c5fcc42ce"
     },
     {
       "system": "windows",
       "arch": "x64",
-      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.4/Maskuro-0.10.52-x64.msi",
-      "groesse": 710125295,
-      "sha256": "6d7e680e990385644ad199fd463e72785cfaabafb3939969d0a2ac753d2257f7"
+      "url": "https://github.com/Koruyo/maskuro-releases/releases/download/v0.10.52-beta.5/Maskuro-0.10.52-x64.msi",
+      "groesse": 714862010,
+      "sha256": "c19213a238bf94e9685bec3430dfa7ca1f1b266f3e6e923014ede17d8588fa5c"
     }
   ],
-  "hinweise": "- Neu installiert wird jetzt geschwärzt statt mit Platzhaltern ersetzt. Wer schon eine Wahl getroffen hat, behält sie.\n- Windows-Setup: Autostart und Desktopverknüpfung sind jetzt vorausgewählt, wie schon das Kontextmenü.\n- Windows: Das Setup brach am Ende der Installation mit „Cannot call\n  \"UninstallSilent\" function during Setup“ ab. Behoben; die Rückfrage beim\n  Deinstallieren erscheint weiter, außer bei stiller Deinstallation.",
-  "signatur": "jp/t/8r8xR7WJU4c7qJNVHgk3CNKwNVmU+hDkgkqlswX5tvlKZfcJQ1s3faTv6AZ0/kt546IThlilAxXjVa6BA=="
+  "hinweise": "- PDF: Gedrehte Scans behalten aufrechte Textkästen. Wortauswahl und Markierungen bleiben enger an der tatsächlichen Schwärzung; freie Rahmen zeigen auch nicht erkannte Handschrift. Eigene Schwärzungen lösen keine zusätzlichen Gesichtstreffer aus.\n- Ergebnisliste: Aktionssymbole bleiben ausgerichtet. Die Änderungsvorschau öffnet ohne kurz aufblinkendes Zusatzfenster.\n- Sprache: Neue lokale Sprachbestimmung; unsichere Texte lösen kein Sprachpaket-Nachladen aus. Eine feste Sprachwahl gilt auch beim Nachladen.",
+  "signatur": "tnP7oegwEyJGPPFJH3H6Qri365USy+ZRH9ij/sdqIM2H1tmhD0hKKtHa0gcO/4PAHAjGRkQWmee/CUi+fAfMDQ=="
 }

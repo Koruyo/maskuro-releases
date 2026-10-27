@@ -8,6 +8,12 @@ możliwościach, **trzecia** przy poprawkach błędów.
 
 ---
 
+## 0.10.52-beta.5 – 27 października 2026
+
+- PDF: obrócone skany zachowują prawidłowo ustawione ramki tekstu. Zaznaczanie słów i wyróżnienia dokładniej odpowiadają rzeczywistemu zaczernieniu; swobodne ramki pokazują także nierozpoznane pismo odręczne. Zaczernienia wykonane przez Maskuro nie powodują już dodatkowych wykryć twarzy.
+- Lista wyników: ikony działań pozostają wyrównane. Podgląd zmian otwiera się bez dodatkowego okna, które na chwilę miga.
+- Język: nowe lokalne rozpoznawanie języka; teksty o niepewnym języku nie powodują pobierania pakietów językowych. Język wybrany jawnie jest uwzględniany także podczas pobierania.
+
 ## 0.10.52-beta.4 – 26 października 2026
 
 - Nowe instalacje zaczerniają teraz zamiast zastępować symbolami zastępczymi. Kto już dokonał wyboru, zachowuje go.

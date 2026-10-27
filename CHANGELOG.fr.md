@@ -11,6 +11,12 @@ bugs.
 
 ---
 
+## 0.10.52-beta.5 – 27 octobre 2026
+
+- PDF : les scans pivotés conservent des cadres de texte droits. La sélection des mots et les surlignages suivent plus précisément le masquage réel ; les cadres libres montrent aussi l’écriture manuscrite non reconnue. Les masquages de Maskuro ne déclenchent plus de détections supplémentaires de visages.
+- Liste des résultats : les icônes d’action restent alignées. L’aperçu des modifications s’ouvre sans fenêtre supplémentaire qui clignote brièvement.
+- Langue : nouvelle identification locale de la langue ; les textes incertains ne déclenchent pas de téléchargement de pack linguistique. Le choix explicite d’une langue s’applique aussi au téléchargement.
+
 ## 0.10.52-beta.4 – 26 octobre 2026
 
 - Les nouvelles installations noircissent désormais au lieu de remplacer par des espaces réservés. Un choix déjà fait est conservé.

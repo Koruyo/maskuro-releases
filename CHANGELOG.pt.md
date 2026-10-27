@@ -6,6 +6,12 @@ A numeração segue a contagem habitual: o **primeiro** número muda quando algo
 deixa de funcionar como antes, o **segundo** com novas funcionalidades, o
 **terceiro** com correções de erros.
 
+## 0.10.52-beta.5 – 27 de outubro de 2026
+
+- PDF: as digitalizações rodadas mantêm caixas de texto na orientação correta. A seleção de palavras e as marcações acompanham melhor a ocultação efetiva; os retângulos livres também mostram a escrita à mão não reconhecida. As ocultações do Maskuro deixam de provocar deteções adicionais de rostos.
+- Lista de resultados: os ícones de ação mantêm-se alinhados. A pré-visualização das alterações abre sem uma janela adicional a piscar brevemente.
+- Idioma: nova identificação local do idioma; os textos incertos não provocam transferências de pacotes de idioma. O idioma escolhido explicitamente também se aplica à transferência.
+
 ## 0.10.52-beta.4 – 26 de outubro de 2026
 
 - As novas instalações passam a tarjar em vez de substituir por marcadores. Quem já escolheu mantém a sua escolha.

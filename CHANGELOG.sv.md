@@ -10,6 +10,12 @@ något inte längre fungerar som förut, den **andra** vid nya funktioner, den
 
 ---
 
+## 0.10.52-beta.5 – 27 oktober 2026
+
+- PDF: roterade skanningar behåller rättvända textrutor. Ordmarkering och färgmarkeringar följer den faktiska maskningen bättre; fria ramar visar även handskrift som inte har känts igen. Maskuros egna maskningar utlöser inte längre ytterligare ansiktsidentifieringar.
+- Resultatlista: åtgärdsikoner förblir justerade. Förhandsvisningen av ändringar öppnas utan ett extra fönster som blinkar till.
+- Språk: ny lokal språkidentifiering; osäker text utlöser ingen nedladdning av språkpaket. Ett uttryckligen valt språk gäller även vid nedladdning.
+
 ## 0.10.52-beta.4 – 26 oktober 2026
 
 - Nya installationer svärtar nu i stället för att ersätta med platshållare. Den som redan har gjort ett val behåller det.

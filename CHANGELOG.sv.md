@@ -10,6 +10,12 @@ något inte längre fungerar som förut, den **andra** vid nya funktioner, den
 
 ---
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Manuell maskering täcker ordslut säkrare och bevarar intilliggande roller och belopp. Färre falska OCR-fynd på befintliga maskeringsfält.
+- Identifiering: Bättre identifiering av deltagar-, kontakt- och transaktionsnamn samt personliga bostadsorter. Tekniska modellkoder skiljs från företagsnamn med siffror utifrån sammanhanget.
+- Redigerare: Granskningsfärger för maskeringar och ersättningar kan aktiveras separat.
+
 ## 0.10.52-beta.5 – 27 oktober 2026
 
 - PDF: roterade skanningar behåller rättvända textrutor. Ordmarkering och färgmarkeringar följer den faktiska maskningen bättre; fria ramar visar även handskrift som inte har känts igen. Maskuros egna maskningar utlöser inte längre ytterligare ansiktsidentifieringar.

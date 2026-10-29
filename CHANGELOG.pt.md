@@ -6,6 +6,12 @@ A numeração segue a contagem habitual: o **primeiro** número muda quando algo
 deixa de funcionar como antes, o **segundo** com novas funcionalidades, o
 **terceiro** com correções de erros.
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: As ocultações manuais abrangem melhor os finais das palavras e preservam os cargos e valores adjacentes. Menos deteções OCR falsas nas barras de ocultação existentes.
+- Deteção: Melhor identificação de nomes de participantes, contactos e transações e de locais de residência pessoais. Os códigos técnicos de modelos são distinguidos dos nomes de empresas com números com base no contexto.
+- Editor: As cores de revisão das ocultações e substituições podem ser ativadas separadamente.
+
 ## 0.10.52-beta.5 – 27 de outubro de 2026
 
 - PDF: as digitalizações rodadas mantêm caixas de texto na orientação correta. A seleção de palavras e as marcações acompanham melhor a ocultação efetiva; os retângulos livres também mostram a escrita à mão não reconhecida. As ocultações do Maskuro deixam de provocar deteções adicionais de rostos.

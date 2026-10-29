@@ -6,6 +6,12 @@ Nummereringen følger den vanlige tellemåten: Det **første** tallet endrer seg
 når noe ikke lenger fungerer som før, det **andre** ved nye
 funksjoner, det **tredje** ved feilrettinger.
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Manuell sladding dekker ordslutter mer pålitelig og bevarer tilstøtende roller og beløp. Færre falske OCR-funn på eksisterende sladde felt.
+- Gjenkjenning: Bedre identifisering av deltaker-, kontakt- og transaksjonsnavn samt personlige bosteder. Tekniske modellkoder skilles fra firmanavn med tall ut fra sammenhengen.
+- Redigering: Kontrollfarger for sladding og erstatninger kan slås av og på uavhengig.
+
 ## 0.10.52-beta.5 – 27. oktober 2026
 
 - PDF: roterte skanninger beholder rettvendte tekstbokser. Ordvalg og markeringer følger den faktiske sladdingen tettere; frie rammer viser også håndskrift som ikke er gjenkjent. Maskuros egne sladdinger utløser ikke lenger ekstra ansiktsdeteksjoner.

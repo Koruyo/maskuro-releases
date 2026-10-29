@@ -9,6 +9,12 @@ algo deja de funcionar como antes, el **segundo** con nuevas funciones, el
 
 ---
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Las censuras manuales cubren mejor los finales de palabra y conservan los cargos e importes adyacentes. Menos detecciones OCR falsas en las barras de censura existentes.
+- Detección: Mejor identificación de nombres de participantes, contactos y transacciones, y de lugares de residencia personales. Los códigos técnicos de modelos se distinguen de las empresas con números en su nombre según el contexto.
+- Editor: Los colores de revisión de censuras y sustituciones se pueden activar por separado.
+
 ## 0.10.52-beta.5 – 27 de octubre de 2026
 
 - PDF: los documentos escaneados girados conservan cuadros de texto orientados correctamente. La selección de palabras y las marcas se ajustan mejor a la censura real; los rectángulos libres también muestran la escritura manuscrita no reconocida. Las censuras de Maskuro ya no provocan detecciones adicionales de rostros.

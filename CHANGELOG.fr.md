@@ -11,6 +11,12 @@ bugs.
 
 ---
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF : les masquages manuels couvrent mieux les fins de mots et préservent les fonctions et montants adjacents. Moins de fausses détections OCR sur les barres de masquage existantes.
+- Détection : meilleure identification des noms de participants, de contacts et de transactions, ainsi que des lieux de résidence personnels. Les codes techniques de modèles sont distingués des noms d’entreprises contenant des chiffres selon le contexte.
+- Éditeur : les couleurs de vérification des masquages et des remplacements peuvent être activées séparément.
+
 ## 0.10.52-beta.5 – 27 octobre 2026
 
 - PDF : les scans pivotés conservent des cadres de texte droits. La sélection des mots et les surlignages suivent plus précisément le masquage réel ; les cadres libres montrent aussi l’écriture manuscrite non reconnue. Les masquages de Maskuro ne déclenchent plus de détections supplémentaires de visages.

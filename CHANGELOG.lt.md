@@ -9,6 +9,12 @@ Numeracija seka įprastą schemą: **pirmasis** skaičius keičiasi, kai kas nor
 nebeveikia taip, kaip anksčiau, **antrasis** – atsiradus naujoms galimybėms,
 **trečiasis** – ištaisius klaidas.
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: rankinis užtušavimas patikimiau uždengia žodžių galūnes ir išsaugo gretimas pareigas bei sumas. Mažiau klaidingų OCR radinių esamose užtušavimo juostose.
+- Atpažinimas: geriau nustatomi dalyvių, kontaktų ir operacijų vardai bei asmeninės gyvenamosios vietos. Techniniai modelių kodai nuo įmonių pavadinimų su skaičiais atskiriami pagal kontekstą.
+- Redaktorius: užtušavimų ir pakeitimų tikrinimo spalvas galima įjungti atskirai.
+
 ## 0.10.52-beta.5 – 2026 m. spalio 27 d.
 
 - PDF: pasukti nuskaityti dokumentai išlaiko taisyklingai orientuotus teksto rėmelius. Žodžių pasirinkimas ir žymėjimai tiksliau atitinka tikrąjį užtušavimą; laisvieji rėmeliai rodo ir neatpažintą rašyseną. „Maskuro“ atlikti užtušavimai nebesukelia papildomų veidų aptikimų.

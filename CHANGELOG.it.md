@@ -11,6 +11,12 @@ funzionalità, il **terzo** per correzioni di errori.
 
 ---
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: le oscurazioni manuali coprono meglio le parti finali delle parole e conservano ruoli e importi adiacenti. Meno falsi rilevamenti OCR sulle barre di oscuramento esistenti.
+- Riconoscimento: migliore identificazione dei nomi di partecipanti, contatti e transazioni e dei luoghi di residenza personali. I codici tecnici dei modelli vengono distinti dai nomi aziendali contenenti numeri in base al contesto.
+- Editor: i colori di verifica di oscuramenti e sostituzioni possono essere attivati separatamente.
+
 ## 0.10.52-beta.5 – 27 ottobre 2026
 
 - PDF: le scansioni ruotate mantengono riquadri di testo orientati correttamente. La selezione delle parole e le evidenziazioni seguono più da vicino l’oscuramento effettivo; i riquadri liberi mostrano anche la scrittura a mano non riconosciuta. Gli oscuramenti di Maskuro non attivano più rilevamenti aggiuntivi di volti.

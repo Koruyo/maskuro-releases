@@ -1,5 +1,11 @@
 
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Ručno zacrnjivanje pouzdanije pokriva završetke riječi i čuva susjedne uloge i iznose. Manje lažnih OCR nalaza na postojećim crnim trakama.
+- Prepoznavanje: Bolje prepoznavanje imena sudionika, kontakata i transakcija te osobnih mjesta stanovanja. Tehničke oznake modela razlikuju se od naziva tvrtki s brojevima prema kontekstu.
+- Uređivač: Boje provjere zacrnjivanja i zamjena mogu se uključivati neovisno.
+
 ## 0.10.52-beta.5 – 27. listopada 2026.
 
 - PDF: zakrenuti skenovi zadržavaju uspravne tekstne okvire. Odabir riječi i oznake preciznije prate stvarno zacrnjivanje; slobodni okviri prikazuju i neprepoznati rukopis. Zacrnjivanja koja napravi Maskuro više ne pokreću dodatna otkrivanja lica.

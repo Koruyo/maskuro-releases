@@ -11,6 +11,12 @@ funktioner, det **tredje** ved fejlrettelser.
 
 ---
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Manuel overstregning dækker ordender mere pålideligt og bevarer tilstødende roller og beløb. Færre falske OCR-fund på eksisterende overstregningsbjælker.
+- Genkendelse: Bedre identifikation af deltager-, kontakt- og transaktionsnavne samt personlige bopæle. Tekniske modelbetegnelser og firmanavne med tal skelnes ud fra konteksten.
+- Editor: Kontrolfarver for overstregninger og erstatninger kan slås til og fra uafhængigt.
+
 ## 0.10.52-beta.5 – 27. oktober 2026
 
 - PDF: roterede scanninger bevarer opretstående tekstfelter. Ordvalg og markeringer følger den faktiske overstregning tættere; frie rammer viser også håndskrift, som ikke er genkendt. Maskuros egne overstregninger udløser ikke længere yderligere ansigtsregistreringer.

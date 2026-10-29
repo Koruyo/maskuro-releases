@@ -5,6 +5,12 @@ The numbering follows the usual scheme: the **first** number changes
 when something no longer works the way it used to, the **second** for new
 capabilities, the **third** for bug fixes.
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Manual redactions cover word endings more reliably and preserve adjacent roles and amounts. Fewer false OCR detections on existing redaction bars.
+- Detection: Better identification of participant, contact and transaction names and personal places of residence. Technical model codes and company names containing numbers are distinguished by context.
+- Editor: Review colours for redactions and replacements can be switched independently.
+
 ## 0.10.52-beta.5 – 27 October 2026
 
 - PDF: Rotated scans retain upright text boxes. Word selection and highlights stay closer to the actual redaction; freehand rectangles also show unrecognized handwriting. Redactions made by Maskuro no longer trigger additional face detections.

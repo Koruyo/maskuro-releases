@@ -8,6 +8,12 @@ możliwościach, **trzecia** przy poprawkach błędów.
 
 ---
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Ręczne zaczernianie dokładniej obejmuje końcówki słów i zachowuje sąsiednie role oraz kwoty. Mniej fałszywych rozpoznań OCR na istniejących czarnych paskach.
+- Rozpoznawanie: Lepsza identyfikacja nazwisk uczestników, kontaktów i transakcji oraz osobistych miejsc zamieszkania. Techniczne oznaczenia modeli są odróżniane od nazw firm zawierających liczby na podstawie kontekstu.
+- Edytor: Kolory kontroli zaczernień i zamian można włączać niezależnie.
+
 ## 0.10.52-beta.5 – 27 października 2026
 
 - PDF: obrócone skany zachowują prawidłowo ustawione ramki tekstu. Zaznaczanie słów i wyróżnienia dokładniej odpowiadają rzeczywistemu zaczernieniu; swobodne ramki pokazują także nierozpoznane pismo odręczne. Zaczernienia wykonane przez Maskuro nie powodują już dodatkowych wykryć twarzy.

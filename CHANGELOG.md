@@ -1,5 +1,10 @@
 # Änderungen
 
+- Editor: PDF-Schwärzbalken zeigen ihren Prüfbedarf direkt in Grün, Orange
+  oder Rot, ohne zusätzlichen Rahmen. Unter „Einstellungen → Darstellung“
+  sind Prüffarben für Schwärzungen und Ersetzungen getrennt abschaltbar.
+  Gespeicherte Dokumente behalten die gewählten Farben und Muster.
+
 - Weniger Dokumente ohne Ergebnis: Word-Vertragsmuster mit „Einwohnergemeinde
   X“, Vorlagenpfade in Word-Dateien, PDF-Textschichten mit defekten
   Sonderzeichen und Webseiten mit Steuerzeichen in Skripten werden jetzt
@@ -349,6 +354,12 @@ Fähigkeiten, die **dritte** bei Fehlerbehebungen.
 ---
 
 ## Unveröffentlicht
+
+## 0.10.52-beta.7 – 29. Oktober 2026
+
+- PDF: Manuelle Schwärzungen erfassen Wortenden zuverlässiger; Rollen und Beträge neben Balken bleiben erhalten. Weniger OCR-Scheinfunde an vorhandenen Schwärzbalken.
+- Erkennung: Teilnehmer-, Kontakt- und Buchungsnamen sowie persönliche Wohnorte werden zuverlässiger zugeordnet. Technische Typbezeichnungen und Firmen mit Nummern werden anhand ihres Kontexts unterschieden.
+- Editor: Prüffarben für Schwärzungen und Ersetzungen lassen sich getrennt schalten.
 
 ## 0.10.52-beta.5 – 27. Oktober 2026
 

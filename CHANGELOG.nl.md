@@ -7,6 +7,12 @@ De nummering volgt de gebruikelijke telwijze: het **eerste** getal verandert
 wanneer iets niet meer werkt zoals voorheen, het **tweede** bij nieuwe
 mogelijkheden, het **derde** bij foutcorrecties.
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Handmatige zwartlakking dekt woordeinden betrouwbaarder af en behoudt aangrenzende functies en bedragen. Minder onjuiste OCR-detecties op bestaande zwartgelakte vlakken.
+- Herkenning: Betere identificatie van namen van deelnemers, contactpersonen en transacties en van persoonlijke woonplaatsen. Technische modelcodes worden op basis van de context onderscheiden van bedrijfsnamen met cijfers.
+- Editor: Controlekleuren voor zwartlakking en vervangingen kunnen afzonderlijk worden geschakeld.
+
 ## 0.10.52-beta.5 – 27 oktober 2026
 
 - PDF: gedraaide scans behouden rechtopstaande tekstkaders. Woordselectie en markeringen sluiten beter aan bij de werkelijke zwartmaking; vrije kaders tonen ook niet-herkend handschrift. Door Maskuro aangebrachte zwartmakingen leiden niet meer tot extra gezichtsdetecties.

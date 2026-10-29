@@ -8,6 +8,12 @@ Numerointi noudattaa tavanomaista käytäntöä: **ensimmäinen** luku muuttuu,
 kun jokin ei enää toimi kuten ennen, **toinen** uusien ominaisuuksien
 myötä, **kolmas** virheenkorjausten myötä.
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Manuaalinen peittäminen kattaa sanojen loput luotettavammin ja säilyttää viereiset roolit ja summat. Vähemmän virheellisiä OCR-tunnistuksia olemassa olevista peittopalkeista.
+- Tunnistus: Osallistujien, yhteyshenkilöiden ja tapahtumien nimet sekä henkilöiden asuinpaikat tunnistetaan paremmin. Tekniset mallikoodit erotetaan numeroita sisältävistä yritysnimistä asiayhteyden perusteella.
+- Muokkain: Peittämisten ja korvausten tarkistusvärit voidaan kytkeä erikseen.
+
 ## 0.10.52-beta.5 – 27. lokakuuta 2026
 
 - PDF: käännettyjen skannausten tekstikehykset pysyvät oikein päin. Sanojen valinta ja korostukset vastaavat tarkemmin todellista peittoa; vapaat kehykset näyttävät myös tunnistamattoman käsialan. Maskuron omat peitot eivät enää aiheuta ylimääräisiä kasvotunnistuksia.

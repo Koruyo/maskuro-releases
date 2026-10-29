@@ -6,6 +6,12 @@ ne njegove notranjosti. Kdor želi vedeti, *iz česa* je zgrajen, najde to v
 ko nekaj ne deluje več tako, kot je delovalo prej, **druga** ob novih
 zmožnostih, **tretja** ob odpravljenih napakah.
 
+## 0.10.52-beta.7 – 2026-10-29
+
+- PDF: Ročno počrnjevanje zanesljiveje prekrije konce besed ter ohrani sosednje vloge in zneske. Manj lažnih zaznav OCR na obstoječih črnih prekrivnih poljih.
+- Prepoznavanje: Boljše prepoznavanje imen udeležencev, stikov in transakcij ter osebnih krajev prebivališča. Tehnične oznake modelov se od imen podjetij s številkami razlikujejo glede na kontekst.
+- Urejevalnik: Barve preverjanja počrnitev in zamenjav je mogoče preklapljati ločeno.
+
 ## 0.10.52-beta.5 – 27. oktober 2026
 
 - PDF: zasukani skeni ohranijo pravilno obrnjene besedilne okvirje. Izbira besed in oznake natančneje sledijo dejanskemu počrnitvi; prosti okvirji pokažejo tudi neprepoznano rokopisno besedilo. Počrnitve, ki jih ustvari Maskuro, ne sprožajo več dodatnih zaznav obrazov.

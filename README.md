@@ -1,4 +1,4 @@
-# PII Cleaner – Freigaben
+# Maskuro – Freigaben
 
 Dieses Repository enthält **ausschließlich Freigabedateien**: je Ausgabeweg
 eine Beschreibungsdatei und die zugehörigen Installationspakete. Der Quelltext
